@@ -1,0 +1,3 @@
+Example 1 : Display all visible lists in a site
+Note 1 : Enable / Disable the developer dashboard
+Walkthrough 1 : Creating a feature

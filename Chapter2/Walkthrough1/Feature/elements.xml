@@ -1,0 +1,9 @@
+<Elements xmlns='http://schemas.microsoft.com/sharepoint/'>
+    <ListInstance
+        FeatureId='00BFEA71-7E6D-4186-9BA8-C047AC75015'
+        TemplateType='105'
+        Id='SalesLeads'
+        Title='Sales Leads'
+        Url='SalesLeads'
+        OnQuickLaunch='TRUE' />
+</Elements>

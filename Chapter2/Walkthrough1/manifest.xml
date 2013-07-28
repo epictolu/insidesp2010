@@ -1,0 +1,20 @@
+<Solution
+    SolutionId="a6833c3d-4826-41c8-8a01-37bac90bb733"
+    Title="Walkthrough 1"
+    DeploymentServerType="WebFrontEnd"
+    ResetWebServer="True"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+
+    <FeatureManifests>
+        <FeatureManifest Location="Walkthrough1\feature.xml"/>
+    </FeatureManifests>
+
+    <TemplateFiles>
+        <TemplateFile Location="IMAGES\Walkthrough1\FeatureIcon.gif"/>
+        <TemplateFile Location="IMAGES\Walkthrough1\SiteIcon.gif"/>
+    </TemplateFiles>
+
+    <Assemblies>
+        <Assembly Location="Walkthrough1.dll" DeploymentTarget="GlobalAssemblyCache"/>
+    </Assemblies>
+</Solution>

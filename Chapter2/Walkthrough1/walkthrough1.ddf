@@ -1,0 +1,17 @@
+.OPTION EXPLICIT
+.Set CabinetNameTemplate=Walkthrough1.wsp
+.Set DiskDirectory1=build
+
+;*** Add files to root folder of solution package
+manifest.xml
+bin/debug/Walkthrough1.dll
+
+;*** Add files to Walkthrough1 in solution package
+.Set DestinationDir=Walkthrough1
+Feature\feature.xml
+Feature\elements.xml
+
+;*** Add files to Images\Walkthrough1 in solution package
+.Set DestinationDir=Images\Walkthrough1
+Images\FeatureIcon.gif
+Images\SiteIcon.gif

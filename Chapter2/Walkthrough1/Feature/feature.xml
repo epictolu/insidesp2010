@@ -1,0 +1,16 @@
+<Feature
+    Id="4BE86715-DD82-4148-86C3-1D6740801117"
+    Title="Wingtip Lead Tracker"
+    Description="A sample feature deployed using Walkthrough1.wsp"
+    Version="1.0.0.0"
+    Scope="Web"
+    Hidden="False"
+    ReceiverAssembly="Walkthrough1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3d482431b7ea0c20"
+    ReceiverClass="Walkthrough1.FeatureReceiver"
+    ImageUrl="Walkthrough1/FeatureIcon.gif"
+    xmlns="http://schemas.microsoft.com/sharepoint/" >
+
+    <ElementManifests>
+        <ElementManifest Location="elements.xml"/>
+    </ElementManifests>
+</Feature>
