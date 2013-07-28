@@ -10,6 +10,7 @@ bin/debug/Walkthrough1.dll
 .Set DestinationDir=Walkthrough1
 Feature\feature.xml
 Feature\elements.xml
+Feature\elements_v2.xml
 
 ;*** Add files to Images\Walkthrough1 in solution package
 .Set DestinationDir=Images\Walkthrough1

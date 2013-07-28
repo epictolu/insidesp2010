@@ -1,4 +1,5 @@
 using Microsoft.SharePoint;
+using System.Collections.Generic;
 
 namespace Walkthrough1
 {
@@ -33,6 +34,27 @@ namespace Walkthrough1
                 return;
 
             list.Delete();
+        }
+
+        public override void FeatureUpgrading(SPFeatureReceiverProperties properties, string upgradeActionName, IDictionary<string, string> parameters)
+        {
+            var site = properties.Feature.Parent as SPWeb;
+
+            if (site == null)
+                return;
+
+            switch (upgradeActionName)
+            {
+                case "UpdateSiteTitle":
+                    var newTitle = parameters["NewSiteTitle"] as string;
+                    
+                    site.Title = newTitle;
+                    site.Update();
+                    break;
+
+                default:
+                    break;
+            }
         }
     }
 }

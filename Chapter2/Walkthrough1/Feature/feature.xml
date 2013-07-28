@@ -2,7 +2,7 @@
     Id="4BE86715-DD82-4148-86C3-1D6740801117"
     Title="Wingtip Lead Tracker"
     Description="A sample feature deployed using Walkthrough1.wsp"
-    Version="1.0.0.0"
+    Version="2.0.0.0"
     Scope="Web"
     Hidden="False"
     ReceiverAssembly="Walkthrough1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3d482431b7ea0c20"
@@ -12,5 +12,21 @@
 
     <ElementManifests>
         <ElementManifest Location="elements.xml"/>
+        <ElementManifest Location="elements_v2.xml"/>
     </ElementManifests>
+
+    <UpgradeActions 
+        ReceiverAssembly="Walkthrough1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3d482431b7ea0c20"
+        ReceiverClass="Walkthrough1.FeatureReceiver">
+        <VersionRange BeginVersion="1.0.0.0" EndVersion="2.0.0.0">
+            <CustomUpgradeAction Name="UpdateSiteTitle">
+                <Parameters>
+                    <Parameter Name="NewSiteTitle">A much better site title</Parameter>
+                </Parameters>
+            </CustomUpgradeAction>
+            <ApplyElementManifests>
+                <ElementManifest Location="elements_v2.xml"/>
+            </ApplyElementManifests>
+        </VersionRange>
+    </UpgradeActions>
 </Feature>
