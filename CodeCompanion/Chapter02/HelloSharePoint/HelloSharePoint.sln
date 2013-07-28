@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSharePoint", "HelloSharePoint\HelloSharePoint.csproj", "{77569988-EBE2-4EE1-ACE9-DB28D70EF9B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77569988-EBE2-4EE1-ACE9-DB28D70EF9B7}.Debug|x64.ActiveCfg = Debug|x86
+		{77569988-EBE2-4EE1-ACE9-DB28D70EF9B7}.Debug|x64.Build.0 = Debug|x86
+		{77569988-EBE2-4EE1-ACE9-DB28D70EF9B7}.Release|x64.ActiveCfg = Release|x86
+		{77569988-EBE2-4EE1-ACE9-DB28D70EF9B7}.Release|x64.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

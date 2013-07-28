@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Document Set (0x0120D520) -->
+  <ContentType ID="0x0120D52000e0130de6901740a69cff09cb2906dbc8"
+               Name="Invoice Document Set"
+               Group="Wingtip"
+               ProgId="SharePoint.DocumentSet">
+
+    <Folder TargetName="_cts/Invoice Document Set" />
+    
+    <FieldRefs>
+      <FieldRef ID="{8553196d-ec8d-4564-9861-3dbe931050c8}"
+                DisplayName="Invoice Name"
+                Description="Enter in the format of [CUSTOMER]-[INVOICE NUMBER]." />                  <!-- FileLeafRef / Name -->
+      <FieldRef ID="{038D1503-4629-40f6-ADAF-B47D1AB2D4FE}" Name="Company" DisplayName="Company" Required="TRUE" />
+      <FieldRef ID="{83729202-DCA7-4BF8-A75B-56DDDE53189C}" Name="InvoiceNumber" DisplayName="Invoice Number" Required="TRUE" />
+      <FieldRef ID="{0BFAF66B-BB9A-4876-AAFA-4D5223352745}" Name="InvoiceAmount" DisplayName="Invoice Amount" Required="TRUE" />
+      <FieldRef ID="{06F6AF4F-F1AD-491B-B83C-6BC47739731A}" Name="InvoiceDate" DisplayName="Date Invoice Received" Required="TRUE" />
+      <FieldRef ID="{885F61BF-F61C-42DE-89D9-4AA7E562CBBF}" Name="InvoicePaymentTerms" DisplayName="Payment Terms" Required="TRUE" />
+      <FieldRef ID="{444F753B-D35C-4E93-845A-3EDA63214C30}" Name="InvoicePaidStatus" DisplayName="Paid Status" Required="TRUE" />
+    </FieldRefs>
+
+    <XmlDocuments>
+      <!-- list of all fields [site columns] shared between all content types and the doc set -->
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/office/documentsets/sharedfields">
+        <sf:SharedFields xmlns:sf="http://schemas.microsoft.com/office/documentsets/sharedfields" LastModified="1/1/2010 08:00:00 AM">
+          <SharedField id="83729202-DCA7-4BF8-A75B-56DDDE53189C" />          <!-- Invoice Number -->
+        </sf:SharedFields>
+      </XmlDocument>
+
+      <!-- list of all content types that are allowed in the document set -->
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/office/documentsets/allowedcontenttypes">
+        <act:AllowedContentTypes xmlns:act="http://schemas.microsoft.com/office/documentsets/allowedcontenttypes" LastModified="1/1/2010 08:00:00 AM">
+          <AllowedContentType id="0x0101" />                                      <!-- Document -->
+          <AllowedContentType id="0x01010079156360b718448b8cd89ea90a9db922" />    <!-- Invoice -->
+          <AllowedContentType id="0x0101002bc80a9a6946417891f8d100cebace6a" />    <!-- Receipt -->
+          <AllowedContentType id="0x01010100202388ebe7f24afb8c44263ea755cfc1" />  <!-- Timesheet -->
+        </act:AllowedContentTypes>
+      </XmlDocument>
+
+      <!-- list of all the fields [site columns] that should appear on the welcome page -->
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/office/documentsets/welcomepagefields">
+        <wpFields:WelcomePageFields xmlns:wpFields="http://schemas.microsoft.com/office/documentsets/welcomepagefields" LastModified="1/1/2010 08:00:00 AM">
+          <WelcomePageField id="83729202-DCA7-4BF8-A75B-56DDDE53189C" />          <!-- Invoice Number -->
+          <WelcomePageFIeld id="0BFAF66B-BB9A-4876-AAFA-4D5223352745" />          <!-- Invoice Amount -->
+          <WelcomePageField id="06F6AF4F-F1AD-491B-B83C-6BC47739731A" />          <!-- Date Invoice Received -->
+          <WelcomePageField id="885F61BF-F61C-42DE-89D9-4AA7E562CBBF" />          <!-- Payment Terms -->
+          <WelcomePageField id="444F753B-D35C-4E93-845A-3EDA63214C30" />          <!-- Paid Status -->
+        </wpFields:WelcomePageFields>
+      </XmlDocument>
+
+      <!-- list of all default documents assocatied with the content types -->
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/office/documentsets/defaultdocuments">
+        <dd:DefaultDocuments xmlns:dd="http://schemas.microsoft.com/office/documentsets/defaultdocuments" AddSetName="TRUE" LastModified="1/1/2010 08:00:00 AM">
+          <DefaultDocument name="WingtipTimesheet.xsn" idContentType="0x01010100202388ebe7f24afb8c44263ea755cfc1" />
+        </dd:DefaultDocuments>
+      </XmlDocument>
+    
+    </XmlDocuments>
+  </ContentType>
+</Elements>

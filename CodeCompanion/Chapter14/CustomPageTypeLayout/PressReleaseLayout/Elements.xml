@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="PressReleaseLayout" RootWebOnly="TRUE"
+          Path="PressReleaseLayout" Url="_catalogs/masterpage">
+    <File Url="PressRelease.aspx" Type="GhostableInLibrary">
+      <Property Name="PublishingAssociatedContentType"
+                Value=";#Press Release;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39008d9a0288b03e457abc84303bcdaa9cd7;#" />
+      <Property Name="ContentType"
+                Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="Title"
+                Value="Wingtip Press Release" />
+    </File>
+  </Module>
+</Elements>

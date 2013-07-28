@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Feature Id="86689158-7048-4421-AD21-E0DEF0D67C81" 
+   Title="Wingtip Lead Tracker"
+   Description="A sample feature deployed using WingtipDevProject1.wsp"
+   Version="1.0.0.0"
+   Scope="Web"
+   Hidden="FALSE"    
+   ReceiverAssembly="WingtipDevProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=56170dd0494afccc"
+   ReceiverClass="WingtipDevProject1.FeatureReceiver"
+   ImageUrl="WingtipDevProject1/FeatureIcon.gif"         
+   xmlns="http://schemas.microsoft.com/sharepoint/" >
+
+	<ElementManifests>
+		<ElementManifest Location="elements.xml" />
+	</ElementManifests>
+
+</Feature>
+
+

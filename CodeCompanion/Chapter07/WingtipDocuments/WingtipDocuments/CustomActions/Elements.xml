@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction Id="SiteActionsFlyout"
+      GroupId="SiteActions"
+      Location="Microsoft.SharePoint.StandardMenu"
+      Sequence="1"
+      Title="Create New Document"
+      Description="Demo page for creating a document with code" >
+    <UrlAction Url="_layouts/WingtipDocuments/CreateNewDocument.aspx" />
+  </CustomAction>
+
+
+
+</Elements>

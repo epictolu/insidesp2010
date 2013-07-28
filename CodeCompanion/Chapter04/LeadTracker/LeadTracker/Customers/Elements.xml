@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance 
+    Title="Customers"
+    OnQuickLaunch="TRUE"
+    TemplateType="105"
+    FeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105"
+    Url="Lists/Customers"
+    Description="">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Pattison</Field>
+          <Field Name="FirstName">Ted</Field>
+          <Field Name="Company">Graphic Design Institute</Field>
+          <Field Name="WorkPhone">(813)111-2222</Field>
+
+        </Row>
+        <Row>
+          <Field Name="Title">Connell</Field>
+          <Field Name="FirstName">Andrew</Field>
+          <Field Name="Company">School of Fine Art</Field>
+          <Field Name="WorkPhone">(813)111-2222</Field>
+
+        </Row>
+        <Row>
+          <Field Name="Title">Hillier</Field>
+          <Field Name="FirstName">Scot</Field>
+          <Field Name="Company">Lucerne Publishing</Field>
+          <Field Name="WorkPhone">(813)111-2222</Field>
+
+        </Row>
+        <Row>
+          <Field Name="Title">Mann</Field>
+          <Field Name="FirstName">David</Field>
+          <Field Name="Company">Proseware, Inc.</Field>
+          <Field Name="WorkPhone">(813)111-2222</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rankingModel name="Word" id="552557C8-E22E-43cc-B876-09ACC4A89345" description="Ranking Model for SPC" xmlns="http://schemas.microsoft.com/office/2009/rankingModel">
+  <queryDependentFeatures>
+    <queryDependentFeature name="Body"            pid="1"   weight="0.127886661015023"  lengthNormalization="0.730965578647376" />
+    <queryDependentFeature name="Title"           pid="2"   weight="2.19176729099096"   lengthNormalization="0.809727302475913" />
+    <queryDependentFeature name="Author"          pid="3"   weight="0.680924875568397"  lengthNormalization="0.862659561899627"  />
+    <queryDependentFeature name="DisplayName"     pid="56"  weight="1.47215664465691"   lengthNormalization="0.642595133932831"  />
+    <queryDependentFeature name="ExtractedTitle"  pid="302" weight="2.28507542176891"   lengthNormalization="0.802357003624108"  />
+    <queryDependentFeature name="QLogClickedText" pid="100" weight="1.18704412100651"   lengthNormalization="1.83031511973152"/>
+    <queryDependentFeature name="AnchorText"      pid="10"  weight="0.590297126924674"  lengthNormalization="1.36744448643513" />
+    <queryDependentFeature name="SocialTag"       pid="264" weight="0.590297126924674"  lengthNormalization="1.36744448643513" />    
+  </queryDependentFeatures>
+  
+  <queryIndependentFeatures>
+    <queryIndependentFeature name="ClickDistance" pid="96" default="5" weight="1.40162621784241">
+      <transformInvRational k="0.1359244473" />
+    </queryIndependentFeature>
+    <queryIndependentFeature name="URLdepth" pid="303" default="3" weight="1.40162621784241">
+      <transformRational k="0.288362603307992" />
+    </queryIndependentFeature>    
+    <queryIndependentFeature name="QLogClicks" pid="306" default="0" weight="0.858026008857482">
+      <transformRational k="3.79877518977053" />
+    </queryIndependentFeature>    
+    <queryIndependentFeature name="QLogSkips" pid="307" default="0" weight="0.115639571427081">
+      <transformRational k="1.09367004435638" />
+    </queryIndependentFeature>
+    
+    <categoryFeature name="FileExtension" pid="319" default="0">
+      <category name="Html" value="0" weight="0.5" />
+      <category name="Doc" value="1" weight="100000.00" />
+      <category name="Ppt" value="2" weight="1.00" />
+      <category name="Xls" value="3" weight="0.4" />
+      <category name="Xml" value="4" weight="0.3" />
+      <category name="Txt" value="5" weight="0.2" />
+      <category name="ListItems" value="6" weight="0.1" />
+      <category name="Message" value="7" weight="0.05" />
+      <category name="Image" value="8" weight="0.001" />      
+    </categoryFeature>   
+    
+    <languageFeature name="Language" pid="5" default="1" weight="1.0000000000" />
+    
+  </queryIndependentFeatures>
+  
+</rankingModel>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+  <List
+    xmlns:ows="Microsoft SharePoint"
+    Title="Products List"
+    FolderCreation="FALSE"
+    DisableAttachments="TRUE"
+    Url="Lists/Products"
+    BaseType="0"
+    Direction="0"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  <MetaData>
+    <ContentTypes>
+      <ContentType 
+        ID="0x01003e0f572308e74cffb2f0b13db11f5be2" 
+        Name="Wingtip Product" Group="Wingtip Content Types" 
+        Description="A Wingtip product" Inherits="TRUE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Product Name" />
+          <FieldRef ID="{D0D32083-F81B-420E-832E-5CC94E12F417}" Name="ProductCode" />
+          <FieldRef ID="{36819A9B-E748-47D5-9949-A65DD195BF80}" Name="ProductDescription" />
+          <FieldRef ID="{0C5BDEB7-0E0E-4c38-A2E5-F39941E61CE9}" Name="ProductCategory" />
+          <FieldRef ID="{F0182CD5-C126-4E96-9BB5-B16A34DC8F3B}" Name="ProductListPrice" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title"
+             DisplayName="Product Name" Type="Text" DisplaceOnUpgrade="TRUE" />
+      <Field ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle"
+             DisplayName="Product Name" Type="Computed" Sealed="TRUE" />
+      <Field ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu"
+             DisplayName="Product Name" Type="Computed" Sealed="TRUE" />
+      <Field ID="{D0D32083-F81B-420E-832E-5CC94E12F417}" Name="ProductCode"
+             DisplayName="Product Code" Type="Text" />
+      <Field ID="{36819a9b-e748-47d5-9949-a65dd195bf80}" Name="ProductDescription"
+             DisplayName="Description" Type="Text" />
+      <Field ID="{0C5BDEB7-0E0E-4c38-A2E5-F39941E61CE9}" Name="ProductCategory"
+             DisplayName="Category" Type="Choice" Format="RadioButtons" >
+        <CHOICES>
+          <CHOICE>Electronics</CHOICE>
+          <CHOICE>Games</CHOICE>
+          <CHOICE>Trains</CHOICE>
+          <CHOICE>Arts and Crafts</CHOICE>
+          <CHOICE>Action Figures</CHOICE>
+        </CHOICES>
+        <Default>Electronics</Default>
+      </Field>
+      <Field ID="{f0182cd5-c126-4e96-9bb5-b16a34dc8f3b}" Name="ProductListPrice"
+             DisplayName="List Price" Type="Currency" Decimals="2" Min="0" Required="FALSE"
+             DisplaceOnUpgrade="True" RowOrdinal="0"
+             SourceID="{eaa3c1e3-ceb2-4e64-b876-42726a96867e}" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu" />
+          <FieldRef Name="ProductCode" />
+          <FieldRef Name="ProductDescription" />
+          <FieldRef Name="ProductCategory" />
+          <FieldRef Name="ProductListPrice" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE">
+            </FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Add new Wingtip product" />
+          <ParameterBinding Name="NoAnnouncements" Location="No products yet in this list" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Click New button to add a new Wingtip product" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main"
+            Url="AllItems.aspx" DisplayName="All Items" DefaultView="TRUE"
+            MobileView="TRUE" MobileDefaultView="TRUE"
+            SetupPath="pages\viewpage.aspx"
+            ImageUrl="/_layouts/images/generic.png" >
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle" />
+          <FieldRef Name="ProductCode" />
+          <FieldRef Name="ProductDescription" />
+          <FieldRef Name="ProductCategory" />
+          <FieldRef Name="ProductListPrice" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ProductCode" />
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Add new Wingtip product" />
+          <ParameterBinding Name="NoAnnouncements" Location="No products yet in this list" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Click New button to add a new Wingtip product" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

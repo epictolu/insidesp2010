@@ -1,0 +1,737 @@
+﻿<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.Office.Server.Search.WebControls.CoreResultsWebPart, Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="SpellcheckingMode" type="Microsoft.Office.Server.Search.Query.SpellcheckMode, Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">Suggest</property>
+        <property name="DataSourcesString" type="string" />
+        <property name="AllowConnect" type="bool">False</property>
+        <property name="CharactersInUrl" type="int">90</property>
+        <property name="ShowLangPicker" type="bool">True</property>
+        <property name="ShowDropDown" type="bool">False</property>
+        <property name="DisplayName" type="string" />
+        <property name="AutoRefresh" type="bool">False</property>
+        <property name="MoreLinkUrl" type="string" null="true" />
+        <property name="Title" type="string">Search Core Results</property>
+        <property name="ShowActionLinks" type="bool">False</property>
+        <property name="ViewFlag" type="string">0</property>
+        <property name="QueryNumber" type="Microsoft.Office.Server.Search.WebControls.QueryId, Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">Query1</property>
+        <property name="PreviewWindowSize" type="string">160</property>
+        <property name="DateFormat" type="Microsoft.SharePoint.Utilities.SPDateFormat, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">DateOnly</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="SentencesInSummary" type="System.Int16, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">3</property>
+        <property name="HighestResultPage" type="System.Int16, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">1000</property>
+        <property name="CacheXslTimeOut" type="int">86400</property>
+        <property name="RelevanceView" type="bool">False</property>
+        <property name="MoreLinkLabel" type="string">View more results »</property>
+        <property name="ManualRefresh" type="bool">False</property>
+        <property name="ListUrl" type="string" null="true" />
+        <property name="FixedQuery" type="string" null="true" />
+        <property name="CacheXslStorage" type="bool">True</property>
+        <property name="MissingAssembly" type="string">Cannot import this Web Part.</property>
+        <property name="ResubmitFlag" type="Microsoft.Office.Server.Search.Query.ResubmitFlag, Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">NoResubmit</property>
+        <property name="XslLink" type="string" null="true" />
+        <property name="EnableStemming" type="bool">False</property>
+        <property name="ShowSearchResults" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="ShowMoreLink" type="bool">False</property>
+        <property name="ListDisplayName" type="string" null="true" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="EnableDocumentPreviewPowerPoint" type="bool">True</property>
+        <property name="Filter" type="string" null="true" />
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Default" type="string" />
+        <property name="DisplayRSSLink" type="bool">False</property>
+        <property name="FireInitialRow" type="bool">True</property>
+        <property name="AppendedQuery" type="string" null="true" />
+        <property name="DateView" type="bool">False</property>
+        <property name="ViewFlags" type="Microsoft.SharePoint.SPViewFlags, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">None</property>
+        <property name="DisplayAlertMeLink" type="bool">False</property>
+        <property name="MoreResultsText" type="string">View more results »</property>
+        <property name="HelpUrl" type="string" />
+        <property name="DisplayDiscoveredDefinition" type="bool">True</property>
+        <property name="HelpMode" type="helpmode">Modeless</property>
+        <property name="AsyncRefresh" type="bool">False</property>
+        <property name="IgnoreNoise" type="bool">True</property>
+        <property name="Height" type="string" />
+        <property name="PageSize" type="int">-1</property>
+        <property name="UseSQLDataSourcePaging" type="bool">True</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="ViewContentTypeId" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="DefaultSort" type="Microsoft.Office.Server.Search.WebControls.ResultsView, Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">Relevance</property>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="ConcurrentNumberDocumentPreview" type="string">10</property>
+        <property name="ListName" type="string" null="true" />
+        <property name="PropertiesToRetrieve" type="string">
+&lt;Columns&gt;
+  &lt;Column Name="WorkId"/&gt;
+  &lt;Column Name="Rank"/&gt;
+  &lt;Column Name="Title"/&gt;
+  &lt;Column Name="Author"/&gt;
+  &lt;Column Name="Size"/&gt;
+  &lt;Column Name="Path"/&gt;
+  &lt;Column Name="Description"/&gt;
+  &lt;Column Name="Write"/&gt;
+  &lt;Column Name="SiteName"/&gt;
+  &lt;Column Name="CollapsingStatus"/&gt;
+  &lt;Column Name="HitHighlightedSummary"/&gt;
+  &lt;Column Name="HitHighlightedProperties"/&gt;
+  &lt;Column Name="ContentClass"/&gt;
+  &lt;Column Name="IsDocument"/&gt;
+  &lt;Column Name="PictureThumbnailURL"/&gt;
+  &lt;Column Name="PopularSocialTags"/&gt;
+  &lt;Column Name="PictureWidth"/&gt;
+  &lt;Column Name="PictureHeight"/&gt;
+  &lt;Column Name="DatePictureTaken"/&gt;
+  &lt;Column Name="ServerRedirectedURL"/&gt;
+  
+&lt;/Columns&gt;
+</property>
+        <property name="ParameterBindings" type="string" />
+        <property name="Upgraded" type="bool">True</property>
+        <property name="EnablePhonetic" type="bool">False</property>
+        <property name="ListId" type="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">00000000-0000-0000-0000-000000000000</property>
+        <property name="Scope" type="string" null="true" />
+        <property name="XmlDefinitionLink" type="string" />
+        <property name="DataFields" type="string" />
+        <property name="ShowMessages" type="bool">False</property>
+        <property name="Width" type="string" />
+        <property name="InitialAsyncDataFetch" type="bool">False</property>
+        <property name="QuerySideLanguage" type="string" />
+        <property name="MoreResultsLink" type="string" null="true" />
+        <property name="XmlDefinition" type="string" />
+        <property name="ChromeState" type="chromestate">Normal</property>
+        <property name="PageType" type="Microsoft.SharePoint.PAGETYPE, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">PAGE_NORMALVIEW</property>
+        <property name="ScopeID" type="int">1</property>
+        <property name="SelectColumns" type="string">
+&lt;Columns&gt;
+  &lt;Column Name="WorkId"/&gt;
+  &lt;Column Name="Rank"/&gt;
+  &lt;Column Name="Title"/&gt;
+  &lt;Column Name="Author"/&gt;
+  &lt;Column Name="Size"/&gt;
+  &lt;Column Name="Path"/&gt;
+  &lt;Column Name="Description"/&gt;
+  &lt;Column Name="Write"/&gt;
+  &lt;Column Name="SiteName"/&gt;
+  &lt;Column Name="CollapsingStatus"/&gt;
+  &lt;Column Name="HitHighlightedSummary"/&gt;
+  &lt;Column Name="HitHighlightedProperties"/&gt;
+  &lt;Column Name="ContentClass"/&gt;
+  &lt;Column Name="IsDocument"/&gt;
+  &lt;Column Name="PictureThumbnailURL"/&gt;
+  &lt;Column Name="PopularSocialTags"/&gt;
+  &lt;Column Name="PictureWidth"/&gt;
+  &lt;Column Name="PictureHeight"/&gt;
+  &lt;Column Name="DatePictureTaken"/&gt;
+  &lt;Column Name="ServerRedirectedURL"/&gt;
+  
+&lt;/Columns&gt;
+</property>
+        <property name="SampleData" type="string">&lt;All_Results&gt;
+  &lt;Result&gt;
+    &lt;workid&gt;1&lt;/workid&gt;
+    &lt;rank&gt;222&lt;/rank&gt;
+    &lt;title&gt;Title of document or web page&lt;/title&gt;
+    &lt;author&gt;Author of document or web page&lt;/author&gt;
+    &lt;size&gt;1025&lt;/size&gt;
+    &lt;sitename&gt;http://www.sample.com&lt;/sitename&gt;
+    &lt;url&gt;http://www.sample.com/folder/document.aspx&lt;/url&gt;
+    &lt;imageurl&gt;/_layouts/images/aspx16.gif&lt;/imageurl&gt;
+    &lt;description&gt;This is the summary of the document or web page. The summary is generated from the original document based on matches with query terms. In some cases, the summary is a description provided by the author.&lt;/description&gt;
+    &lt;write&gt;December 26, 2004&lt;/write&gt;
+  &lt;/Result&gt;
+&lt;/All_Results&gt;
+</property>
+        <property name="DataSourceID" type="string" />
+        <property name="AutoRefreshInterval" type="int">60</property>
+        <property name="CharactersInSummary" type="int">185</property>
+        <property name="TitleUrl" type="string" />
+        <property name="RemoveDuplicates" type="bool">True</property>
+        <property name="Xsl" type="string">
+&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" &gt;
+&lt;xsl:output method="html" indent="no"/&gt;
+&lt;xsl:param name="Keyword" /&gt;
+&lt;xsl:param name="ResultsBy" /&gt;
+&lt;xsl:param name="ViewByUrl" /&gt;
+&lt;xsl:param name="ShowDropDown" /&gt;
+&lt;xsl:param name="ViewByValue" /&gt;
+&lt;xsl:param name="SortBy" /&gt;
+&lt;xsl:param name="SortOptions" /&gt;
+&lt;xsl:param name="Relevancy" /&gt;
+&lt;xsl:param name="ModifiedDate" /&gt;
+&lt;xsl:param name="DropDownOption" /&gt;
+&lt;xsl:param name="Multiply" /&gt;
+&lt;xsl:param name="PictureTaken" /&gt;
+&lt;xsl:param name="IsNoKeyword" /&gt;
+&lt;xsl:param name="IsFixedQuery" /&gt;
+&lt;xsl:param name="ShowActionLinks" /&gt;
+&lt;xsl:param name="MoreResultsText" /&gt;
+&lt;xsl:param name="MoreResultsLink" /&gt;
+&lt;xsl:param name="CollapsingStatusLink" /&gt;
+&lt;xsl:param name="CollapseDuplicatesText" /&gt;
+&lt;xsl:param name="AlertMeLink" /&gt;
+&lt;xsl:param name="AlertMeText" /&gt;
+&lt;xsl:param name="SrchRSSText" /&gt;
+&lt;xsl:param name="SrchRSSLink" /&gt;
+&lt;xsl:param name="SearchProviderText" /&gt;
+&lt;xsl:param name="SearchProviderLink" /&gt;
+&lt;xsl:param name="SearchProviderAlt"/&gt;
+&lt;xsl:param name="ShowMessage" /&gt;
+&lt;xsl:param name="IsThisListScope" /&gt;
+&lt;xsl:param name="DisplayDiscoveredDefinition" select="True" /&gt;
+&lt;xsl:param name="NoFixedQuery" /&gt;
+&lt;xsl:param name="NoKeyword" /&gt;
+&lt;xsl:param name="ResultsNotFound" /&gt;
+&lt;xsl:param name="NoResultsSuggestion" /&gt;
+&lt;xsl:param name="NoResultsSuggestion1" /&gt;
+&lt;xsl:param name="NoResultsSuggestion2" /&gt;
+&lt;xsl:param name="NoResultsSuggestion3" /&gt;
+&lt;xsl:param name="NoResultsSuggestion4" /&gt;
+&lt;xsl:param name="NoResultsSuggestion5" /&gt;
+&lt;xsl:param name="AdditionalResources" /&gt;
+&lt;xsl:param name="AdditionalResources1" /&gt;
+&lt;xsl:param name="AdditionalResources2" /&gt;
+&lt;xsl:param name="Period" /&gt;
+&lt;xsl:param name="SearchHelp" /&gt;
+&lt;xsl:param name="Tags" /&gt;
+&lt;xsl:param name="Authors" /&gt;
+&lt;xsl:param name="Date" /&gt;
+&lt;xsl:param name="Size" /&gt;
+&lt;xsl:param name="ViewInBrowser" /&gt;
+&lt;xsl:param name="DefinitionIntro" /&gt;
+&lt;xsl:param name="IdPrefix" /&gt;
+&lt;xsl:param name="LangPickerHeading" /&gt;
+&lt;xsl:param name="LangPickerNodeSet" /&gt;
+
+&lt;!-- When there is keywory to issue the search --&gt;
+&lt;xsl:template name="dvt_1.noKeyword"&gt;
+  &lt;span class="srch-description2"&gt;
+  &lt;xsl:choose&gt;
+  &lt;xsl:when test="$IsFixedQuery"&gt;
+      &lt;xsl:value-of select="$NoFixedQuery" /&gt;
+  &lt;/xsl:when&gt;
+   &lt;xsl:otherwise&gt;
+      &lt;xsl:value-of select="$NoKeyword" /&gt;
+   &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+  &lt;/span&gt;       
+&lt;/xsl:template&gt;
+
+
+&lt;!-- When empty result set is returned from search --&gt;
+&lt;xsl:template name="dvt_1.empty"&gt;
+ &lt;div class="srch-results"&gt;
+  &lt;xsl:if test="$AlertMeLink and $ShowActionLinks"&gt;  
+    &lt;span class="srch-alertme" &gt; &lt;a href ="{$AlertMeLink}" id="CSR_AM1" title="{$AlertMeText}"&gt;&lt;img style="vertical-align: middle;" src="/_layouts/images/bell.gif" alt="" border="0"/&gt;&lt;xsl:text disable-output-escaping="yes"&gt;&amp;amp;nbsp;&lt;/xsl:text&gt;&lt;xsl:value-of select="$AlertMeText" /&gt;&lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/xsl:if&gt;
+
+  &lt;xsl:if test="string-length($SrchRSSLink) &amp;gt; 0 and $ShowActionLinks"&gt;     
+   &lt;xsl:if test="$AlertMeLink"&gt;  
+    |
+   &lt;/xsl:if&gt;
+   &lt;a type="application/rss+xml" href ="{$SrchRSSLink}" title="{$SrchRSSText}" id="SRCHRSSL"&gt;&lt;img style="vertical-align: middle;" border="0" src="/_layouts/images/rss.gif" alt=""/&gt;&lt;xsl:text disable-output-escaping="yes"&gt;&amp;amp;nbsp;&lt;/xsl:text&gt;&lt;xsl:value-of select="$SrchRSSText"/&gt;&lt;/a&gt;
+   &lt;xsl:if test="string-length($SearchProviderLink) &amp;gt; 0"&gt;  
+     |  
+     &lt;a href ="{$SearchProviderLink}" title="{$SearchProviderText}" &gt;&lt;img style="vertical-align: middle;" border="0" src="/_layouts/images/searchfolder.png" alt=""/&gt;&lt;xsl:text disable-output-escaping="yes"&gt;&amp;amp;nbsp;&lt;/xsl:text&gt;&lt;xsl:value-of select="$SearchProviderText"/&gt;&lt;/a&gt;
+   &lt;/xsl:if&gt; 
+ &lt;/xsl:if&gt;
+ &lt;/div&gt;
+
+  &lt;div class="srch-results" accesskey="W"&gt;
+  &lt;span class="srch-description2" id="CSR_NO_RESULTS"&gt;
+   &lt;p&gt;
+       &lt;xsl:value-of select="$ResultsNotFound" /&gt;
+       &lt;xsl:text disable-output-escaping="yes"&gt;&amp;amp;nbsp;&lt;/xsl:text&gt;
+       &lt;strong&gt;&lt;xsl:value-of select="$Keyword" /&gt;&lt;/strong&gt;
+       &lt;xsl:value-of select="$Period" /&gt;
+   &lt;/p&gt;
+   &lt;h3&gt;
+        &lt;xsl:value-of select="$NoResultsSuggestion" /&gt;
+   &lt;/h3&gt;
+   &lt;ul&gt;
+        &lt;li&gt;&lt;xsl:value-of select="$NoResultsSuggestion1" /&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;xsl:value-of select="$NoResultsSuggestion2" /&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;xsl:value-of select="$NoResultsSuggestion3" /&gt;&lt;/li&gt;
+        &lt;xsl:if test="string-length($NoResultsSuggestion4) &amp;gt; 0"&gt; 
+            &lt;li&gt;&lt;xsl:value-of select="$NoResultsSuggestion4" /&gt;&lt;/li&gt;
+        &lt;/xsl:if&gt;
+        &lt;xsl:if test="string-length($NoResultsSuggestion5) &amp;gt; 0"&gt;
+            &lt;li&gt;&lt;xsl:value-of select="$NoResultsSuggestion5" /&gt;&lt;/li&gt;
+        &lt;/xsl:if&gt;
+    &lt;/ul&gt;
+    &lt;h3&gt;
+        &lt;xsl:value-of select="$AdditionalResources" /&gt;
+   &lt;/h3&gt;
+   &lt;ul&gt;
+        &lt;li&gt;&lt;xsl:value-of select="$AdditionalResources1" /&gt;&lt;xsl:text disable-output-escaping="yes"&gt;&amp;amp;nbsp;&lt;/xsl:text&gt;
+&lt;a href="javascript:HelpWindowKey('SearchTips')" label="$SearchHelp"&gt;&lt;xsl:value-of select="$SearchHelp" /&gt;&lt;/a&gt;&lt;/li&gt; 
+        &lt;li&gt;&lt;xsl:value-of select="$AdditionalResources2" /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+
+    
+  &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/xsl:template&gt;
+
+&lt;!-- Main body template. Sets the Results view (Relevance or date) options --&gt;
+&lt;xsl:template name="dvt_1.body"&gt;
+  &lt;xsl:if test="$ShowActionLinks"&gt;
+  &lt;div class="srch-sort-right2" accesskey="W"&gt; 
+        &lt;xsl:if test="$LangPickerNodeSet and count($LangPickerNodeSet) &amp;gt; 0"&gt;
+          &lt;xsl:value-of select="$LangPickerHeading"/&gt;
+          &lt;select class="srch-dropdown" onchange="window.location.href=this.value" id="langpickerdd"&gt;
+            &lt;xsl:for-each select="$LangPickerNodeSet"&gt;
+              &lt;xsl:element name="option"&gt;
+                &lt;xsl:attribute name="value"&gt;&lt;xsl:value-of select="@url"/&gt;&lt;/xsl:attribute&gt;
+                &lt;xsl:if test="@selected = 'true'"&gt;
+                  &lt;xsl:attribute name="selected"&gt;selected&lt;/xsl:attribute&gt;
+                &lt;/xsl:if&gt;
+                &lt;xsl:value-of select="@title"/&gt;
+              &lt;/xsl:element&gt;
+            &lt;/xsl:for-each&gt;        
+          &lt;/select&gt;
+          &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+        &lt;/xsl:if&gt;
+&lt;xsl:if test="$ShowDropDown = 'true'"&gt;
+ &lt;xsl:value-of select="$SortBy" /&gt; 
+&lt;select id="dropdown" title="{$SortOptions}" onchange="PostToUrl(this.value)" class="srch-dropdown"&gt;
+  &lt;xsl:element name="option"&gt; 
+       &lt;xsl:attribute name="value"&gt;&lt;xsl:value-of select="$ViewByUrl"/&gt;&lt;/xsl:attribute&gt;
+       &lt;xsl:if test="$DropDownOption = '0'"&gt;&lt;xsl:attribute
+name="selected"&gt;selected&lt;/xsl:attribute&gt;&lt;/xsl:if&gt;
+       &lt;xsl:value-of select="$Relevancy"/&gt;
+   &lt;/xsl:element&gt;
+         &lt;xsl:element name="option"&gt; 
+       &lt;xsl:attribute name="value"&gt;&lt;xsl:value-of select="$ViewByUrl"/&gt;&lt;/xsl:attribute&gt;
+       &lt;xsl:if test="$DropDownOption = '1'"&gt;&lt;xsl:attribute
+name="selected"&gt;selected&lt;/xsl:attribute&gt;&lt;/xsl:if&gt;
+       &lt;xsl:value-of select="$ModifiedDate"/&gt;
+   &lt;/xsl:element&gt;
+  &lt;/select&gt;  
+&lt;/xsl:if&gt;
+   &lt;xsl:if test="$AlertMeLink"&gt;  
+     &lt;xsl:if test="$ShowDropDown = 'true'"&gt;
+     &lt;/xsl:if&gt;
+    &lt;span class="srch-alertme" &gt; &lt;a href ="{$AlertMeLink}" id="CSR_AM2" title="{$AlertMeText}"&gt;&lt;img style="vertical-align: middle;" src="/_layouts/images/bell.gif" alt="" border="0"/&gt;&lt;/a&gt;&lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+   &lt;/span&gt;
+   &lt;/xsl:if&gt;
+   &lt;xsl:if test="string-length($SrchRSSLink) &amp;gt; 0"&gt;  
+     
+     &lt;a type="application/rss+xml" href ="{$SrchRSSLink}" title="{$SrchRSSText}" id="SRCHRSSL"&gt;&lt;img style="vertical-align: middle;" border="0" src="/_layouts/images/rss.gif" alt=""/&gt;&lt;/a&gt;&lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+   &lt;/xsl:if&gt;
+   &lt;xsl:if test="string-length($SearchProviderLink) &amp;gt; 0"&gt;    
+     &lt;a href ="{$SearchProviderLink}" title="{$SearchProviderAlt}" &gt;&lt;img style="vertical-align: middle;" border="0" src="/_layouts/images/searchfolder.png" alt=""/&gt;&lt;/a&gt;
+   &lt;/xsl:if&gt;
+  &lt;/div&gt;
+  &lt;/xsl:if&gt;
+  &lt;div class="srch-results" accesskey="W"&gt;
+  &lt;xsl:apply-templates /&gt;
+  &lt;/div&gt;  
+  &lt;xsl:call-template name="DisplayMoreResultsAnchor" /&gt;
+&lt;/xsl:template&gt;&lt;!-- This template is called for each result --&gt;
+&lt;xsl:template match="TotalResults"&gt;
+&lt;/xsl:template&gt;
+&lt;xsl:template match="NumberOfResults"&gt;
+&lt;/xsl:template&gt;
+&lt;xsl:template match="Result"&gt; 
+  &lt;xsl:variable name="id" select="id"/&gt;
+  &lt;xsl:variable name="currentId" select="concat($IdPrefix,$id)"/&gt;
+  &lt;xsl:variable name="url" select="url"/&gt;
+  
+&lt;xsl:choose&gt;
+&lt;xsl:when test="contentclass[. = 'STS_ListItem_PictureLibrary']"&gt;
+&lt;xsl:if test="string-length(picturethumbnailurl) &amp;gt; 0"&gt;
+  &lt;div style=" padding-top: 2px; padding-bottom: 2px;"&gt;
+   &lt;div class="srch-picture1"&gt;
+      &lt;img src="/_layouts/images/imageresult_16x16.png" /&gt;
+   &lt;/div&gt;
+   &lt;div class="srch-picture2"&gt;
+      &lt;img class="srch-picture" src="{picturethumbnailurl}" alt="" /&gt;
+   &lt;/div&gt;
+      &lt;span&gt;&lt;ul class="srch-picturetext"&gt;
+      &lt;li class="srch-Title2 srch-Title5"&gt;
+         &lt;a href="{$url}" id="{concat('CSR_',$id)}" title="{title}"&gt;
+         &lt;xsl:choose&gt;
+            &lt;xsl:when test="hithighlightedproperties/HHTitle[. != '']"&gt;
+              &lt;xsl:call-template name="HitHighlighting"&gt;
+                 &lt;xsl:with-param name="hh" select="hithighlightedproperties/HHTitle" /&gt; 
+              &lt;/xsl:call-template&gt;   
+            &lt;/xsl:when&gt;
+            &lt;xsl:otherwise&gt;&lt;xsl:value-of select="title"/&gt;&lt;/xsl:otherwise&gt; 
+         &lt;/xsl:choose&gt;
+         &lt;/a&gt;
+      &lt;/li&gt;
+
+       &lt;li&gt;
+           &lt;xsl:if test="string-length(picturewidth) &amp;gt; 0 and string-length(pictureheight) &amp;gt; 0"&gt;
+              &lt;xsl:value-of select="$Size" /&gt;
+              &lt;xsl:value-of select="picturewidth" /&gt;
+		      &lt;xsl:value-of select="$Multiply" /&gt;
+		      &lt;xsl:value-of select="pictureheight" /&gt;
+            
+	        &lt;xsl:if test="string-length(size) &amp;gt; 0"&gt;       
+               &lt;xsl:if test="number(size) &amp;gt; 0"&gt;
+                   &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+                  &lt;xsl:choose&gt;
+                      &lt;xsl:when test="round(size div 1024) &amp;lt; 1"&gt;&lt;xsl:value-of select="size" /&gt; Bytes&lt;/xsl:when&gt;
+                      &lt;xsl:when test="round(size div (1024 *1024)) &amp;lt; 1"&gt;&lt;xsl:value-of select="round(size div 1024)" /&gt;KB&lt;/xsl:when&gt;
+                      &lt;xsl:otherwise&gt;&lt;xsl:value-of select="round(size div (1024 * 1024))"/&gt;MB&lt;/xsl:otherwise&gt;
+                  &lt;/xsl:choose&gt;    
+               &lt;/xsl:if&gt;
+            &lt;/xsl:if&gt;
+            &lt;/xsl:if&gt;
+
+            &lt;xsl:if test="string-length(datepicturetaken) &amp;gt; 0"&gt;
+                &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+                &lt;xsl:value-of select="$PictureTaken" /&gt;
+                &lt;xsl:value-of select="datepicturetaken" /&gt;
+             &lt;/xsl:if&gt;
+
+             &lt;xsl:if test="string-length(author) &amp;gt; 0"&gt;   
+                 &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+                 &lt;xsl:value-of select="$Authors" /&gt;
+                 &lt;xsl:value-of select="author" /&gt; 
+             &lt;/xsl:if&gt;
+
+             &lt;xsl:if test="string-length(write) &amp;gt; 0"&gt;   
+                 &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+                 &lt;xsl:value-of select="$Date" /&gt;
+                 &lt;xsl:value-of select="write" /&gt; 
+             &lt;/xsl:if&gt; 
+
+          &lt;/li&gt;
+   
+          &lt;li&gt;  
+             &lt;span class="srch-URL2" id="{concat($currentId,'_Url')}"&gt;     
+                  &lt;xsl:choose&gt;
+        &lt;xsl:when test="hithighlightedproperties/HHUrl[. != '']"&gt;
+           &lt;xsl:call-template name="HitHighlighting"&gt;
+              &lt;xsl:with-param name="hh" select="hithighlightedproperties/HHUrl" /&gt; 
+           &lt;/xsl:call-template&gt; 
+        &lt;/xsl:when&gt;
+       &lt;xsl:otherwise&gt;
+             &lt;xsl:value-of select="url"/&gt;
+      &lt;/xsl:otherwise&gt; 
+      &lt;/xsl:choose&gt;
+                
+             &lt;/span&gt;           	 
+          &lt;/li&gt;&lt;/ul&gt;
+       &lt;/span&gt;
+     &lt;/div&gt;
+     &lt;div class="srch-clear"&gt;
+       &lt;img alt="" src="/_layouts/images/blank.gif" /&gt;
+     &lt;/div&gt;
+  &lt;/xsl:if&gt;    
+&lt;/xsl:when&gt;
+&lt;xsl:otherwise&gt;
+  &lt;div class="srch-Icon" id="{concat($currentId,'_Icon')}"&gt; 
+        &lt;img align="absmiddle" src="{imageurl}" border="0" alt="{imageurl/@imageurldescription}" /&gt;
+  &lt;/div&gt;
+  &lt;div class="srch-Title2"&gt;
+  &lt;div class="srch-Title3"&gt;
+    &lt;xsl:text disable-output-escaping="yes"&gt;&amp;lt;a href="&lt;/xsl:text&gt;
+    &lt;xsl:value-of disable-output-escaping="yes" select="$url" /&gt;
+    &lt;xsl:text disable-output-escaping="yes"&gt;" id="&lt;/xsl:text&gt;
+    &lt;xsl:value-of disable-output-escaping="yes" select="concat($currentId,'_Title')" /&gt;
+    &lt;xsl:text disable-output-escaping="yes"&gt;" title="&lt;/xsl:text&gt;
+    &lt;xsl:value-of disable-output-escaping="yes" select="title"/&gt;
+    &lt;xsl:text disable-output-escaping="yes"&gt;"&amp;gt;&lt;/xsl:text&gt;
+    &lt;xsl:choose&gt;
+     &lt;xsl:when test="hithighlightedproperties/HHTitle[. != '']"&gt;
+      &lt;xsl:call-template name="HitHighlighting"&gt;
+       &lt;xsl:with-param name="hh" select="hithighlightedproperties/HHTitle" /&gt; 
+      &lt;/xsl:call-template&gt;   
+     &lt;/xsl:when&gt;
+     &lt;xsl:otherwise&gt;&lt;xsl:value-of select="title"/&gt;&lt;/xsl:otherwise&gt; 
+    &lt;/xsl:choose&gt;
+    &lt;xsl:text disable-output-escaping="yes"&gt;&amp;lt;/a&amp;gt;&lt;/xsl:text&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+
+   &lt;div class="srch-Description2"&gt;
+   
+    &lt;xsl:choose&gt;
+    &lt;xsl:when test="hithighlightedsummary[. != '']"&gt;
+         &lt;xsl:call-template name="HitHighlighting"&gt;
+           &lt;xsl:with-param name="hh" select="hithighlightedsummary" /&gt; 
+         &lt;/xsl:call-template&gt; 
+    &lt;/xsl:when&gt;   
+     &lt;xsl:when test="description[. != '']"&gt;
+        &lt;xsl:value-of select="description"/&gt;     
+     &lt;/xsl:when&gt; 
+     &lt;xsl:otherwise&gt;
+      &lt;img alt="" src="/_layouts/images/blank.gif" height="0" width="0"/&gt;
+     &lt;/xsl:otherwise&gt;     
+    &lt;/xsl:choose&gt;
+   &lt;/div &gt;
+    
+
+    &lt;div class="srch-Metadata2"&gt;
+      &lt;xsl:call-template name="DisplayAuthors"&gt;
+      &lt;xsl:with-param name="author" select="author" /&gt;
+     &lt;/xsl:call-template&gt;   
+     &lt;xsl:call-template name="DisplayDate"&gt;
+      &lt;xsl:with-param name="write" select="write" /&gt;
+     &lt;/xsl:call-template&gt;        
+      &lt;xsl:if test="string-length(popularsocialtag0) &amp;gt; 0"&gt;
+        &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+        &lt;xsl:value-of select="$Tags" /&gt;
+        &lt;xsl:value-of select="popularsocialtag0"/&gt;         
+      &lt;xsl:if test="string-length(popularsocialtag1) &amp;gt; 0"&gt;
+        ::
+        &lt;xsl:value-of select="popularsocialtag1"/&gt;      
+      &lt;/xsl:if&gt; 
+      &lt;xsl:if test="string-length(popularsocialtag2) &amp;gt; 0"&gt;
+       ::
+       &lt;xsl:value-of select="popularsocialtag2"/&gt;      
+      &lt;/xsl:if&gt; 
+     &lt;/xsl:if&gt;
+     &lt;xsl:call-template name="DisplaySize"&gt;
+      &lt;xsl:with-param name="size" select="size" /&gt;
+     &lt;/xsl:call-template&gt;  
+     &lt;img style="display:none;" alt="" src="/_layouts/images/blank.gif"/&gt;
+    &lt;/div&gt;
+
+    &lt;p class="srch-Metadata1"&gt;
+    &lt;span&gt;&lt;span class="srch-URL2" id="{concat($currentId,'_Url')}"&gt;     
+
+      &lt;xsl:choose&gt;
+        &lt;xsl:when test="hithighlightedproperties/HHUrl[. != '']"&gt;
+           &lt;xsl:call-template name="HitHighlighting"&gt;
+              &lt;xsl:with-param name="hh" select="hithighlightedproperties/HHUrl" /&gt; 
+           &lt;/xsl:call-template&gt; 
+        &lt;/xsl:when&gt;
+       &lt;xsl:otherwise&gt;
+           &lt;xsl:value-of select="url"/&gt;
+       &lt;/xsl:otherwise&gt; 
+      &lt;/xsl:choose&gt;
+      &lt;/span&gt;
+     &lt;xsl:call-template name="DisplayCollapsingStatusLink"&gt;
+        &lt;xsl:with-param name="status" select="collapsingstatus"/&gt;
+        &lt;xsl:with-param name="workid" select="workid"/&gt;
+        &lt;xsl:with-param name="id" select="concat($currentId,'_CS')"/&gt;
+     &lt;/xsl:call-template&gt;        
+      &lt;xsl:call-template name="ViewInBrowser"&gt;
+      &lt;xsl:with-param name="browserlink" select="serverredirectedurl" /&gt;
+      &lt;xsl:with-param name="currentId" select="$currentId" /&gt;
+    &lt;/xsl:call-template&gt;           
+    &lt;/span&gt;                
+    &lt;/p&gt;
+   &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name="HitHighlighting"&gt; 
+ &lt;xsl:param name="hh" /&gt; 
+ &lt;xsl:apply-templates select="$hh"/&gt; 
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="ddd"&gt; 
+  &amp;#8230;  
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c0"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c1"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c2"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c3"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c4"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c5"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c6"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c7"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c8"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+&lt;xsl:template match="c9"&gt; 
+    &lt;strong&gt;&lt;xsl:value-of select="."/&gt;&lt;/strong&gt;
+&lt;/xsl:template&gt; 
+
+&lt;xsl:template name="DisplayAuthors"&gt;
+  &lt;xsl:param name="author" /&gt; 
+  &lt;xsl:if test="string-length($author) &amp;gt; 0"&gt;       
+   &lt;xsl:value-of select="$Authors" /&gt;
+   &lt;xsl:value-of select="author"/&gt;      
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name="DisplayDate"&gt;
+  &lt;xsl:param name="write" /&gt; 
+  &lt;xsl:if test="string-length($write) &amp;gt; 0"&gt; 
+   &lt;xsl:if test="string-length(author) &amp;gt; 0"&gt;
+   &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt; 
+   &lt;/xsl:if&gt;    
+   &lt;xsl:value-of select="$Date" /&gt;
+   &lt;xsl:value-of select="write"/&gt;      
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+
+
+&lt;!-- The size attribute for each result is prepared here --&gt;
+&lt;xsl:template name="DisplaySize"&gt;
+  &lt;xsl:param name="size" /&gt; 
+  &lt;xsl:if test="string-length($size) &amp;gt; 0"&gt;        
+   &lt;xsl:if test="number($size) &amp;gt; 0"&gt;
+    &lt;xsl:if test="string-length(write) &amp;gt; 0 or string-length(author) &amp;gt; 0"&gt;    
+    &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#8195;&lt;/xsl:text&gt;
+    &lt;/xsl:if&gt;
+    &lt;xsl:value-of select="$Size" /&gt;
+    &lt;xsl:choose&gt;
+     &lt;xsl:when test="round($size div 1024) &amp;lt; 1"&gt;&lt;xsl:value-of select="$size" /&gt; Bytes&lt;/xsl:when&gt;
+     &lt;xsl:when test="round($size div (1024 *1024)) &amp;lt; 1"&gt;&lt;xsl:value-of select="round($size div 1024)" /&gt;KB&lt;/xsl:when&gt;
+     &lt;xsl:otherwise&gt;&lt;xsl:value-of select="round($size div (1024 * 1024))"/&gt;MB&lt;/xsl:otherwise&gt;
+    &lt;/xsl:choose&gt;    
+   &lt;/xsl:if&gt;
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name="ViewInBrowser"&gt;
+  &lt;xsl:param name="browserlink" /&gt;
+  &lt;xsl:param name="currentId" /&gt;
+  &lt;xsl:if test="string-length($browserlink) &amp;gt; 0"&gt;
+    &lt;span class="srch-urllink"&gt;&lt;a href="{$browserlink}" id="{concat($currentId,'_VBlink')}"&gt;
+      &lt;xsl:value-of select="$ViewInBrowser" /&gt;
+    &lt;/a&gt;&lt;/span&gt;
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+
+&lt;!-- A generic template to display string with non 0 string length (used for author and lastmodified time --&gt;
+&lt;xsl:template name="DisplayString"&gt;
+  &lt;xsl:param name="str" /&gt;
+  &lt;xsl:if test='string-length($str) &amp;gt; 0'&gt;   
+   - 
+   &lt;xsl:value-of select="$str" /&gt; 
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+
+&lt;!-- document collapsing link setup --&gt;
+&lt;xsl:template name="DisplayCollapsingStatusLink"&gt;
+    &lt;xsl:param name="status"/&gt;
+    &lt;xsl:param name="workid"/&gt;
+    &lt;xsl:param name="id"/&gt;
+    &lt;xsl:if test="$CollapsingStatusLink"&gt;
+      &lt;xsl:choose&gt;
+          &lt;xsl:when test="$status=1"&gt;
+              &lt;xsl:variable name="CollapsingStatusHref" select="concat(substring-before($CollapsingStatusLink, '$$COLLAPSE_PARAM$$'), 'duplicates:&amp;quot;', $workid, '&amp;quot;', substring-after($CollapsingStatusLink, '$$COLLAPSE_PARAM$$'))"/&gt;
+              &lt;span class="srch-urllink"&gt;&lt;a href="{$CollapsingStatusHref}" id="$id" title="{$CollapseDuplicatesText}"&gt;
+              &lt;xsl:value-of select="$CollapseDuplicatesText"/&gt;
+              &lt;/a&gt;&lt;/span&gt;
+          &lt;/xsl:when&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;&lt;!-- The "view more results" for fixed query --&gt;
+&lt;xsl:template name="DisplayMoreResultsAnchor"&gt;
+  &lt;xsl:if test="$MoreResultsLink"&gt;
+   &lt;a href="{$MoreResultsLink}" id="{concat($IdPrefix,'_MRL')}"&gt;
+    &lt;xsl:value-of select="$MoreResultsText"/&gt; 
+    &lt;/a&gt;
+   &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="All_Results/DiscoveredDefinitions"&gt;
+  &lt;xsl:variable name="FoundIn" select="DDFoundIn" /&gt;
+  &lt;xsl:variable name="DDSearchTerm" select="DDSearchTerm" /&gt;
+  &lt;xsl:if test="$DisplayDiscoveredDefinition = 'True' and string-length($DDSearchTerm) &amp;gt; 0"&gt;
+    &lt;script language="javascript"&gt;
+      function ToggleDefinitionSelection()
+      {
+        var selection = document.getElementById("definitionSelection");
+        if (selection.style.display == "none")
+        {
+          selection.style.display = "inline";
+        }
+        else
+        {
+          selection.style.display = "none";
+        }
+      }
+    &lt;/script&gt; 
+    &lt;div class="srch-Description2 srch-definition2"&gt;
+      &lt;a href="javascript:ToggleDefinitionSelection();" id="{concat($IdPrefix,'1_DEF')}" mss_definition="true"&gt;
+        &lt;xsl:value-of select="$DefinitionIntro" /&gt;&lt;strong&gt;&lt;xsl:value-of select="$DDSearchTerm"/&gt;&lt;/strong&gt;&lt;/a&gt;
+      &lt;div id="definitionSelection" class="srch-Description2" style="display:none;"&gt;
+        &lt;xsl:for-each select="DDefinitions/DDefinition"&gt;
+          &lt;br/&gt;
+          &lt;xsl:variable name="DDUrl" select="DDUrl" /&gt;
+          &lt;img style="display:inline" alt="" src="/_layouts/images/discovered_definitions_bullet.png" /&gt;
+          &lt;xsl:value-of select="DDStart"/&gt;
+          &lt;strong&gt;
+            &lt;xsl:value-of select="DDBold"/&gt;
+          &lt;/strong&gt;
+          &lt;xsl:value-of select="DDEnd"/&gt;
+          &lt;br/&gt;
+          &lt;span class="srch-definition"&gt;
+          &lt;xsl:value-of select="$FoundIn"/&gt;
+          &lt;xsl:text disable-output-escaping="yes"&gt;&amp;#160;&lt;/xsl:text&gt;
+          &lt;a href="{$DDUrl}"&gt;
+          &lt;xsl:value-of select="DDTitle"/&gt; 
+          &lt;/a&gt;
+          &lt;/span&gt;
+        &lt;/xsl:for-each&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/xsl:if&gt;   
+&lt;/xsl:template&gt;
+
+&lt;!-- XSL transformation starts here --&gt;
+&lt;xsl:template match="/"&gt;
+  &lt;xsl:if test="$AlertMeLink"&gt;  
+   &lt;input type="hidden" name="P_Query" /&gt;
+   &lt;input type="hidden" name="P_LastNotificationTime" /&gt;
+  &lt;/xsl:if&gt;
+  &lt;xsl:choose&gt;
+   &lt;xsl:when test="$IsNoKeyword = 'True'" &gt;
+    &lt;xsl:call-template name="dvt_1.noKeyword" /&gt;
+   &lt;/xsl:when&gt;
+   &lt;xsl:when test="$ShowMessage = 'True'"&gt;
+     &lt;xsl:call-template name="dvt_1.empty" /&gt;
+   &lt;/xsl:when&gt;
+   &lt;xsl:otherwise&gt;
+    &lt;xsl:call-template name="dvt_1.body"/&gt;      
+   &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt; 
+
+&lt;!-- End of Stylesheet --&gt;
+&lt;/xsl:stylesheet&gt;</property>
+        <property name="View" type="Microsoft.Office.Server.Search.WebControls.ResultsView, Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">Relevance</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="EnableSimilarFind" type="bool">True</property>
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="DefaultRankingModelID" type="string" >9759A8E9-B1F9-41A3-B726-D85A54791E65</property>
+        <property name="ResultsPerPage" type="System.Int16, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">10</property>
+        <property name="ShowWithSampleData" type="bool">False</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="Description" type="string">Displays the search results and the properties associated with them.</property>
+        <property name="EnableNicknames" type="bool">False</property>
+        <property name="TotalNumberDocumentPreview" type="string">10</property>
+        <property name="EnableDocumentPreviewWord" type="bool">True</property>
+        <property name="Location" type="string">LocalSearchIndex</property>
+        <property name="NoDefaultStyle" type="string" />
+        <property name="ShowWindowsSearch" type="bool">True</property>
+        <property name="UseLocationVisualization" type="bool">True</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

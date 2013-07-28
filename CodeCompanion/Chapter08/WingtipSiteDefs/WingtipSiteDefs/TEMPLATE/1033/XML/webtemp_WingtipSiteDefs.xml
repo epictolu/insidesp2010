@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Templates xmlns:ows="Microsoft SharePoint" >
+  
+  <Template Name="WingtipBasicSite" ID="25001">
+    <Configuration
+        ID="0"
+        Title="Standard Wingtip Site"
+        Hidden="FALSE"
+        ImageUrl="/_layouts/images/WingtipSiteDefs/WingtipSectionIcon.gif"
+        Description="A demo site create with a custom site definition"
+        DisplayCategory="Wingtip Templates" >
+    </Configuration>
+  </Template>
+
+  <Template Name="WingtipPortal" ID="25002">
+    <Configuration
+        ID="0"
+        Title="Wingtip Portal Site"
+        Hidden="FALSE"
+        ImageUrl="/_layouts/images/WingtipSiteDefs/WingtipSectionIcon.gif"
+        Description="A demo site collection created with a provisioning provider"
+        DisplayCategory="Wingtip Templates"
+        
+        ProvisionAssembly="Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
+        ProvisionClass="Microsoft.SharePoint.Publishing.PortalProvisioningProvider"
+        ProvisionData="xml\\InternetBlank.xml"
+		    RootWebOnly="TRUE" 
+        VisibilityFeatureDependency="97A2485F-EF4B-401f-9167-FA4FE177C6F6">
+
+
+
+      >
+
+      <Configuration ID="0" 
+
+                     Title="Publishing Portal" 
+                     Hidden="FALSE" 
+                     ImageUrl="/_layouts/1033/images/IPPT.gif" 
+                     Description="A starter site hierarchy for an Internet-facing site or a large intranet portal. This site can be customized easily with distinctive branding. It includes a home page, a sample press releases subsite, a Search Center, and a login page. Typically, this site has many more readers than contributors, and it is used to publish Web pages with approval workflows."
+        ProvisionAssembly="Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
+        ProvisionClass="Microsoft.SharePoint.Publishing.PortalProvisioningProvider"
+        ProvisionData="xml\\InternetBlank.xml"
+		RootWebOnly="TRUE" DisplayCategory="Publishing" VisibilityFeatureDependency="97A2485F-EF4B-401f-9167-FA4FE177C6F6">
+
+
+
+
+      </Configuration>
+  </Template>
+
+  <Template Name="WingtipPortal" ID="25003">
+    <Configuration
+        ID="0"
+        Title="Wingtip Extended Blank Site"
+        Hidden="FALSE"
+        ImageUrl="/_layouts/images/WingtipSiteDefs/WingtipSectionIcon.gif"
+        Description="A standard blank site extended with Wingtip customizations"
+        DisplayCategory="Wingtip Templates"
+        
+        
+        >
+    </Configuration>
+  </Template>
+
+</Templates>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers >
+
+    <Receiver>
+      <Name>ListEventsListAdded</Name>
+      <Type>ListAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>WingtipEvents.ListEvents.ListEvents</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+
+    <Receiver>
+      <Name>ListEventsListDeleting</Name>
+      <Type>ListDeleting</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>WingtipEvents.ListEvents.ListEvents</Class>
+      <SequenceNumber>1000</SequenceNumber>
+    </Receiver>
+    
+  </Receivers>
+</Elements>

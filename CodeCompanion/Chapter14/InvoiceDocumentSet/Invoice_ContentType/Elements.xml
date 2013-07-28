@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Document (0x0101) -->
+  <ContentType ID="0x01010079156360b718448b8cd89ea90a9db922"
+               Name="Invoice"
+               Description="Microsoft Word (*.doc|*.docx), *.PDF or *.XPS format of the invoice."
+               Group="Wingtip"
+               Version="1">
+    <FieldRefs>
+      <!-- Invoice Number -->
+      <FieldRef ID="{83729202-DCA7-4BF8-A75B-56DDDE53189C}" 
+                Name="InvoiceNumber" 
+                DisplayName="Invoice Number"
+                Required="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

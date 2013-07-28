@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <Field
+    ID="{10DA8735-5BCB-4231-B1E1-26E854F000C0}"
+    Name="EmployeeStartDate"    
+    DisplayName="Employee Start Date"
+    Group="Wingtip Columns"    
+    Type="EmployeeStartDate"
+    SourceID="http://schemas.microsoft.com/sharepoint/v3" >
+  </Field>
+
+
+  <Field
+    ID="{7E4218DB-340C-4C59-9ECC-DAAA2F3C68D3}"
+    Name="SocialSecurityNumber"
+    DisplayName="Social Security Number"
+    Group="Wingtip Columns"
+    Type="SocialSecurityNumber"
+    SourceID="http://schemas.microsoft.com/sharepoint/v3" >
+  </Field>
+
+  <Field
+    ID="{B07C43F4-0B06-4C39-B2E3-1E09EF834A1E}"
+    Name="UnitedStatesAddress"
+    DisplayName="United States Address"
+    Group="Wingtip Columns"
+    Type="UnitedStatesAddress"
+    SourceID="http://schemas.microsoft.com/sharepoint/v3" >
+  </Field>
+
+  <Field
+    ID="{4E77A542-815E-4AAD-AF03-9DB436CF621A}"
+    Name="EmployeeStatus"
+    DisplayName="Employee Status"
+    Group="Wingtip Columns"
+    Type="EmployeeStatus"
+    SourceID="http://schemas.microsoft.com/sharepoint/v3" >
+  </Field>
+
+
+
+
+
+</Elements>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="99a86174-eadd-48ca-a900-7a18390b80a3" description="Installs a more unique DocumentID provider than what is provided OOTB. {by Critical Path Training - www.CriticalPathTraining.com}" featureId="99a86174-eadd-48ca-a900-7a18390b80a3" imageUrl="CriticalPathTraining/CPT32x32.gif" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.6cdbfdb5-a7be-457b-aae1-8748c3691629.FullName$" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="More Unique DocumentID Provider" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <activationDependencies>
+    <customFeatureActivationDependency minimumVersion="" featureTitle="Document ID Service" featureId="b50e3104-6812-424f-a011-cc90e6327318" solutionId="00000000-0000-0000-0000-000000000000" solutionUrl="" />
+  </activationDependencies>
+</feature>

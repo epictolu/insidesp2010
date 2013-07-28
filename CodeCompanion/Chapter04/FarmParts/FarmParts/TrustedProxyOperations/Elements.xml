@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="TrustedProxyOperations" List="113" Url="_catalogs/wp">
+    <File Path="TrustedProxyOperations\TrustedProxyOperations.webpart" Url="TrustedProxyOperations.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Wingtip Farm Web Parts" />
+    </File>
+  </Module>
+</Elements>

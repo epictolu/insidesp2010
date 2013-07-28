@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="LinqSourcesUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="HelloLinqPart.webpart" Target="dwp\" Type="ElementFile" />
+    <ProjectItemFile Source="LinqSourcesUserControl.ascx" Target="CONTROLTEMPLATES\HelloLinqPart_LinqSources\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="HelloLinqPart.VisualWebPart1" TypeName="*" IsSafe="true" />
+  </SafeControls>
+</ProjectItem>

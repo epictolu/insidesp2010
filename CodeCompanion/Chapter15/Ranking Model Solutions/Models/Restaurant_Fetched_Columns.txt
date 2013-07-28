@@ -1,0 +1,1 @@
+<Columns><Column Name="RestaurantNameManagedProperty"/><Column Name="RestaurantCuisineManagedProperty"/><Column Name="RestaurantRatingManagedProperty"/></Columns>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Timesheet_DefaultDocument" RootWebOnly="TRUE">
+    <File Path="Timesheet_DefaultDocument\WingtipTimesheet.xsn"
+          Url="_cts/Timesheet/WingtipTimesheet.xsn" />
+  </Module>
+</Elements>

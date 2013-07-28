@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance 
+    Title="Products"
+    OnQuickLaunch="TRUE"
+    TemplateType="25001"
+    Url="Lists/Products"
+    Description="A test list instance for WingtipProjectList definition">
+  </ListInstance>
+</Elements>

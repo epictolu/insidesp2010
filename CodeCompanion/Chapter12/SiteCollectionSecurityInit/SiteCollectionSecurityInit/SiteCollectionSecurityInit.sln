@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteCollectionSecurityInit", "SiteCollectionSecurityInit\SiteCollectionSecurityInit.csproj", "{57D41D6A-B542-4A2A-AD0B-7B6C92780FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D41D6A-B542-4A2A-AD0B-7B6C92780FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D41D6A-B542-4A2A-AD0B-7B6C92780FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D41D6A-B542-4A2A-AD0B-7B6C92780FCE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{57D41D6A-B542-4A2A-AD0B-7B6C92780FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D41D6A-B542-4A2A-AD0B-7B6C92780FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D41D6A-B542-4A2A-AD0B-7B6C92780FCE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

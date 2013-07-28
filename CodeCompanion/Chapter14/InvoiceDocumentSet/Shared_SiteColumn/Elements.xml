@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field ID="{83729202-DCA7-4BF8-A75B-56DDDE53189C}"
+         Name="InvoiceNumber"
+         DisplayName="Invoice Number"
+         Description="Reference number for invoice."
+         Group="Wingtip"
+         Type="Text"
+         Hidden="FALSE"
+         DisplaceOnUpgrade="TRUE" />
+</Elements>

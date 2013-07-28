@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Form (0x010101) -->
+  <ContentType ID="0x01010100202388ebe7f24afb8c44263ea755cfc1"
+               Name="Timesheet"
+               Description="Contractor timesheet."
+               Group="Wingtip"
+               Version="1">
+    <FieldRefs>
+      <!-- Invoice Number -->
+      <FieldRef ID="{83729202-DCA7-4BF8-A75B-56DDDE53189C}"
+                Name="InvoiceNumber"
+                DisplayName="Invoice Number"
+                Required="TRUE" />
+    </FieldRefs>
+    <DocumentTemplate TargetName="_cts/Timesheet/WingtipTimesheet.xsn" />
+  </ContentType>
+</Elements>

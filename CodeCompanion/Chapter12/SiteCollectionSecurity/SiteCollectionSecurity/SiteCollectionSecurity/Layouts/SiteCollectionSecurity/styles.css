@@ -1,0 +1,64 @@
+﻿h4{
+  color:Blue;
+}
+
+#MSO_ContentTable {
+  padding-left: 10px;
+}
+
+.gridTable {
+  margin-left: 16px;
+  font-size: 10pt;
+  min-width: 480px;
+  font-size:8pt;
+}
+
+.gridTable, .gridHeaderRow th, .gridRow td, .gridAlternatingRow td {
+  border: 1px solid black;
+}
+
+.gridHeaderRow th {
+  background-color: Black;
+  color: White;
+  text-align: left;
+  padding: 2px;
+  padding-right: 16px;
+}
+
+.gridRow td {
+  padding: 4px;
+}
+
+.gridAlternatingRow td {
+  padding: 4px;
+  background-color: #EEEEEE;
+}
+
+hr {
+  margin-top: 20px;
+  border-width: 2px;
+  border-color: #DDDDDD;
+}
+
+
+.DisplayTable {
+  padding: 4px;
+  margin-left: 16px;
+  border: solid 2px black;
+  background-color: #DDDDDD;
+}
+
+.HeaderCell {
+  vertical-align: top;
+  color: White;
+  background-color: black;
+  padding: 4px;
+}
+
+.BodyCell {
+  vertical-align: top;
+  background-color: White;
+  padding: 4px;
+  border: solid 1 black;
+  empty-cells: show;
+}

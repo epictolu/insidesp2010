@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="SiteCollectionsWebPartUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="SiteCollectionsWebPart\" Type="ElementManifest" />
+    <ProjectItemFile Source="SiteCollectionsWebPart.webpart" Target="SiteCollectionsWebPart\" Type="ElementFile" />
+    <ProjectItemFile Source="SiteCollectionsWebPartUserControl.ascx" Target="CONTROLTEMPLATES\FarmParts\SiteCollectionsWebPart\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="FarmParts.SiteCollectionsWebPart" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

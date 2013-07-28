@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8bcecdca-7e40-4a0e-8995-10d498769129" solutionId="8bcecdca-7e40-4a0e-8995-10d498769129" resetWebServer="false" name="InvoiceDocumentSet" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="03a7058b-7b12-4d0d-b976-cb72af30caa3" />
+    <featureReference itemId="9dd02832-f0ac-451d-bfc9-d71d21d7af9c" />
+    <featureReference itemId="2ba0b2bb-6497-4cc5-922f-a48be295156b" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="c9583053-19c6-4a84-8199-5a5ffed8db32" />
+  </projectItems>
+</package>

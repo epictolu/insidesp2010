@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2aeaf11b-6769-402c-9aa9-fd08204ed15a" solutionId="2aeaf11b-6769-402c-9aa9-fd08204ed15a" resetWebServer="false" name="ThrottleListQuery" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="d4fce85c-5bed-4a3d-a1c1-2a6763fecaff" />
+  </features>
+</package>

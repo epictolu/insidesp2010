@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ListInstance
+    TemplateType="105"
+    FeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105"
+    Title="Sales Leads"
+    Description="a list to track sales leads"
+    Url="Lists/SalesLeads"
+    OnQuickLaunch="TRUE" >
+    
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Wheeler</Field>
+          <Field Name="FirstName">Wendy</Field>
+          <Field Name="Company">Wide World Importers</Field>
+          <Field Name="WorkPhone">(813)987-6543</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Funk</Field>
+          <Field Name="FirstName">Don</Field>
+          <Field Name="Company">Contoso Pharmaceuticals</Field>
+          <Field Name="WorkPhone">(904)123-4567</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Healy</Field>
+          <Field Name="FirstName">Joe</Field>
+          <Field Name="Company">Humongous Insurance</Field>
+          <Field Name="WorkPhone">(512)234-5678</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sells</Field>
+          <Field Name="FirstName">Chris</Field>
+          <Field Name="Company">A. Datum Corporation</Field>
+          <Field Name="WorkPhone">(206)456-7890</Field>
+
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

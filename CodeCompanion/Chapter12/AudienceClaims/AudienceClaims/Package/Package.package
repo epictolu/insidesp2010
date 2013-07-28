@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f91bf6aa-16ea-487c-a64f-531d71af5b23" solutionId="f91bf6aa-16ea-487c-a64f-531d71af5b23" resetWebServer="false" name="AudienceClaims" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c60e599a-aeda-40dd-8156-2b0992209e49" />
+  </features>
+</package>

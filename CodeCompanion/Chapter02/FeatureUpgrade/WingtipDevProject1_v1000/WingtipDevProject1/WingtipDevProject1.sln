@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipDevProject1", "WingtipDevProject1\WingtipDevProject1.csproj", "{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BuildSolution|Any CPU = BuildSolution|Any CPU
+		BuildSolutionForRelease|Any CPU = BuildSolutionForRelease|Any CPU
+		DeploySolution|Any CPU = DeploySolution|Any CPU
+		InstallSolution|Any CPU = InstallSolution|Any CPU
+		RecycleApplicationPool|Any CPU = RecycleApplicationPool|Any CPU
+		RefreshAssemblyInGac|Any CPU = RefreshAssemblyInGac|Any CPU
+		RemoveSolution|Any CPU = RemoveSolution|Any CPU
+		ResetIIS|Any CPU = ResetIIS|Any CPU
+		RetractSolution|Any CPU = RetractSolution|Any CPU
+		UpdateSolution|Any CPU = UpdateSolution|Any CPU
+		XCopySharePointRoot|Any CPU = XCopySharePointRoot|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.BuildSolution|Any CPU.ActiveCfg = BuildSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.BuildSolution|Any CPU.Build.0 = BuildSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.BuildSolutionForRelease|Any CPU.ActiveCfg = BuildSolutionForRelease|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.BuildSolutionForRelease|Any CPU.Build.0 = BuildSolutionForRelease|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.DeploySolution|Any CPU.ActiveCfg = DeploySolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.DeploySolution|Any CPU.Build.0 = DeploySolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.InstallSolution|Any CPU.ActiveCfg = InstallSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.InstallSolution|Any CPU.Build.0 = InstallSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RecycleApplicationPool|Any CPU.ActiveCfg = RecycleApplicationPool|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RecycleApplicationPool|Any CPU.Build.0 = RecycleApplicationPool|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RefreshAssemblyInGac|Any CPU.ActiveCfg = RefreshAssemblyInGac|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RefreshAssemblyInGac|Any CPU.Build.0 = RefreshAssemblyInGac|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RemoveSolution|Any CPU.ActiveCfg = RemoveSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RemoveSolution|Any CPU.Build.0 = RemoveSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.ResetIIS|Any CPU.ActiveCfg = ResetIIS|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.ResetIIS|Any CPU.Build.0 = ResetIIS|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RetractSolution|Any CPU.ActiveCfg = RetractSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.RetractSolution|Any CPU.Build.0 = RetractSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.UpdateSolution|Any CPU.ActiveCfg = UpdateSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.UpdateSolution|Any CPU.Build.0 = UpdateSolution|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.XCopySharePointRoot|Any CPU.ActiveCfg = XCopySharePointRoot|Any CPU
+		{01C02BA1-F8CA-4F6C-9A80-B2B60BE94C30}.XCopySharePointRoot|Any CPU.Build.0 = XCopySharePointRoot|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

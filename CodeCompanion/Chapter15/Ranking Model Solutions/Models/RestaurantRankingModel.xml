@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<rankingModel name="RestaurantRankingModel" id="9759A8E9-B1F9-41A3-B726-D85A54791E65" description="Ranking Model for SPC" xmlns="http://schemas.microsoft.com/office/2009/rankingModel">
+  <queryDependentFeatures>
+    <queryDependentFeature name="Body" pid="1" weight="0.1" />
+    <queryDependentFeature name="Title" pid="2" weight="0.1" />
+  </queryDependentFeatures>
+  <queryIndependentFeatures>
+    <categoryFeature name="RestaurantRatingManagedProperty" pid="406" default="1">
+      <category name="A" value="1" weight="10" />
+      <category name="AA" value="2" weight="100" />
+      <category name="AAA" value="3" weight="1000" />
+      <category name="AAAA" value="4" weight="10000" />
+      <category name="AAAAA" value="5" weight="100000" />      
+    </categoryFeature>   
+    <languageFeature name="Language" pid="5" default="1" weight="1.0000000000" />
+  </queryIndependentFeatures>
+</rankingModel>

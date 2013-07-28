@@ -1,0 +1,145 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0494199E-9FFD-46AE-9CDA-13F8CDE973C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HelloJavaScriptClientOM</RootNamespace>
+    <AssemblyName>HelloJavaScriptClientOM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Layouts\HelloJavaScriptClientOM\JSClientOM1.aspx.cs">
+      <DependentUpon>JSClientOM1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\HelloJavaScriptClientOM\JSClientOM1.aspx.designer.cs">
+      <DependentUpon>JSClientOM1.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\HelloJavaScriptClientOM\JSClientOM2.aspx.cs">
+      <DependentUpon>JSClientOM2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\HelloJavaScriptClientOM\JSClientOM2.aspx.designer.cs">
+      <DependentUpon>JSClientOM2.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9f17bcd0-465d-403b-af4b-6bc45b216acb}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{2baf5caa-b777-44a6-bc4e-acc7f6a9f450}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\JSClientOM\JSClientOM.feature">
+      <FeatureId>{824d34cc-0af9-4bcc-bd42-e78735ae05b3}</FeatureId>
+    </None>
+    <None Include="Features\JSClientOM\JSClientOM.Template.xml">
+      <DependentUpon>JSClientOM.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\MyCSS.css" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\redmond\jquery-ui-1.7.1.custom.css" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_diagonals-small_50_262626_40x40.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_flat_0_303030_40x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_flat_0_4c4c4c_40x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_glass_40_0a0a0a_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_glass_55_f1fbe5_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_glass_60_000000_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_gloss-wave_55_000000_500x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_gloss-wave_85_9fda58_500x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-bg_gloss-wave_95_f6ecd5_500x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-icons_000000_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-icons_1f1f1f_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-icons_9fda58_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-icons_b8ec79_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\smoothness\jquery-ui-1.7.1.custom.css" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_diagonals-small_50_262626_40x40.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_flat_0_303030_40x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_flat_0_4c4c4c_40x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_glass_40_0a0a0a_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_glass_55_f1fbe5_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_glass_60_000000_1x400.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_gloss-wave_55_000000_500x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_gloss-wave_85_9fda58_500x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-bg_gloss-wave_95_f6ecd5_500x100.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-icons_000000_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-icons_1f1f1f_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-icons_9fda58_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-icons_b8ec79_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\css\trontastic\jquery-ui-1.7.1.custom.css" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\JSClientOM1.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Layouts\HelloJavaScriptClientOM\JSClientOM2.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="Layouts\HelloJavaScriptClientOM\js\jquery-1.3.2.min.js" />
+    <Content Include="Layouts\HelloJavaScriptClientOM\js\jquery-ui-1.7.1.custom.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

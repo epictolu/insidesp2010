@@ -1,0 +1,50 @@
+﻿<WorkflowInfo>
+  <Conditions And="and" Or="or" Not="not" When="If" Else="Else if">
+    <!--
+    <Condition Name="Project Status Needs Updating"
+        FunctionName="StatusNeedsUpdating"
+        ClassName="WorkflowConditions.CustomConditions"
+        Assembly=""
+        AppliesTo="all"
+        UsesCurrentItem="true">
+        <RuleDesigner Sentence="Project status has not been updated 
+            in the past %1 days">
+          <FieldBind Id="1" Field="_1_" Text="7"/>
+        </RuleDesigner>
+        <Parameters>
+          <Parameter Name="_1_" Type="System.Int32, mscorlib"
+          Direction="In" />
+        </Parameters>
+      </Condition>
+      -->
+  </Conditions>
+
+  <Actions Sequential="then" Parallel="and">
+    <Action Name="Hello World Full-Trust Action"
+            ClassName="WingtipCustomActions.HelloWorldActivity" 
+            Assembly="$SharePoint.Project.AssemblyFullName$"
+            AppliesTo="all" 
+            CreatesTask="false"
+            
+            Category="Custom Wingtip Actions">
+      <RuleDesigner Sentence="Log Hello World to history list">
+        
+      </RuleDesigner>
+      <Parameters>
+        <Parameter 
+          Name="__Context"
+          Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext, Microsoft.SharePoint.WorkflowActions"
+          Direction="In" 
+          DesignerType="Hide" />
+        <Parameter 
+          Name="UserId" 
+          Type="System.Int32, mscorlib" 
+          Direction="Optional" 
+          InitialValue="-1" 
+          DesignerType="Integer" 
+          Description="User ID logged by this action." />
+
+      </Parameters>
+    </Action>
+  </Actions>
+</WorkflowInfo>

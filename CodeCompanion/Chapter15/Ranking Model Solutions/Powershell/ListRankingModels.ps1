@@ -1,0 +1,1 @@
+Get-SPEnterpriseSearchServiceApplication | Get-SPEnterpriseSearchRankingModel |Format-List

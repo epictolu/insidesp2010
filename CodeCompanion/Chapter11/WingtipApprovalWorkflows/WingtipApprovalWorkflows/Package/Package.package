@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7e08442f-8653-4197-92bf-3141a8426853" solutionId="7e08442f-8653-4197-92bf-3141a8426853" resetWebServer="false" name="WingtipApprovalWorkflows" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="68389726-5c8c-469f-9286-fb5041ad5b4e" />
+  </features>
+</package>

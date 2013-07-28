@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+<Module Name="ProductProposalTemplates" List="101" Url="ProductProposals">
+
+  <File Path="ProductProposalTemplates\Proposal.dotx"
+        Url="Forms/Proposal.dotx"
+        Type="GhostableInLibrary" />
+    
+</Module>
+  
+</Elements>

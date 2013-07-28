@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="CustomSearchParts.CustomCore.CustomCore, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Ranking Model ID</property>
+        <property name="Description" type="string">A web part that has a RankingModelId property</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

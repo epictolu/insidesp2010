@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  <Receivers ListUrl="Lists/Customers" >
+
+    <Receiver>
+      <Name>CustomerEventsItemAdding</Name>
+      <Type>ItemAdding</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>WingtipEvents.CustomerEvents.CustomerEvents</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+
+    <Receiver>
+      <Name>CustomerEventsItemUpdating</Name>
+      <Type>ItemUpdating</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>WingtipEvents.CustomerEvents.CustomerEvents</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+
+    <Receiver>
+      <Name>CustomerEventsItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>WingtipEvents.CustomerEvents.CustomerEvents</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    
+    <Receiver>
+      <Name>CustomerEventsItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>WingtipEvents.CustomerEvents.CustomerEvents</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+
+  </Receivers>
+  
+</Elements>

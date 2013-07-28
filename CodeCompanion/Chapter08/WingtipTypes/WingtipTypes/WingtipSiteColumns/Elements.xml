@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <Field 
+    ID="{D0D32083-F81B-420E-832E-5CC94E12F417}"
+    Name="ProductCode"
+    DisplayName="Product Code"
+    Group="Wingtip Site Columns"
+    Type="Text"
+    DisplaceOnUpgrade="TRUE" />
+  
+  <Field
+    ID="{36819A9B-E748-47D5-9949-A65DD195BF80}"
+    Name="ProductDescription"
+    DisplayName="Description"
+    Group="Wingtip Site Columns"
+    Type="Text"
+    DisplaceOnUpgrade="TRUE" />
+
+  <Field
+    ID="{F0182CD5-C126-4E96-9BB5-B16A34DC8F3B}"
+    Name="ProductListPrice"
+    DisplayName="List Price"
+    Group="Wingtip Site Columns"
+    Type="Currency"
+    Decimals="2"
+    Min="0"
+    Required="FALSE"
+    DisplaceOnUpgrade="True" />
+
+  <Field
+    ID="{0C5BDEB7-0E0E-4c38-A2E5-F39941E61CE9}"
+    Name="ProductCategory"
+    DisplayName="Category"
+    Group="Wingtip Site Columns"
+    Type="Choice"
+    Format="RadioButtons"
+    DisplaceOnUpgrade="TRUE" >
+    <CHOICES>
+      <CHOICE>Electronics</CHOICE>
+      <CHOICE>Games</CHOICE>
+      <CHOICE>Trains</CHOICE>
+      <CHOICE>Arts and Crafts</CHOICE>
+    </CHOICES>
+    <Default>Electronics</Default>
+  </Field>
+  
+</Elements>

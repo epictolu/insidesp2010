@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxedParts", "SandboxedParts\SandboxedParts.csproj", "{08C5FC57-41DF-4536-9757-E0B64CDC329D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipTrustedBase", "..\WingtipTrustedBase\WingtipTrustedBase\WingtipTrustedBase.csproj", "{FF170B16-FDE0-4E9C-90ED-CC73649E534E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08C5FC57-41DF-4536-9757-E0B64CDC329D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C5FC57-41DF-4536-9757-E0B64CDC329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C5FC57-41DF-4536-9757-E0B64CDC329D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{08C5FC57-41DF-4536-9757-E0B64CDC329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C5FC57-41DF-4536-9757-E0B64CDC329D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C5FC57-41DF-4536-9757-E0B64CDC329D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FF170B16-FDE0-4E9C-90ED-CC73649E534E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF170B16-FDE0-4E9C-90ED-CC73649E534E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF170B16-FDE0-4E9C-90ED-CC73649E534E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF170B16-FDE0-4E9C-90ED-CC73649E534E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF170B16-FDE0-4E9C-90ED-CC73649E534E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF170B16-FDE0-4E9C-90ED-CC73649E534E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

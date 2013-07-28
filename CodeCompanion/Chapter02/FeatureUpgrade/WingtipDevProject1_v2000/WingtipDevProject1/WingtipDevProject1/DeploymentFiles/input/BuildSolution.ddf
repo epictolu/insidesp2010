@@ -1,0 +1,18 @@
+﻿.OPTION EXPLICIT
+.Set CabinetNameTemplate=WingtipDevProject1.wsp
+.Set DiskDirectory1=DeploymentFiles/output
+
+;*** Add files to root folder of Solution Package
+DeploymentFiles\input\manifest.xml
+bin/debug/WingtipDevProject1.dll
+
+;*** add feature files into a folder having the same name as feature
+.Set DestinationDir=LeadTracker
+SharePointRoot\TEMPLATE\FEATURES\LeadTracker\elements.xml
+SharePointRoot\TEMPLATE\FEATURES\LeadTracker\elements_v2.xml
+SharePointRoot\TEMPLATE\FEATURES\LeadTracker\feature.xml
+
+;*** add TEMPLATE files such as IMAGE files into a folder relative to /TEMPLATE
+.Set DestinationDir=IMAGES\WingtipDevProject1
+SharePointRoot\TEMPLATE\IMAGES\WingtipDevProject1\FeatureIcon.gif
+SharePointRoot\TEMPLATE\IMAGES\WingtipDevProject1\SiteIcon.gif

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.BusinessDataConnectivity" DefaultFile="ProductModel.bdcm" FeatureReceiverClass="Microsoft.Office.SharePoint.ClientExtensions.Deployment.ImportModelReceiver" FeatureReceiverAssembly="Microsoft.Office.SharePoint.ClientExtensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Farm" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="ProductModel.bdcm" Target="ProductModel\" Type="ElementFile" />
+    <ProjectOutputFile ProjectId="890d3cbb-34d7-42e8-a1b0-53556aa43da4" ProjectPath="ProductConnector.csproj" Target="BdcAssemblies\" Type="ElementFile" />
+  </Files>
+  <FeatureProperties>
+    <FeatureProperty Key="IncrementalUpdate" Value="true" />
+    <FeatureProperty Key="ModelFileName" Value="ProductModel\ProductModel.bdcm" />
+    <FeatureProperty Key="ProductLobSystem" Value="BdcAssemblies\$SharePoint.Project.AssemblyFileName$" />
+    <FeatureProperty Key="ProductModel" Value="BdcAssemblies\$SharePoint.Project.AssemblyFileName$" />
+    <FeatureProperty Key="SiteUrl" Value="http://wingtipserver/bcs/" />
+  </FeatureProperties>
+</ProjectItem>

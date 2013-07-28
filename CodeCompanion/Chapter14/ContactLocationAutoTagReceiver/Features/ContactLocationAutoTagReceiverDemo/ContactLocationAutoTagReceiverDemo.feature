@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6228b063-ed25-4c24-89c2-3cff52d7ee70" description="Creates a demo list and attaches an event handler to it that will automatically tag it with location aware tags. {by Critical Path Training - www.CriticalPathTraining.com}" featureId="6228b063-ed25-4c24-89c2-3cff52d7ee70" imageUrl="CriticalPathTraining/CPT32x32.gif" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.c7bb229a-2f8a-4aaf-93cc-72d274615e5a.FullName$" solutionId="00000000-0000-0000-0000-000000000000" title="Contact Location Auto Tag Demo" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <projectItems>
+    <projectItemReference itemId="bcb8486f-563c-4e9e-9e38-0bfb399bc123" />
+  </projectItems>
+</feature>

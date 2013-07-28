@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomActionGroup
+    Id="WingtipSiteAdministration"
+    Location="Microsoft.SharePoint.SiteSettings"
+    Title="Wingtip Site Administration"
+    Sequence="61"
+    Description=""
+    ImageUrl="/_layouts/images/FarmSolutionPages/WingtipSectionIcon.gif" />
+
+
+  <CustomAction
+    Id="WingtipSiteInfo"
+    GroupId="WingtipSiteAdministration"
+    Location="Microsoft.SharePoint.SiteSettings"
+    Rights="ManageWeb"
+    Sequence="1"
+    Title="Wingtip Site Info"
+    Description="Use this page to get information about the current site" >
+    <UrlAction Url="~site/_layouts/FarmSolutionPages/SiteInfo.aspx" />
+  </CustomAction>
+
+  
+  <CustomAction
+    Id="WingtipConfig3"
+    GroupId="WingtipSiteAdministration"
+    Location="Microsoft.SharePoint.SiteSettings"
+    Rights="ManageWeb"
+    Sequence="2"
+    Title="Wingtip Site Info (XML)"
+    Description="Use this page to configure the current site" >
+    <UrlAction Url="javascript:void(window.open('{SiteUrl}/_layouts/FarmSolutionPages/Handler1.ashx', '_blank', 'menubar=1,resizable=1,left=200,width=800,top=200,height=600')); " />
+  </CustomAction>
+
+  <CustomAction
+    Id="WingtipSiteConfig"
+    GroupId="WingtipSiteAdministration"
+    Location="Microsoft.SharePoint.SiteSettings"
+    Rights="ManageWeb"
+    Sequence="2"
+    Title="Wingtip Site Configuration"
+    Description="Use this page to configure the current site" >
+    <UrlAction Url="~site/_layouts/FarmSolutionPages/SiteConfig.aspx" />
+  </CustomAction>
+
+
+</Elements>

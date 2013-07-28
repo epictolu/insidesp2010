@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE4D5E87-6857-4135-BF31-D8B96E898647}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WingtipFieldTypes</RootNamespace>
+    <AssemblyName>WingtipFieldTypes</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Properties\key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.UnitedStatesAddress.ascx.cs">
+      <DependentUpon>WingtipFieldTypes.UnitedStatesAddress.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.UnitedStatesAddress.ascx.designer.cs">
+      <DependentUpon>WingtipFieldTypes.UnitedStatesAddress.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.EmployeeStatus.ascx.cs">
+      <DependentUpon>WingtipFieldTypes.EmployeeStatus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.EmployeeStatus.ascx.designer.cs">
+      <DependentUpon>WingtipFieldTypes.EmployeeStatus.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.SocialSecurityNumber.ascx.cs">
+      <DependentUpon>WingtipFieldTypes.SocialSecurityNumber.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.SocialSecurityNumber.ascx.designer.cs">
+      <DependentUpon>WingtipFieldTypes.SocialSecurityNumber.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FieldTypeClasses\EmployeeStatus.cs" />
+    <Compile Include="FieldTypeClasses\EmployeeStartDate.cs" />
+    <Compile Include="FieldTypeClasses\SocialSecurityNumber.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FieldTypeClasses\UnitedStatesAddress.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{02378672-83e4-4fc6-9181-bc0f5148fe7a}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="TEMPLATE\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ba113091-adc8-472e-9044-c3a53310d88e}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.UnitedStatesAddress.ascx" />
+    <Content Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.EmployeeStatus.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="TEMPLATE\ControlTemplates\WingtipFieldTypes.SocialSecurityNumber.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="TEMPLATE\XML\fldtypes_WingtipFieldTypes.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

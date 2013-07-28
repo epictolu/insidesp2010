@@ -1,0 +1,22 @@
+
+<Solution 
+  SolutionId="0cee8f44-4892-4a01-b8f4-b07aa21e1ef2" 
+  Title="Wingtip Dev Project 1"  
+  DeploymentServerType="WebFrontEnd"
+  ResetWebServer="True" 
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+  <FeatureManifests>
+    <FeatureManifest Location="LeadTracker\feature.xml" />
+  </FeatureManifests>
+  
+  <TemplateFiles>
+    <TemplateFile Location="IMAGES\WingtipDevProject1\FeatureIcon.gif" />
+    <TemplateFile Location="IMAGES\WingtipDevProject1\SiteIcon.gif" />
+  </TemplateFiles>
+ 
+  <Assemblies>
+    <Assembly Location="WingtipDevProject1.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  
+</Solution>

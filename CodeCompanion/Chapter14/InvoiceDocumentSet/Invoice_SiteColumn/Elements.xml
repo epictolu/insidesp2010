@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field ID="{06F6AF4F-F1AD-491B-B83C-6BC47739731A}"
+         Name="InvoiceDate"
+         DisplayName="Date Invoice Received"
+         Group="Wingtip"
+         Type="DateTime"
+         Format="DateOnly"
+         DisplaceOnUpgrade="TRUE"/>
+
+  <Field ID="{885F61BF-F61C-42DE-89D9-4AA7E562CBBF}"
+         Name="InvoicePaymentTerms"
+         DisplayName="Payment Terms"
+         Group="Wingtip"
+         Type="Choice"
+         DisplaceOnUpgrade="TRUE">
+    <CHOICES>
+      <CHOICE>DUE ON RECEIPT</CHOICE>
+      <CHOICE>NET 30</CHOICE>
+      <CHOICE>2% 10 NET 30</CHOICE>
+    </CHOICES>
+    <Default>NET 30</Default>
+  </Field>
+
+  <Field ID="{0BFAF66B-BB9A-4876-AAFA-4D5223352745}"
+         Name="InvoiceAmount"
+         DisplayName="Invoice Amount"
+         Group="Wingtip"
+         Type="Currency"
+         DisplaceOnUpgrade="TRUE"/>
+
+  <Field ID="{444F753B-D35C-4E93-845A-3EDA63214C30}"
+         Name="InvoicePaidStatus"
+         DisplayName="Paid Status"
+         Group="Wingtip"
+         Type="Choice"
+         DisplaceOnUpgrade="TRUE">
+    <CHOICES>
+      <CHOICE>UNPAID</CHOICE>
+      <CHOICE>PAID</CHOICE>
+    </CHOICES>
+    <Default>UNPAID</Default>
+  </Field>
+</Elements>

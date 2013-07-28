@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="136ddaa3-6e1d-4abd-ab58-4532ca655594" solutionId="136ddaa3-6e1d-4abd-ab58-4532ca655594" resetWebServer="false" name="LeadTracker" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="5aa3038b-b0cc-4dcc-b7b4-424ad2d667f9" />
+  </features>
+</package>

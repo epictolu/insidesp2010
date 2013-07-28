@@ -3,3 +3,6 @@ obj
 build
 setup*
 *.suo
+pkg
+pkgobj
+*.user

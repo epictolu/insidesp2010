@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ListInstance
+    TemplateType="105"
+    FeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105"
+    Url="Lists/Customers"
+    Title="Customers"
+    Description="Wingtip customers list"
+    OnQuickLaunch="TRUE" >
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Chris</Field>
+          <Field Name="FirstName">Sells</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Wheeler</Field>
+          <Field Name="FirstName">Wendy</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">von Schnauzer</Field>
+          <Field Name="FirstName">Wouter</Field>
+        </Row>
+      </Rows>
+    </Data>
+    
+  </ListInstance>
+  
+</Elements>

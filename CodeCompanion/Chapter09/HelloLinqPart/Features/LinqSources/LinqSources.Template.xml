@@ -1,0 +1,6 @@
+﻿<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Hello LINQ Web Part" Description="This is a web part that connects to various sources using LINQ" Scope="Site" Id="c6b947c1-18ea-4964-befd-71f802726904" ImageUrl="">
+  <ElementManifests>
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="dwp\HelloLinqPart.webpart" />
+  </ElementManifests>
+</Feature>

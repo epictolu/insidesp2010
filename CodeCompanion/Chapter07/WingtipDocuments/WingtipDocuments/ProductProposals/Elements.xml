@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  
+<ListInstance
+  TemplateType="101"
+  FeatureId="00bfea71-e717-4e80-aa17-d0c71b360101"
+  Url="ProductProposals"
+  Title="Product Proposals"
+  Description=""
+  DocumentTemplate="xx"
+  OnQuickLaunch="TRUE" />
+  
+</Elements>

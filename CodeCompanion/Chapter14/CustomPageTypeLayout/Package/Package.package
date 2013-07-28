@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c78df3e5-670f-4c12-abb9-3d605275ea9a" solutionId="c78df3e5-670f-4c12-abb9-3d605275ea9a" resetWebServer="false" name="CustomPageTypeLayout" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b75d7990-80e6-4612-a29f-5ee25c5f501b" />
+  </features>
+</package>

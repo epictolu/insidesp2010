@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Taxonomies>
+  <Taxonomy Name="USA Geography">
+    <Term Name="Southeast" Culture="1033">
+      <Labels>
+        <Label Name="SE" Culture="1033" />
+      </Labels>
+      <ChildTerms>
+        <Term Name="Florida" Culture="1033">
+          <Labels>
+            <Label Name="FL" Culture="1033" />
+            <Label Name="FLA" Culture="1033" />
+          </Labels>
+          <ChildTerms>
+            <Term Name="Jacksonville" Culture="1033">
+              <Labels>
+                <Label Name="JAX" Culture="1033" />
+              </Labels>
+              <ChildTerms>
+                <Term Name="Downtown" Culture="1033"/>
+                <Term Name="San Marco" Culture="1033"/>
+                <Term Name="Riverside" Culture="1033"/>
+                <Term Name="Mandrain" Culture="1033"/>
+                <Term Name="Fruit Cove" Culture="1033"/>
+                <Term Name="St Johns" Culture="1033"/>
+                <Term Name="32207" Culture="1033"/>
+                <Term Name="32217" Culture="1033"/>
+                <Term Name="32257" Culture="1033"/>
+                <Term Name="32259" Culture="1033"/>
+              </ChildTerms>
+            </Term>
+          </ChildTerms>
+          <ChildTerms>
+            <Term Name="Orlando" Culture="1033">
+              <Labels>
+                <Label Name="MCO" Culture="1033" />
+              </Labels>
+              <ChildTerms>
+                <Term Name="Altamonte Springs" Culture="1033"/>
+                <Term Name="Lake Buena Vista" Culture="1033"/>
+                <Term Name="Belle Isle" Culture="1033"/>
+                <Term Name="Winter Park" Culture="1033"/>
+              </ChildTerms>
+            </Term>
+          </ChildTerms>
+          <ChildTerms>
+            <Term Name="Tampa" Culture="1033">
+              <Labels>
+                <Label Name="TPA" Culture="1033" />
+              </Labels>
+              <ChildTerms>
+                <Term Name="Brandon" Culture="1033"/>
+                <Term Name="Pinellas Park" Culture="1033"/>
+                <Term Name="Apollo Beach" Culture="1033"/>
+                <Term Name="Tarpon Springs" Culture="1033"/>
+              </ChildTerms>
+            </Term>
+          </ChildTerms>
+        </Term>
+      </ChildTerms>
+    </Term>
+  </Taxonomy>
+</Taxonomies>

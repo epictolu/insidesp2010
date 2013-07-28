@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a2e9c56c-6f94-4ed8-a9e7-1da04dea8161" solutionId="a2e9c56c-6f94-4ed8-a9e7-1da04dea8161" resetWebServer="false" name="WingtipEvents" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="07119663-32eb-4f4d-a128-8e2701b8071d" />
+  </features>
+</package>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="c82c0275-10cb-48e7-80d0-679fff20c430" solutionId="c82c0275-10cb-48e7-80d0-679fff20c430" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="WingtipSiteDefinitions">
+    <projectItems>
+        <projectItemReference itemId="9a756359-1453-4d5d-a96d-44ce5d374a57" />
+    </projectItems>
+</package>

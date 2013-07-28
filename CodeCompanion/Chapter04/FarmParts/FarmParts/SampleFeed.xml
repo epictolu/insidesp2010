@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed 
+  xml:base="http://intranet.wingtip.com/_vti_bin/listdata.svc/" 
+  xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" 
+  xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" 
+  xmlns="http://www.w3.org/2005/Atom">
+  
+  <title type="text">SalesLeads</title>
+  <id>http://intranet.wingtip.com/_vti_bin/ListData.svc/SalesLeads/</id>
+  <updated>2010-05-10T05:06:55Z</updated>
+  <link rel="self" title="SalesLeads" href="SalesLeads" />
+  
+  <entry m:etag="W/&quot;1&quot;">
+    <id>http://intranet.wingtip.com/_vti_bin/listdata.svc/SalesLeads(1)</id>
+    <title type="text">Wheeler</title>
+    <updated>2010-05-09T13:02:31-04:00</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="SalesLeadsItem" href="SalesLeads(1)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/CreatedBy" type="application/atom+xml;type=entry" title="CreatedBy" href="SalesLeads(1)/CreatedBy" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ModifiedBy" type="application/atom+xml;type=entry" title="ModifiedBy" href="SalesLeads(1)/ModifiedBy" />
+    <category term="Microsoft.SharePoint.DataService.SalesLeadsItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">1</d:Id>
+        <d:ContentTypeID>0x0106006783EB4FEF4EDF409B5D9B743E080EB7</d:ContentTypeID>
+        <d:ContentType>Contact</d:ContentType>
+        <d:LastName>Wheeler</d:LastName>
+        <d:Modified m:type="Edm.DateTime">2010-05-09T13:02:31</d:Modified>
+        <d:Created m:type="Edm.DateTime">2010-05-09T13:02:31</d:Created>
+        <d:CreatedById m:type="Edm.Int32">1</d:CreatedById>
+        <d:ModifiedById m:type="Edm.Int32">1</d:ModifiedById>
+        <d:Owshiddenversion m:type="Edm.Int32">1</d:Owshiddenversion>
+        <d:Version>1.0</d:Version>
+        <d:Path>/Lists/SalesLeads</d:Path>
+        <d:FirstName>Wendy</d:FirstName>
+        <d:FullName m:null="true" />
+        <d:EMailAddress m:null="true" />
+        <d:Company>Wide World Importers</d:Company>
+        <d:JobTitle m:null="true" />
+        <d:BusinessPhone>(813)111-2222</d:BusinessPhone>
+        <d:HomePhone m:null="true" />
+        <d:MobileNumber m:null="true" />
+        <d:FaxNumber m:null="true" />
+        <d:Address m:null="true" />
+        <d:City m:null="true" />
+        <d:StateProvince m:null="true" />
+        <d:ZIPPostalCode m:null="true" />
+        <d:CountryRegion m:null="true" />
+        <d:WebPage m:null="true" />
+        <d:Notes m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry m:etag="W/&quot;1&quot;">
+    <id>http://intranet.wingtip.com/_vti_bin/listdata.svc/SalesLeads(2)</id>
+    <title type="text">Funk</title>
+    <updated>2010-05-09T13:02:31-04:00</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="SalesLeadsItem" href="SalesLeads(2)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/CreatedBy" type="application/atom+xml;type=entry" title="CreatedBy" href="SalesLeads(2)/CreatedBy" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ModifiedBy" type="application/atom+xml;type=entry" title="ModifiedBy" href="SalesLeads(2)/ModifiedBy" />
+    <category term="Microsoft.SharePoint.DataService.SalesLeadsItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">2</d:Id>
+        <d:ContentTypeID>0x0106006783EB4FEF4EDF409B5D9B743E080EB7</d:ContentTypeID>
+        <d:ContentType>Contact</d:ContentType>
+        <d:LastName>Funk</d:LastName>
+        <d:Modified m:type="Edm.DateTime">2010-05-09T13:02:31</d:Modified>
+        <d:Created m:type="Edm.DateTime">2010-05-09T13:02:31</d:Created>
+        <d:CreatedById m:type="Edm.Int32">1</d:CreatedById>
+        <d:ModifiedById m:type="Edm.Int32">1</d:ModifiedById>
+        <d:Owshiddenversion m:type="Edm.Int32">1</d:Owshiddenversion>
+        <d:Version>1.0</d:Version>
+        <d:Path>/Lists/SalesLeads</d:Path>
+        <d:FirstName>Don</d:FirstName>
+        <d:FullName m:null="true" />
+        <d:EMailAddress m:null="true" />
+        <d:Company>Contoso Pharmaceuticals</d:Company>
+        <d:JobTitle m:null="true" />
+        <d:BusinessPhone>(904)333-4444</d:BusinessPhone>
+        <d:HomePhone m:null="true" />
+        <d:MobileNumber m:null="true" />
+        <d:FaxNumber m:null="true" />
+        <d:Address m:null="true" />
+        <d:City m:null="true" />
+        <d:StateProvince m:null="true" />
+        <d:ZIPPostalCode m:null="true" />
+        <d:CountryRegion m:null="true" />
+        <d:WebPage m:null="true" />
+        <d:Notes m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry m:etag="W/&quot;1&quot;">
+    <id>http://intranet.wingtip.com/_vti_bin/listdata.svc/SalesLeads(3)</id>
+    <title type="text">Healy</title>
+    <updated>2010-05-09T13:02:31-04:00</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="SalesLeadsItem" href="SalesLeads(3)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/CreatedBy" type="application/atom+xml;type=entry" title="CreatedBy" href="SalesLeads(3)/CreatedBy" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ModifiedBy" type="application/atom+xml;type=entry" title="ModifiedBy" href="SalesLeads(3)/ModifiedBy" />
+    <category term="Microsoft.SharePoint.DataService.SalesLeadsItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">3</d:Id>
+        <d:ContentTypeID>0x0106006783EB4FEF4EDF409B5D9B743E080EB7</d:ContentTypeID>
+        <d:ContentType>Contact</d:ContentType>
+        <d:LastName>Healy</d:LastName>
+        <d:Modified m:type="Edm.DateTime">2010-05-09T13:02:31</d:Modified>
+        <d:Created m:type="Edm.DateTime">2010-05-09T13:02:31</d:Created>
+        <d:CreatedById m:type="Edm.Int32">1</d:CreatedById>
+        <d:ModifiedById m:type="Edm.Int32">1</d:ModifiedById>
+        <d:Owshiddenversion m:type="Edm.Int32">1</d:Owshiddenversion>
+        <d:Version>1.0</d:Version>
+        <d:Path>/Lists/SalesLeads</d:Path>
+        <d:FirstName>Joe</d:FirstName>
+        <d:FullName m:null="true" />
+        <d:EMailAddress m:null="true" />
+        <d:Company>Humongous Insurance</d:Company>
+        <d:JobTitle m:null="true" />
+        <d:BusinessPhone>(512)555-6666</d:BusinessPhone>
+        <d:HomePhone m:null="true" />
+        <d:MobileNumber m:null="true" />
+        <d:FaxNumber m:null="true" />
+        <d:Address m:null="true" />
+        <d:City m:null="true" />
+        <d:StateProvince m:null="true" />
+        <d:ZIPPostalCode m:null="true" />
+        <d:CountryRegion m:null="true" />
+        <d:WebPage m:null="true" />
+        <d:Notes m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry m:etag="W/&quot;1&quot;">
+    <id>http://intranet.wingtip.com/_vti_bin/listdata.svc/SalesLeads(4)</id>
+    <title type="text">Chris</title>
+    <updated>2010-05-09T13:02:31-04:00</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="SalesLeadsItem" href="SalesLeads(4)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/CreatedBy" type="application/atom+xml;type=entry" title="CreatedBy" href="SalesLeads(4)/CreatedBy" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ModifiedBy" type="application/atom+xml;type=entry" title="ModifiedBy" href="SalesLeads(4)/ModifiedBy" />
+    <category term="Microsoft.SharePoint.DataService.SalesLeadsItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">4</d:Id>
+        <d:ContentTypeID>0x0106006783EB4FEF4EDF409B5D9B743E080EB7</d:ContentTypeID>
+        <d:ContentType>Contact</d:ContentType>
+        <d:LastName>Chris</d:LastName>
+        <d:Modified m:type="Edm.DateTime">2010-05-09T13:02:31</d:Modified>
+        <d:Created m:type="Edm.DateTime">2010-05-09T13:02:31</d:Created>
+        <d:CreatedById m:type="Edm.Int32">1</d:CreatedById>
+        <d:ModifiedById m:type="Edm.Int32">1</d:ModifiedById>
+        <d:Owshiddenversion m:type="Edm.Int32">1</d:Owshiddenversion>
+        <d:Version>1.0</d:Version>
+        <d:Path>/Lists/SalesLeads</d:Path>
+        <d:FirstName>Sells</d:FirstName>
+        <d:FullName m:null="true" />
+        <d:EMailAddress m:null="true" />
+        <d:Company>A. Datum Corporation</d:Company>
+        <d:JobTitle m:null="true" />
+        <d:BusinessPhone>(206)777-8888</d:BusinessPhone>
+        <d:HomePhone m:null="true" />
+        <d:MobileNumber m:null="true" />
+        <d:FaxNumber m:null="true" />
+        <d:Address m:null="true" />
+        <d:City m:null="true" />
+        <d:StateProvince m:null="true" />
+        <d:ZIPPostalCode m:null="true" />
+        <d:CountryRegion m:null="true" />
+        <d:WebPage m:null="true" />
+        <d:Notes m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+</feed>

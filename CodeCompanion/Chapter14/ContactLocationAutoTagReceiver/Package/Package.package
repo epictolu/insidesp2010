@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5da324a7-6db2-453c-9a53-38525e1d326b" solutionId="5da324a7-6db2-453c-9a53-38525e1d326b" resetWebServer="false" name="ContactLocationAutoTagReceiver" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6e3f47f0-c83f-4a44-92fe-27c02c25b1e5" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="dc38f859-7c22-402c-b00f-3569700c061b" />
+  </projectItems>
+</package>

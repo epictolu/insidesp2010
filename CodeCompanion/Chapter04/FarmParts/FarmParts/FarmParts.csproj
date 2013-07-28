@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93BF6532-C239-4DC1-BB31-2A43B23FB567}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FarmParts</RootNamespace>
+    <AssemblyName>FarmParts</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SalesLeadsWebPart\SalesLeadsWebPart.cs" />
+    <Compile Include="SalesLeadsWebPart\SalesLeadsWebPartUserControl.ascx.cs">
+      <DependentUpon>SalesLeadsWebPartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesLeadsWebPart\SalesLeadsWebPartUserControl.ascx.designer.cs">
+      <DependentUpon>SalesLeadsWebPartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SiteCollectionsWebPart\SiteCollectionsWebPart.cs" />
+    <Compile Include="SiteCollectionsWebPart\SiteCollectionsWebPartUserControl.ascx.cs">
+      <DependentUpon>SiteCollectionsWebPartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteCollectionsWebPart\SiteCollectionsWebPartUserControl.ascx.designer.cs">
+      <DependentUpon>SiteCollectionsWebPartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrustedProxyOperations\TrustedProxyOperations.cs" />
+    <Compile Include="TrustedProxyOperations\TrustedProxyOperationsUserControl.ascx.cs">
+      <DependentUpon>TrustedProxyOperationsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrustedProxyOperations\TrustedProxyOperationsUserControl.ascx.designer.cs">
+      <DependentUpon>TrustedProxyOperationsUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebAppsWebPart\WebAppsWebPart.cs" />
+    <Compile Include="WebAppsWebPart\WebAppsWebPartUserControl.ascx.cs">
+      <DependentUpon>WebAppsWebPartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAppsWebPart\WebAppsWebPartUserControl.ascx.designer.cs">
+      <DependentUpon>WebAppsWebPartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\MainSite\MainSite.feature">
+      <FeatureId>{c45330e2-7de7-4fcc-8375-e249868bffb7}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b128ab2-1b64-4bdf-9125-4e7009fbae2e}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{916c7c00-ad9f-4ea1-8dd8-f9347fbff1b8}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SalesLeadsWebPart\SalesLeadsWebPart.webpart" />
+    <None Include="SalesLeadsWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{965f1736-7bcd-403f-a0d4-9a0d618ec0c6}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCollectionsWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4b86e5f-1935-41a9-b1c6-2b1229d128d1}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCollectionsWebPart\SiteCollectionsWebPart.webpart" />
+    <None Include="TrustedProxyOperations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4bdcf2b8-1df3-4703-a7bd-96293b6e74cb}</SharePointProjectItemId>
+    </None>
+    <None Include="TrustedProxyOperations\TrustedProxyOperations.webpart" />
+    <None Include="WebAppsWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{541894b7-b888-4ebc-b374-63fa00c3ee08}</SharePointProjectItemId>
+    </None>
+    <None Include="WebAppsWebPart\WebAppsWebPart.webpart" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Features\MainSite\MainSite.Template.xml">
+      <DependentUpon>MainSite.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\FarmParts\FeedTransform.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SalesLeadsWebPart\Elements.xml" />
+    <Content Include="SampleFeed.xml" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="SalesLeadsWebPart\SalesLeadsWebPartUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="SiteCollectionsWebPart\Elements.xml" />
+    <Content Include="SiteCollectionsWebPart\SiteCollectionsWebPartUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="TrustedProxyOperations\Elements.xml" />
+    <Content Include="TrustedProxyOperations\TrustedProxyOperationsUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="WebAppsWebPart\Elements.xml" />
+    <Content Include="WebAppsWebPart\WebAppsWebPartUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

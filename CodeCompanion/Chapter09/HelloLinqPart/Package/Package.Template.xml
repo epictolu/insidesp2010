@@ -1,0 +1,15 @@
+﻿<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="992d9a5b-49bb-4084-8a76-61f486537227">
+  <Assemblies>
+    <Assembly Location="HelloLinqPart.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="HelloLinqPart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66606ffe24206168" Namespace="HelloLinqPart.VisualPart" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\HelloLinqPart_LinqSources\LinqSourcesUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="HelloLinqPart_LinqSources\Feature.xml" />
+  </FeatureManifests>
+</Solution>

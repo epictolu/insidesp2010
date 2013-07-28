@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- new site column based off the "single line of text" field type -->
+  <Field SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         ID="{0D499375-D734-43DB-A2EE-343B490B9CB0}"
+         Name="PRByLine"
+         DisplayName="Press Release ByLine"
+         Group="Wingtip"
+         Type="Text"
+         Required="FALSE"
+         Sealed="FALSE"
+         Hidden="FALSE" />
+
+  <!-- new site column based off the "publishing html" field type -->
+  <Field SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         ID="{0C50E0BF-A35C-4A38-B784-AFA60BBADC00}"
+         Name="PRBody"
+         DisplayName="Press Release Body"
+         Group="Wingtip"
+         Type="HTML"
+         Required="FALSE"
+         Sealed="FALSE"
+         Hidden="FALSE" />
+
+  <!-- Parent ContentType: Page (0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39) -->
+  <ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39008d9a0288b03e457abc84303bcdaa9cd7"
+               Name="Press Release"
+               Description="Wingtip Press Release"
+               Group="Wingtip"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{0D499375-D734-43DB-A2EE-343B490B9CB0}" Name="PRByLine" />
+      <FieldRef ID="{0C50E0BF-A35C-4A38-B784-AFA60BBADC00}" Name="PRBody" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

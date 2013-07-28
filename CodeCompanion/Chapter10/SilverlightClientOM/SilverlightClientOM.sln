@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightClientOM", "SilverlightClientOM\SilverlightClientOM.csproj", "{00A134B4-5E09-40FE-A8F9-0B01EA8DE69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightClientOM.Web", "SilverlightClientOM.Web\SilverlightClientOM.Web.csproj", "{3783C726-20DA-47CE-B538-7CEA9DC95671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightExceptionHandling", "SilverlightExceptionHandling\SilverlightExceptionHandling.csproj", "{244AC0A0-A6EB-4845-B7CF-3E496E0F0B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00A134B4-5E09-40FE-A8F9-0B01EA8DE69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A134B4-5E09-40FE-A8F9-0B01EA8DE69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A134B4-5E09-40FE-A8F9-0B01EA8DE69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A134B4-5E09-40FE-A8F9-0B01EA8DE69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3783C726-20DA-47CE-B538-7CEA9DC95671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3783C726-20DA-47CE-B538-7CEA9DC95671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3783C726-20DA-47CE-B538-7CEA9DC95671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3783C726-20DA-47CE-B538-7CEA9DC95671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244AC0A0-A6EB-4845-B7CF-3E496E0F0B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244AC0A0-A6EB-4845-B7CF-3E496E0F0B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244AC0A0-A6EB-4845-B7CF-3E496E0F0B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244AC0A0-A6EB-4845-B7CF-3E496E0F0B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

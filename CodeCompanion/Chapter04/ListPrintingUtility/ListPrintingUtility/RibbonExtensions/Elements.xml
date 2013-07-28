@@ -1,0 +1,38 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction
+      Id="Ribbon.List.Items.Print"
+      Location="CommandUI.Ribbon"
+      RegistrationType="ContentType"
+      RegistrationId="0x01"
+      Sequence="11"
+      Title="Print">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.ListItem.Actions.Controls._children">
+          <Button
+            Id="Ribbon.List.Items.Action.PrintListButton"
+            Sequence="01"
+            Alt="Print"
+            Command="PrintList"
+            Image16by16="/_layouts/images/mewa_frozenb.gif"
+            Image32by32="/_layouts/images/mewa_frozenb.gif"
+            LabelText="Print List"
+            ToolTipTitle="Print List"
+            ToolTipDescription="Opens current view in a printer-friendly page."
+            TemplateAlias="o1"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="PrintList"
+          CommandAction="javascript:
+            var queryString = '?ListId={ListId}&amp;ViewId=' + ctx.view;
+            var targetUrl = '{SiteUrl}/PrintingPages/List.aspx' + queryString; 
+            var windowOptions = 'scollbars=1,height=600,width=800';
+            window.open(targetUrl, 'printwindow', windowOptions);"/>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+
+</Elements>

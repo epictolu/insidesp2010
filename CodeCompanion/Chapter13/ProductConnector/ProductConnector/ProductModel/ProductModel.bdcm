@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/windows/2007/BusinessDataCatalog" Name="ProductModel">
+  <LobSystems>
+    <!-- LobSystem refers to the system prototype, which is .NET Assembly Connector -->
+    <LobSystem Name="ProductLobSystem" Type="DotNetAssembly">
+      <!-- LobSystemInstance is the particular external system -->
+      <LobSystemInstances>
+        <LobSystemInstance Name="ProductSystem">
+          <Properties>
+            <!-- Allows this system to appear as a content source in search -->
+            <Property Name="ShowInSearchUI" Type="System.String">x</Property>
+          </Properties>
+        </LobSystemInstance>
+      </LobSystemInstances>
+      <Entities>
+        <!-- The entity is the class module in the project-->
+        <Entity Name="Product" Namespace="ProductConnector.ProductModel" EstimatedInstanceCount="1000" Version="1.0.0.40">
+          <Properties>
+            <Property Name="Class" Type="System.String">ProductConnector.ProductModel.ProductService, ProductLobSystem</Property>
+            <!-- Title is used in the search results -->
+            <Property Name="Title" Type="System.String">Name</Property>
+          </Properties>
+          <Identifiers>
+            <Identifier Name="ID" TypeName="System.String" />
+          </Identifiers>
+          <Methods>
+            <!-- The prototype for a Finder method -->
+            <Method Name="ReadList">
+              <Parameters>
+                <Parameter Direction="Return" Name="returnParameter">
+                  <TypeDescriptor TypeName="System.Collections.Generic.IEnumerable`1[[ProductConnector.ProductModel.Product, ProductLobSystem]]" IsCollection="true" Name="ProductList">
+                    <TypeDescriptors>
+                      <TypeDescriptor Name="Product" TypeName="ProductConnector.ProductModel.Product, ProductLobSystem">
+                        <TypeDescriptors>
+                          <TypeDescriptor Name="ID" TypeName="System.String" IdentifierName="ID" />
+                          <TypeDescriptor Name="Manufacturer" TypeName="System.String" />
+                          <TypeDescriptor Name="Name" TypeName="System.String" />
+                          <TypeDescriptor Name="SecurityDescriptor" TypeName="System.Byte[]" IsCollection="true">
+                            <TypeDescriptors>
+                              <TypeDescriptor Name="SecurityDescriptorByte" TypeName="System.Byte" />
+                            </TypeDescriptors>
+                          </TypeDescriptor>
+                        </TypeDescriptors>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </Parameter>
+              </Parameters>
+              <MethodInstances>
+                <!-- The particular Finder method -->
+                <MethodInstance Type="Finder" ReturnParameterName="returnParameter" Default="true" Name="ReadList" DefaultDisplayName="Product List">
+                  <Properties>
+                    <!-- This Finder method should be called by the search indexer -->
+                    <Property Name="RootFinder" Type="System.String">x</Property>
+                  </Properties>
+                </MethodInstance>
+              </MethodInstances>
+            </Method>
+            <!-- The prototype for a SpecificFinder -->
+            <Method Name="ReadItem">
+              <Parameters>
+                <Parameter Direction="In" Name="id">
+                  <TypeDescriptor TypeName="System.String" IdentifierName="ID" Name="ID" />
+                </Parameter>
+                <Parameter Direction="Return" Name="returnParameter">
+                  <TypeDescriptor TypeName="ProductConnector.ProductModel.Product, ProductLobSystem" Name="Product">
+                    <TypeDescriptors>
+                      <TypeDescriptor TypeName="System.String" IdentifierName="ID" Name="ID" />
+                      <TypeDescriptor TypeName="System.String" Name="Manufacturer" />
+                      <TypeDescriptor Name="Name" TypeName="System.String" />
+                      <TypeDescriptor Name="SecurityDescriptor" TypeName="System.Byte[]" IsCollection="true">
+                        <TypeDescriptors>
+                          <TypeDescriptor Name="SecurityDescriptorByte" TypeName="System.Byte" />
+                        </TypeDescriptors>
+                      </TypeDescriptor>
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </Parameter>
+              </Parameters>
+              <MethodInstances>
+                <!-- The particular SpecificFinder -->
+                <MethodInstance Type="SpecificFinder" ReturnParameterName="returnParameter" Default="true" Name="ReadItem" DefaultDisplayName="Read Product" />
+              </MethodInstances>
+            </Method>
+            <!-- The prototype for the BinarySecurityDescriptorAccessor method -->
+            <Method Name="ReadSecurityDescriptor">
+              <FilterDescriptors>
+                <FilterDescriptor Name="user" Type="UserContext" />
+              </FilterDescriptors>
+              <Parameters>
+                <Parameter Name="id" Direction="In">
+                  <TypeDescriptor Name="ID" TypeName="System.String" IdentifierName="ID" />
+                </Parameter>
+                <Parameter Name="acl" Direction="Return">
+                  <TypeDescriptor Name="SecurityDescriptor" TypeName="System.Byte[]" IsCollection="true">
+                    <TypeDescriptors>
+                      <TypeDescriptor Name="SecurityDescriptorByte" TypeName="System.Byte" />
+                    </TypeDescriptors>
+                  </TypeDescriptor>
+                </Parameter>
+                <Parameter Name="username" Direction="In">
+                  <TypeDescriptor Name="UserContext" TypeName="System.String" IsCollection="false" AssociatedFilter="user" />
+                </Parameter>
+              </Parameters>
+              <MethodInstances>
+                <!-- The particular BinarySecurityDescriptorAccessor method -->
+                <MethodInstance Name="ReadSecurityDescriptorInstance" Type="BinarySecurityDescriptorAccessor" ReturnParameterName="acl">
+                  <Properties>
+                    <!-- Refers to the field where the ACL is stored -->
+                    <Property Name="WindowsSecurityDescriptorField" Type="System.String">SecurityDescriptor</Property>
+                  </Properties>
+                </MethodInstance>
+              </MethodInstances>
+            </Method>
+          </Methods>
+        </Entity>
+      </Entities>
+    </LobSystem>
+  </LobSystems>
+</Model>

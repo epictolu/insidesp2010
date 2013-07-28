@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5cacdba2-0ccc-43c4-8e4d-254ad4a0cb98" solutionId="5cacdba2-0ccc-43c4-8e4d-254ad4a0cb98" resetWebServer="false" name="ListPrintingUtility" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="580f593f-b2a0-4250-9072-a800638edab8" />
+  </features>
+</package>

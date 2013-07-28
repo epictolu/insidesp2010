@@ -1,0 +1,24 @@
+﻿<Window xmlns:my1="clr-namespace:System.Windows.Controls;assembly=PresentationFramework"  xmlns:my="clr-namespace:System.Windows.Controls;assembly=PresentationFramework"  x:Class="HelloClientOM.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="548" Width="365">
+    <Grid Height="516">
+        <StackPanel Height="445" HorizontalAlignment="Left" Margin="18,40,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="313" Orientation="Vertical" >
+            <Label Content="Site Url" Height="28" HorizontalAlignment="Left" Margin="26,13,0,0" Name="label1" VerticalAlignment="Top" Width="120" />
+            <TextBox Text="http://intranet.wingtip.com" Margin="1,1,1,1" Height="24" Name="siteUrl" Width="287" />
+            <StackPanel Margin="5,5,5,5" Height="28" Name="stackPanel2" Width="281" Orientation="Horizontal" >
+              <my:Button Margin="1,1,1,1" Name="getTitle" Content="Get Title" Click="getTitle_Click" /><my1:TextBox Margin="1,1,1,1" Name="siteTitle" Width="223"></my1:TextBox>  
+            </StackPanel>
+            <StackPanel Margin="5,5,5,5" Height="28" Name="stackPanel4" Width="281" Orientation="Horizontal" >
+                <my:Button Margin="1,1,1,1" Name="updateList" Content="Update a non-existant list!" Click="updateList_Click" />
+                <my1:TextBox Margin="1,1,1,1" Name="listTitle" Text="My List" Width="223"></my1:TextBox>
+            </StackPanel>
+            <StackPanel Margin="5,5,5,5" Height="120" Name="stackPanel3" Width="290" Orientation="Horizontal" >
+                <my:Button Margin="1,1,1,1" Name="getLists" Content="Get Lists" Click="getLists_Click" Height="34" />
+                <ListBox Margin="1,1,1,1" Height="100" Name="siteLists" Width="230" />
+            </StackPanel>
+            <TextBlock Height="150
+                       " Name="messages" Text="" Width="292" Foreground="Red"  />
+        </StackPanel>
+    </Grid>
+</Window>

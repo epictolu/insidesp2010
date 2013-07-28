@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08C5FC57-41DF-4536-9757-E0B64CDC329D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SandboxedParts</RootNamespace>
+    <AssemblyName>SandboxedParts</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InefficientWebPart\InefficientWebPart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SalesLeads\SalesLeads.cs" />
+    <Compile Include="SiteCollections\SiteCollections.cs" />
+    <Compile Include="WebApps\WebApps.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\MainSite\MainSite.feature">
+      <FeatureId>{ccf5327a-556a-45f9-b54e-0492080571af}</FeatureId>
+    </None>
+    <None Include="InefficientWebPart\InefficientWebPart.webpart" />
+    <None Include="InefficientWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3c307d47-83ed-4b04-ab41-7ea520535677}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{eb61667a-0af5-426d-b718-3867a1c12bee}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SalesLeads\SalesLeads.webpart">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SalesLeads\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{182a2e9a-098a-4746-aea6-e404dd80cb46}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCollections\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2d590c4d-8679-43bf-af3d-464e3586e3f3}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCollections\SiteCollections.webpart" />
+    <None Include="WebApps\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2c571b02-3c49-4549-bd1e-e141b27931f8}</SharePointProjectItemId>
+    </None>
+    <None Include="WebApps\WebApps.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\MainSite\MainSite.Template.xml">
+      <DependentUpon>MainSite.feature</DependentUpon>
+    </Content>
+    <Content Include="InefficientWebPart\Elements.xml" />
+    <Content Include="SalesLeads\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="SiteCollections\Elements.xml" />
+    <Content Include="WebApps\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WingtipTrustedBase\WingtipTrustedBase\WingtipTrustedBase.csproj">
+      <Project>{FF170B16-FDE0-4E9C-90ED-CC73649E534E}</Project>
+      <Name>WingtipTrustedBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
+</Project>

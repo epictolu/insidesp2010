@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <WorkflowActions>
+
+    <Action 
+      Name="Sandboxed Action 1"
+      SandboxedFunction="true"
+      Assembly="$SharePoint.Project.AssemblyFullName$"
+      ClassName="WingtipActions.SandboxedAction1"
+      FunctionName="ActionMethod1"
+      UsesCurrentItem="true"      
+      AppliesTo="all"
+      Category="Custom Wingtip Actions">
+
+      <RuleDesigner Sentence="Create document workspace for current item (Outcome to %1)">
+        <FieldBind Field="Outcome"
+                   Text="outcome" Id="1"
+                   DesignerType="ParameterNames" />
+      </RuleDesigner>
+
+      <Parameters>
+        <Parameter Name="__Context"
+                   Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext, Microsoft.SharePoint.WorkflowActions"
+                         Direction="In"
+                         DesignerType="Hide"/>
+        <Parameter Name="Outcome"
+                   Type="System.String, mscorlib"
+                   Direction="Out"
+                   DesignerType="ParameterNames"
+                   Description="Outcome of operation"/>
+      </Parameters>
+
+    </Action>
+
+
+
+
+    <Action Name="Create Document Workspace"
+            SandboxedFunction="true"
+            Assembly="$SharePoint.Project.AssemblyFullName$"
+            ClassName="WingtipActions.CreateDocWorkspaceAction"
+            FunctionName="CreateDocWorkspace"
+            AppliesTo="doclib"
+            Category="Custom Wingtip Actions">
+
+      <RuleDesigner Sentence="Create document workspace for current item (Outcome to %1)">
+        <FieldBind Field="Outcome"
+                   Text="outcome" Id="1"
+                   DesignerType="ParameterNames" />
+      </RuleDesigner>
+
+      <Parameters>
+        <Parameter Name="__Context"
+                   Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext, Microsoft.SharePoint.WorkflowActions"
+                         Direction="In"
+                         DesignerType="Hide"/>
+        <Parameter Name="Outcome"
+                   Type="System.String, mscorlib"
+                   Direction="Out"
+                   DesignerType="ParameterNames"
+                   Description="Outcome of operation"/>
+      </Parameters>
+
+    </Action>
+  </WorkflowActions>
+
+
+</Elements>

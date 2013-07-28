@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="TrustedProxyOperationsUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="TrustedProxyOperations\" Type="ElementManifest" />
+    <ProjectItemFile Source="TrustedProxyOperations.webpart" Target="TrustedProxyOperations\" Type="ElementFile" />
+    <ProjectItemFile Source="TrustedProxyOperationsUserControl.ascx" Target="CONTROLTEMPLATES\FarmParts\TrustedProxyOperations\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="FarmParts.TrustedProxyOperations" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

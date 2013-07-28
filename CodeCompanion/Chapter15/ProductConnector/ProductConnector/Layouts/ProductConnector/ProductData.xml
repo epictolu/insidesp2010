@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Product ID="1" Manufacturer="Microsoft" Name="XBox-360" />
+  <Product ID="2" Manufacturer="Seagate" Name="Harddrive" />
+  <Product ID="3" Manufacturer="Dell" Name="Laptop" />
+  <Product ID="4" Manufacturer="Microsoft" Name="Zune" />
+</Products>

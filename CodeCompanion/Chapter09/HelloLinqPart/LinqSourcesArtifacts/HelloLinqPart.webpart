@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="HelloLinqPart.VisualPart.LinqSources, HelloLinqPart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66606ffe24206168" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Hello, LINQ!</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

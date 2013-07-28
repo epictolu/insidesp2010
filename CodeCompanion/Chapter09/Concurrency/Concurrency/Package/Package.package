@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="717b350e-cdfc-41ca-9eb4-5205bf06fb37" solutionId="717b350e-cdfc-41ca-9eb4-5205bf06fb37" resetWebServer="false" name="Concurrency" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ac14b882-256e-4712-baf3-87dc7859bff9" />
+  </features>
+</package>

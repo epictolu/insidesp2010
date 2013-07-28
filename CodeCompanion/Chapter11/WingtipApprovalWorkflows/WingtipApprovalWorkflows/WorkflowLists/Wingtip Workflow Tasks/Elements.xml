@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ListInstance 
+    Title="Wingtip Workflow Tasks"
+    OnQuickLaunch="FALSE"
+    TemplateType="107"              
+    FeatureId="00bfea71-a83e-497e-9ba0-7a5c597d0107"
+    Url="Lists/WingtipWorkflowTasks"
+    />
+
+  <ContentTypeBinding 
+    ContentTypeId="0x01080100655E7E0BCBA64431B9266D69CB53A7BA"
+    ListUrl="Lists/WingtipWorkflowTasks" />
+    
+</Elements>

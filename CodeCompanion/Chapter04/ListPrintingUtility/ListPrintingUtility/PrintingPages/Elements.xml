@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="PrintingPages">
+    <File Path="PrintingPages\List.aspx" Url="PrintingPages/List.aspx" />
+    <File Path="PrintingPages\List.js" Url="PrintingPages/List.js" />
+    <File Path="PrintingPages\ListStyles.css" Url="PrintingPages/ListStyles.css" />
+    <File Path="PrintingPages\ListStylesPrinting.css" Url="PrintingPages/ListStylesPrinting.css" />
+  </Module>
+</Elements>

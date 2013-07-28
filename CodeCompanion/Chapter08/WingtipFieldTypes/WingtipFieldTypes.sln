@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipFieldTypes", "WingtipFieldTypes\WingtipFieldTypes.csproj", "{DE4D5E87-6857-4135-BF31-D8B96E898647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipFieldTypesInUse", "..\WingtipFieldTypesInUse\WingtipFieldTypesInUse.csproj", "{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE4D5E87-6857-4135-BF31-D8B96E898647} = {DE4D5E87-6857-4135-BF31-D8B96E898647}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4D5E87-6857-4135-BF31-D8B96E898647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4D5E87-6857-4135-BF31-D8B96E898647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4D5E87-6857-4135-BF31-D8B96E898647}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE4D5E87-6857-4135-BF31-D8B96E898647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4D5E87-6857-4135-BF31-D8B96E898647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4D5E87-6857-4135-BF31-D8B96E898647}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

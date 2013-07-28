@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WingtipSitePages">
+    <File Path="WingtipSitePages\PageTemplate1.aspx" Url="WingtipSitePages/SitePage1.aspx" />
+    <File Path="WingtipSitePages\PageTemplate2.aspx" Url="WingtipSitePages/SitePage2.aspx" >
+      <!-- Add a Web Part to left zone -->
+      <AllUsersWebPart WebPartZoneID="Main" WebPartOrder="0">
+        <![CDATA[         
+          <webParts>
+            <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+              <metaData>
+                <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart,Microsoft.SharePoint,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c" />
+                <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+              </metaData>
+              <data>
+                <properties>
+                  <property name="Title" type="string">Customers</property>
+                  <property name="ListDisplayName" type="string">Customers</property>                          
+                  <property name="ChromeType" type="chrometype">TitleOnly</property>
+                </properties>
+              </data>
+            </webPart>
+          </webParts>
+        ]]>
+      </AllUsersWebPart>
+      <!-- Add a Web Part to right zone -->
+      <AllUsersWebPart WebPartZoneID="TopRight" WebPartOrder="0">
+        <![CDATA[ 
+       <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2" 
+                xmlns:iwp="http://schemas.microsoft.com/WebPart/v2/Image">
+            <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+            <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+            <FrameType>None</FrameType>
+            <Title>Wingtip Sales Team - 1988</Title>
+            <iwp:ImageLink>images/Salesteam.jpg</iwp:ImageLink>
+       </WebPart>                   
+    ]]>
+      </AllUsersWebPart>
+    </File>
+    <File Path="WingtipSitePages\PageTemplate3.aspx" Url="WingtipSitePages/SitePage3.aspx" />
+    <File Path="WingtipSitePages\PageTemplate4.aspx" Url="WingtipSitePages/SitePage4.aspx" />
+
+    <File Path="WingtipSitePages\styles.css" Url="WingtipSitePages/styles.css" />
+    <File Path="WingtipSitePages\SilverlightApp1.xap" Url="WingtipSitePages/SilverlightApp1.xap" />
+    <File Path="WingtipSitePages\images\WingtipLogo.gif" Url="WingtipSitePages/images/WingtipLogo.gif" />
+    <File Path="WingtipSitePages\images\SalesTeam.jpg" Url="WingtipSitePages/images/SalesTeam.jpg" />
+    <File Path="WingtipSitePages\images\SalesmanOfTheYear.jpg" Url="WingtipSitePages/images/SalesmanOfTheYear.jpg" />
+    <File Path="WingtipSitePages\images\TheEarlyDays.jpg" Url="WingtipSitePages/images/TheEarlyDays.jpg" />
+    <File Path="WingtipSitePages\jquery\js\jquery-1.4.2.min.js" Url="WingtipSitePages/jquery/js/jquery-1.4.2.min.js" />
+    <File Path="WingtipSitePages\jquery\js\jquery-ui-1.8.2.custom.min.js" Url="WingtipSitePages/jquery/js/jquery-ui-1.8.2.custom.min.js" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\jquery-ui-1.8.2.custom.css" Url="WingtipSitePages/jquery/css/ui-lightness/jquery-ui-1.8.2.custom.css" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-anim_basic_16x16.gif" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-anim_basic_16x16.gif" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-icons_222222_256x240.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-icons_222222_256x240.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-icons_228ef1_256x240.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-icons_228ef1_256x240.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
+    <File Path="WingtipSitePages\jquery\css\ui-lightness\images\ui-icons_ffffff_256x240.png" Url="WingtipSitePages/jquery/css/ui-lightness/images/ui-icons_ffffff_256x240.png" />
+    <File Path="WingtipSitePages\PageTemplate4.aspx.js" Url="WingtipSitePages/PageTemplate4.aspx.js" />
+    <File Path="WingtipSitePages\PageTemplate4.aspx.css" Url="WingtipSitePages/PageTemplate4.aspx.css" />
+
+  </Module>
+</Elements>
