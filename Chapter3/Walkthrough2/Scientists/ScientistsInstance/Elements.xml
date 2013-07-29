@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Scientists" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/Scientists" Description="List used to track research scientists involved in Wingtip product development"></ListInstance>
+</Elements>

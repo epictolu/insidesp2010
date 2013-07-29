@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8e717934-ded7-4754-8130-2ff37673d904" solutionId="8e717934-ded7-4754-8130-2ff37673d904" resetWebServer="false" name="Walkthrough2" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="23d0a9f5-f0cc-4420-83e7-4294109b1cb9" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="b0a53043-24db-4346-ba32-bafdec40e3c4" />
+  </projectItems>
+</package>
