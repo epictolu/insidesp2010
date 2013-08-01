@@ -1,0 +1,9 @@
+<Feature
+    Id="78ba4f58-b11e-48c9-b3ed-82deb88a3647"
+    Title="Full Trust Proxy"
+    Description="Registers a full-trust proxy with SharePoint"
+    ReceiverAssembly="FullTrustProxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adfe4e9f5594a2b3"
+    ReceiverClass="FullTrustProxy.FullTrustProxyFeatureReceiver"
+    Scope="WebApplication"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+</Feature>

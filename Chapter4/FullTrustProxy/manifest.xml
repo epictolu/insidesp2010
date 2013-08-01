@@ -1,0 +1,15 @@
+<Solution
+    SolutionId="db3964cc-e13b-4c7e-b642-b757bef81e8c"
+    Title="Full Trust Proxy"
+    DeploymentServerType="WebFrontEnd"
+    Description="Deploy and register the full-trust proxy for a sandboxed solution"
+    ResetWebServer="False"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+    <FeatureManifests>
+        <FeatureManifest Location="FullTrustProxy\feature.xml"/>
+    </FeatureManifests>
+
+    <Assemblies>
+        <Assembly Location="build\FullTrustProxy.dll" DeploymentTarget="GlobalAssemblyCache"/>
+    </Assemblies>
+</Solution>

@@ -1,0 +1,14 @@
+.OPTION EXPLICIT
+.Set CabinetNameTemplate=FullTrustProxy.wsp
+.Set DiskDirectory1=build
+
+; Add files to the root folder of cab file
+manifest.xml
+
+; Add files to the FullTrustProxy folder of cab file
+.Set DestinationDir=FullTrustProxy
+Feature\feature.xml
+
+; Add files to the build folder of cab file
+.Set DestinationDir=build
+bin\debug\FullTrustProxy.dll
