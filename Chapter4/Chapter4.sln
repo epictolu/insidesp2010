@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walkthrough3", "Walkthrough
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullTrustProxy", "FullTrustProxy\FullTrustProxy.csproj", "{0477CFA9-EEC4-40B8-926D-5080BD5D579E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxWebPart", "SandboxWebPart\SandboxWebPart.csproj", "{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{0477CFA9-EEC4-40B8-926D-5080BD5D579E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0477CFA9-EEC4-40B8-926D-5080BD5D579E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0477CFA9-EEC4-40B8-926D-5080BD5D579E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

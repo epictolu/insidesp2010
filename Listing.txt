@@ -9,3 +9,4 @@ Walkthrough 2 : Creating a SharePoint project using SharePoint Developer Tools
 Chapter 4
 Walkthrough 3 : Creating a sandboxed solution
 FullTrustProxy : Creating and registering a full-trust proxy for a sandboxed solution
+SandboxWebPart : Web part making use of the FullTrustProxy

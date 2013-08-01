@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="0028a53a-56a9-4444-ac3b-427a40540fc4" solutionId="0028a53a-56a9-4444-ac3b-427a40540fc4" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="SandboxWebPart">
+    <features>
+        <featureReference itemId="4ec69b2f-33d8-4d1c-b067-b3abce6cff92" />
+    </features>
+</package>
