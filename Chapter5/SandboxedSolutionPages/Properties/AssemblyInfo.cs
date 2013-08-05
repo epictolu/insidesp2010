@@ -6,11 +6,11 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Walkthrough4")]
+[assembly: AssemblyTitle("SandboxedSolutionPages")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Walkthrough4")]
+[assembly: AssemblyProduct("SandboxedSolutionPages")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +21,7 @@ using System.Security;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("54c79ff6-f28b-4a40-b267-f03f6a60cbca")]
+[assembly: Guid("4ec46f50-2f09-4370-9fab-a85bc0dd8afc")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -36,4 +36,3 @@ using System.Security;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: AllowPartiallyTrustedCallers()]

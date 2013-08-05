@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WingtipSitePages">
+    <File Path="WingtipSitePages\VisualStudioPage.aspx" Url="WingtipSitePages/VisualStudioPage.aspx" />
+  </Module>
+</Elements>
