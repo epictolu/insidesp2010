@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4EC46F50-2F09-4370-9FAB-A85BC0DD8AFC}</ProjectGuid>
+    <ProjectGuid>{582EFEAB-5BFC-41D9-BC5D-5E56E8990194}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SandboxedSolutionPages</RootNamespace>
-    <AssemblyName>SandboxedSolutionPages</AssemblyName>
+    <RootNamespace>FarmSolutionPages</RootNamespace>
+    <AssemblyName>FarmSolutionPages</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,52 +43,39 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\Feature1\Feature1.EventReceiver.cs">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <Compile Include="Layouts\FarmSolutionPages\SiteInfo.aspx.cs">
+      <DependentUpon>SiteInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\FarmSolutionPages\SiteInfo.aspx.designer.cs">
+      <DependentUpon>SiteInfo.aspx.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{ff6ff2c1-c1f5-42f0-947c-39153eac19af}</FeatureId>
-    </None>
     <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9587bc2a-cde7-4cd9-98b0-58f2d611abe1}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
-      <PackageId>{298da816-8372-4ef4-beef-34ec8dd05524}</PackageId>
+      <PackageId>{019fc241-4678-4b64-84f2-041962a033fc}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="WingtipSitePages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{dbb61351-25bb-4703-bf64-91c203e80666}</SharePointProjectItemId>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
-    </Content>
-    <Content Include="WingtipSitePages\images\AC.jpg" />
-    <Content Include="WingtipSitePages\images\SalesmanOfTheYear.jpg" />
-    <Content Include="WingtipSitePages\images\SalesTeam.jpg" />
-    <Content Include="WingtipSitePages\images\TheEarlyDays.jpg" />
-    <Content Include="WingtipSitePages\images\WingtipLogo.gif" />
-    <Content Include="WingtipSitePages\images\z_SalesmanOfTheYear - Copy.jpg" />
-    <Content Include="WingtipSitePages\images\z_SalesTeam - Copy.jpg" />
-    <Content Include="WingtipSitePages\images\z_TheEarlyDays - Copy.jpg" />
-    <Content Include="WingtipSitePages\PageTemplate2.aspx" />
-    <Content Include="WingtipSitePages\PageTemplate4.aspx" />
-    <Content Include="WingtipSitePages\PageTemplate3.aspx" />
-    <Content Include="WingtipSitePages\Elements.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="WingtipSitePages\PageTemplate1.aspx" />
-    <Content Include="WingtipSitePages\styles.css" />
-    <Content Include="WingtipSitePages\WebPartPageTemplate.aspx" />
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Layouts\FarmSolutionPages\SiteInfo.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
