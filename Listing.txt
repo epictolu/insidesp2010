@@ -10,3 +10,8 @@ Chapter 4
 Walkthrough 3 : Creating a sandboxed solution
 FullTrustProxy : Creating and registering a full-trust proxy for a sandboxed solution
 SandboxWebPart : Web part making use of the FullTrustProxy
+
+Chapter 5
+SitePage : Linking to a master page
+SitePageTemplate : Creating a new site page template
+Walkthrough 4 : Using the Module SharePoint Project Item

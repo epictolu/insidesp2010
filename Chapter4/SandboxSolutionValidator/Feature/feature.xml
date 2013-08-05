@@ -1,0 +1,9 @@
+<Feature
+    Id="23a494f9-4fc7-46da-8425-0c7201f6c562"
+    Title="Custom Solution Validator"
+    Description="Register custom solution validator for sandboxed solutions"
+    Scope="Farm"
+    ReceiverAssembly="SandboxSolutionValidator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc9d095fee911817"
+    ReceiverClass="SandboxSolutionValidator.FeatureReceiver"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+</Feature>

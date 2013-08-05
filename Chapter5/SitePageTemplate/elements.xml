@@ -1,0 +1,7 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Module Path="" Url="WingtipSitePages">
+        <File Url="MyTemplate.aspx" Name="Page1.aspx" Type="Ghostable" />
+        <File Url="MyTemplate.aspx" Name="Page2.aspx" Type="Ghostable" />
+        <File Url="MyTemplate.aspx" Name="Page3.aspx" Type="Ghostable" />
+    </Module>
+</Elements>

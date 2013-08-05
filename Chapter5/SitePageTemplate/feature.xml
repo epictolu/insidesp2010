@@ -1,0 +1,10 @@
+<Feature
+    Id="8a3e14c6-1f68-46d2-9ebf-ea2d876b31fd"
+    Title="Site Page Template"
+    Description="Create a site page template"
+    Scope="Web"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ElementManifests>
+        <ElementManifest Location="elements.xml"/>
+    </ElementManifests>
+</Feature>

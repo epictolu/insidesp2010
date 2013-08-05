@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullTrustProxy", "FullTrust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxWebPart", "SandboxWebPart\SandboxWebPart.csproj", "{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxSolutionValidator", "SandboxSolutionValidator\SandboxSolutionValidator.csproj", "{6113B71E-A4A3-4447-8BCD-E511BD2D697B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A4D9558A-CBA7-4B33-94FF-34BEA909F10B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6113B71E-A4A3-4447-8BCD-E511BD2D697B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6113B71E-A4A3-4447-8BCD-E511BD2D697B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6113B71E-A4A3-4447-8BCD-E511BD2D697B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6113B71E-A4A3-4447-8BCD-E511BD2D697B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
