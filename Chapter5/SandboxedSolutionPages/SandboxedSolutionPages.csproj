@@ -71,11 +71,21 @@
     <Content Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
+    <Content Include="WingtipSitePages\images\AC.jpg" />
+    <Content Include="WingtipSitePages\images\SalesmanOfTheYear.jpg" />
+    <Content Include="WingtipSitePages\images\SalesTeam.jpg" />
+    <Content Include="WingtipSitePages\images\TheEarlyDays.jpg" />
+    <Content Include="WingtipSitePages\images\WingtipLogo.gif" />
+    <Content Include="WingtipSitePages\images\z_SalesmanOfTheYear - Copy.jpg" />
+    <Content Include="WingtipSitePages\images\z_SalesTeam - Copy.jpg" />
+    <Content Include="WingtipSitePages\images\z_TheEarlyDays - Copy.jpg" />
     <Content Include="WingtipSitePages\PageTemplate2.aspx" />
     <Content Include="WingtipSitePages\PageTemplate4.aspx" />
     <Content Include="WingtipSitePages\PageTemplate3.aspx" />
     <Content Include="WingtipSitePages\Elements.xml" />
     <Content Include="WingtipSitePages\PageTemplate1.aspx" />
+    <Content Include="WingtipSitePages\styles.css" />
+    <Content Include="WingtipSitePages\WebPartPageTemplate.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

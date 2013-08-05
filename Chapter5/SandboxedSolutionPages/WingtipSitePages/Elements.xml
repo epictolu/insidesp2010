@@ -5,5 +5,15 @@
   <File Path="WingtipSitePages\PageTemplate3.aspx" Url="WingtipSitePages/SitePage3.aspx" />
 <File Path="WingtipSitePages\PageTemplate2.aspx" Url="WingtipSitePages/SitePage2.aspx" />
 <File Path="WingtipSitePages\PageTemplate4.aspx" Url="WingtipSitePages/SitePage4.aspx" />
+<File Path="WingtipSitePages\WebPartPageTemplate.aspx" Url="WingtipSitePages/WebPartPage.aspx" />
+<File Path="WingtipSitePages\styles.css" Url="WingtipSitePages/styles.css" />
+<File Path="WingtipSitePages\images\AC.jpg" Url="WingtipSitePages/images/AC.jpg" />
+<File Path="WingtipSitePages\images\SalesmanOfTheYear.jpg" Url="WingtipSitePages/images/SalesmanOfTheYear.jpg" />
+<File Path="WingtipSitePages\images\SalesTeam.jpg" Url="WingtipSitePages/images/SalesTeam.jpg" />
+<File Path="WingtipSitePages\images\TheEarlyDays.jpg" Url="WingtipSitePages/images/TheEarlyDays.jpg" />
+<File Path="WingtipSitePages\images\WingtipLogo.gif" Url="WingtipSitePages/images/WingtipLogo.gif" />
+<File Path="WingtipSitePages\images\z_SalesmanOfTheYear - Copy.jpg" Url="WingtipSitePages/images/z_SalesmanOfTheYear - Copy.jpg" />
+<File Path="WingtipSitePages\images\z_SalesTeam - Copy.jpg" Url="WingtipSitePages/images/z_SalesTeam - Copy.jpg" />
+<File Path="WingtipSitePages\images\z_TheEarlyDays - Copy.jpg" Url="WingtipSitePages/images/z_TheEarlyDays - Copy.jpg" />
 </Module>
 </Elements>

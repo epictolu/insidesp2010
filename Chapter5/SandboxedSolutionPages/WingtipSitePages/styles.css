@@ -1,0 +1,136 @@
+﻿#PageBanner {
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+  background-color: #9F002D;
+  border-bottom: 4px solid #CF6B2D;
+  vertical-align: top;
+}
+
+#PageBannerText {
+  margin-left: 10px;
+  font-size: 18pt;
+  color: #FFBF05;
+  vertical-align: top;
+  
+}
+
+#PageBody {
+  padding-left: 10px;
+  padding-top: 4px;
+min-width: 800px;
+}
+
+#RightColumn {
+  margin-right: 8px;
+  padding-top: 10px;
+  float: right;
+  min-height: 400px;
+  width: 260px;
+  max-width: 260px;
+  padding: 4px;
+  border: 2px solid #9F002D;
+  background-color: #FFBF05;
+  text-align: center;
+}
+
+#RightColumn h2, #RightColumn h3 {
+  color: #9F002D;
+  font-size: 10pt;
+  margin: 10px;
+}
+
+
+#RightColumn p {
+  color: black;
+  font-size: 8pt;
+  margin: 16px;
+  text-align: left;
+}
+
+#LeftColumn {    
+  margin-right: 288px;
+  min-height: 400px;
+  
+}
+
+
+#LeftColumn h2, #LeftColumn h3{
+  margin-top: 12px;
+  color: #CF6B2D;
+}
+
+
+#TeamPhotoImg {
+  float: right;
+}
+
+#DeveloperLinks {
+  font-size: 18pt;
+  color: Blue;
+}
+
+#TopRightZoneDiv {
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+  min-height: 400px;
+  padding: 8px;
+  border: 2px solid #333333;
+  background-color: #AAAAAA;
+  text-align: center;
+}
+
+#TopRightZoneTitle {
+  font-size: 10pt;
+}
+
+#MainZoneDiv {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.ms-WPHeader, .ms-WPHeader {
+  background-color: #333333;
+}
+
+.ms-WPTitle, .ms-WPTitle a, .ms-WPTitle a:link, .ms-WPTitle a:visited {
+  color: white;
+}
+
+.ms-WPHeaderMenuImg {
+  background-image: url('/_layouts/images/whitearrow.gif');
+  background-repeat: no-repeat;
+  visibility:visible;
+}
+
+.ms-WPMenuDiv, ms-WPHeaderTdMenu, .ms-WPHeaderTdMenu:hover {
+  background-color: transparent;
+  border-style: none;
+}
+
+.ms-WPHeaderTdMenu:hover{
+  background-image: none;
+  background-color:#333333;
+}
+
+.ms-WPHeaderCbxHidden{
+visibility: visible;
+}
+.ms-WPHeaderCbxVisible,.s4-wpcell:hover .ms-WPHeaderTdSelection input,.s4-wpActive .ms-WPHeaderTdSelection input{
+top:0px;
+margin:0px;
+position:relative;
+vertical-align:middle;
+}
+.s4-wpcell-plain .ms-WPHeaderTdSelection{
+display:none;
+}
+.ms-listviewtable{
+outline-style:none;
+}
+.ms-listviewtable:focus{
+border:0px none transparent
+}

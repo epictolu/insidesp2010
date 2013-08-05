@@ -6,5 +6,15 @@
     <ProjectItemFile Source="PageTemplate3.aspx" Target="WingtipSitePages\" Type="ElementFile" />
     <ProjectItemFile Source="PageTemplate2.aspx" Target="WingtipSitePages\" Type="ElementFile" />
     <ProjectItemFile Source="PageTemplate4.aspx" Target="WingtipSitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="WebPartPageTemplate.aspx" Target="WingtipSitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="styles.css" Target="WingtipSitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="images\AC.jpg" Target="WingtipSitePages\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\SalesmanOfTheYear.jpg" Target="WingtipSitePages\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\SalesTeam.jpg" Target="WingtipSitePages\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\TheEarlyDays.jpg" Target="WingtipSitePages\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\WingtipLogo.gif" Target="WingtipSitePages\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\z_SalesmanOfTheYear - Copy.jpg" Target="WingtipSitePages\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\z_SalesTeam - Copy.jpg" Target="WingtipSitePages\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\z_TheEarlyDays - Copy.jpg" Target="WingtipSitePages\images\" Type="ElementFile" />
   </Files>
 </ProjectItem>
