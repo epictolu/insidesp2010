@@ -15,3 +15,4 @@ Chapter 5
 SitePage : Linking to a master page
 SitePageTemplate : Creating a new site page template
 Walkthrough 4 : Using the Module SharePoint Project Item
+SandboxedSolutionPages : A sample project using sandboxed solutions

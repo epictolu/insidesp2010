@@ -1,9 +1,10 @@
-﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4ec46f50-2f09-4370-9fab-a85bc0dd8afc}</ProjectGuid>
+    <ProjectGuid>{4EC46F50-2F09-4370-9FAB-A85BC0DD8AFC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SandboxedSolutionPages</RootNamespace>
@@ -31,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,12 +50,29 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{ff6ff2c1-c1f5-42f0-947c-39153eac19af}</FeatureId>
+    </None>
+    <None Include="key.snk" />
     <None Include="Package\Package.package">
-        <PackageId>{298da816-8372-4ef4-beef-34ec8dd05524}</PackageId>
+      <PackageId>{298da816-8372-4ef4-beef-34ec8dd05524}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
-        <DependentUpon>Package.package</DependentUpon>
+      <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="WingtipSitePages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dbb61351-25bb-4703-bf64-91c203e80666}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="WingtipSitePages\PageTemplate2.aspx" />
+    <Content Include="WingtipSitePages\PageTemplate4.aspx" />
+    <Content Include="WingtipSitePages\PageTemplate3.aspx" />
+    <Content Include="WingtipSitePages\Elements.xml" />
+    <Content Include="WingtipSitePages\PageTemplate1.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

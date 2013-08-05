@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WingtipSitePages">
+    <File Path="WingtipSitePages\PageTemplate1.aspx" Url="WingtipSitePages/SitePage1.aspx" />
+  <File Path="WingtipSitePages\PageTemplate3.aspx" Url="WingtipSitePages/SitePage3.aspx" />
+<File Path="WingtipSitePages\PageTemplate2.aspx" Url="WingtipSitePages/SitePage2.aspx" />
+<File Path="WingtipSitePages\PageTemplate4.aspx" Url="WingtipSitePages/SitePage4.aspx" />
+</Module>
+</Elements>

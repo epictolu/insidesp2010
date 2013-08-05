@@ -1,3 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" Id="298da816-8372-4ef4-beef-34ec8dd05524" solutionId="298da816-8372-4ef4-beef-34ec8dd05524" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="SandboxedSolutionPages">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="298da816-8372-4ef4-beef-34ec8dd05524" solutionId="298da816-8372-4ef4-beef-34ec8dd05524" resetWebServer="false" name="SandboxedSolutionPages" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ff6ff2c1-c1f5-42f0-947c-39153eac19af" />
+  </features>
 </package>
