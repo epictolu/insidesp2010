@@ -43,14 +43,24 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WingtipControls\WingtipCustomControl.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e6f35ced-94b5-4663-ae0f-b9317a83a12b}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\WingtipControls\WingtipControls.feature">
+      <FeatureId>{29d2c3cd-6098-46c3-9655-2097c7a800ba}</FeatureId>
+    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
       <PackageId>{660346c3-2169-4add-be06-8e436b70e4ab}</PackageId>
@@ -58,9 +68,18 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="WingtipControls\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5505a474-6d36-45fa-bfed-78aed1790a55}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Folder Include="CONTROLTEMPLATES\WingtipControls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\WingtipControls\WingtipControls.Template.xml">
+      <DependentUpon>WingtipControls.feature</DependentUpon>
+    </Content>
+    <Content Include="WingtipControls\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
