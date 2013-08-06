@@ -12,4 +12,9 @@
   <Control Id="AdditionalPageHead"
            ControlSrc="~/_controltemplates/WingtipControls/WingtipDelegateUserControl.ascx"
            Sequence="101" />
+
+  <Control Id="AdditionalPageHead"
+           ControlAssembly="$SharePoint.Project.AssemblyFullName$"
+           ControlClass="WingtipControls.WingtipControls.WingtipDelegateCustomControl"
+           Sequence="102" />
 </Elements>
