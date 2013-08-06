@@ -51,8 +51,17 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Layouts\WingtipControls\CustomControlDemo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\WingtipControls\CustomControlDemo.aspx.designer.cs" />
+    <Compile Include="Layouts\WingtipControls\UserControlDemo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\WingtipControls\UserControlDemo.aspx.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WingtipControls\WingtipCustomControl.cs" />
+    <Compile Include="WingtipControls\WingtipMenuControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
@@ -61,7 +70,15 @@
     <None Include="Features\WingtipControls\WingtipControls.feature">
       <FeatureId>{29d2c3cd-6098-46c3-9655-2097c7a800ba}</FeatureId>
     </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{851aa685-cc18-4895-be08-1e07fcaca5c5}</SharePointProjectItemId>
+    </None>
+    <None Include="Images\WingtipControls\Untitled4.design" />
+    <None Include="Images\WingtipControls\WingtipHeader.design" />
     <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fb38d83a-71d3-45ae-a7d4-2ac58b56591c}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{660346c3-2169-4add-be06-8e436b70e4ab}</PackageId>
     </None>
@@ -79,6 +96,12 @@
     <Content Include="Features\WingtipControls\WingtipControls.Template.xml">
       <DependentUpon>WingtipControls.feature</DependentUpon>
     </Content>
+    <Content Include="Images\WingtipControls\MenuIcon.gif" />
+    <Content Include="Images\WingtipControls\SubMenuIcon.gif" />
+    <Content Include="Images\WingtipControls\WingtipHeader.gif" />
+    <Content Include="Layouts\WingtipControls\CustomControlDemo.aspx" />
+    <Content Include="Layouts\WingtipControls\styles\styles.css" />
+    <Content Include="Layouts\WingtipControls\UserControlDemo.aspx" />
     <Content Include="WingtipControls\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

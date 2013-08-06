@@ -1,3 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="WingtipMenuControl"
+                GroupId="SiteActions"
+                Location="Microsoft.SharePoint.StandardMenu"
+                Sequence="1"
+                ControlAssembly="$SharePoint.Project.AssemblyFullName$"
+                ControlClass="WingtipControls.WingtipControls.WingtipMenuControl"
+                Title="Wingtip Control Demo"
+                Description="Wingtip Controls Menu Control Demo" />
 </Elements>

@@ -4,7 +4,6 @@ using System.Web.UI;
 
 namespace WingtipControls.WingtipControls
 {
-    // This class is for demonstration purposes. It is not used anywhere in this solution.
     public class WingtipCustomControl : Control
     {
         public string UserGreeting { get; set; }
