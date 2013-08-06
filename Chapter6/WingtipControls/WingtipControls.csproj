@@ -51,6 +51,20 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CONTROLTEMPLATES\WingtipControls\WingtipDelegateUserControl.ascx.cs">
+      <DependentUpon>WingtipDelegateUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\WingtipControls\WingtipDelegateUserControl.ascx.designer.cs">
+      <DependentUpon>WingtipDelegateUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\WingtipControls\WingtipUserControl.ascx.cs">
+      <DependentUpon>WingtipUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\WingtipControls\WingtipUserControl.ascx.designer.cs">
+      <DependentUpon>WingtipUserControl.ascx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\WingtipControls\CustomControlDemo.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -89,10 +103,10 @@
       <SharePointProjectItemId>{5505a474-6d36-45fa-bfed-78aed1790a55}</SharePointProjectItemId>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="CONTROLTEMPLATES\WingtipControls\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="CONTROLTEMPLATES\WingtipControls\WingtipDelegateUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\WingtipControls\WingtipUserControl.ascx" />
     <Content Include="Features\WingtipControls\WingtipControls.Template.xml">
       <DependentUpon>WingtipControls.feature</DependentUpon>
     </Content>

@@ -8,4 +8,8 @@
                 ControlClass="WingtipControls.WingtipControls.WingtipMenuControl"
                 Title="Wingtip Control Demo"
                 Description="Wingtip Controls Menu Control Demo" />
+
+  <Control Id="AdditionalPageHead"
+           ControlSrc="~/_controltemplates/WingtipControls/WingtipDelegateUserControl.ascx"
+           Sequence="101" />
 </Elements>
