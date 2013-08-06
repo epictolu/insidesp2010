@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54C79FF6-F28B-4A40-B267-F03F6A60CBCA}</ProjectGuid>
+    <ProjectGuid>{7488BAEB-DF8B-41F0-A177-7EA9112565AB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Walkthrough4</RootNamespace>
-    <AssemblyName>Walkthrough4</AssemblyName>
+    <RootNamespace>WingtipControls</RootNamespace>
+    <AssemblyName>WingtipControls</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,28 +51,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{0c6809e3-3c83-4199-86a4-f6ad0556eca0}</FeatureId>
-    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
-      <PackageId>{3d86cc4c-c5a4-4118-8754-dc3ca8ac86c9}</PackageId>
+      <PackageId>{660346c3-2169-4add-be06-8e436b70e4ab}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="WingtipSitePages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{be6bc5c4-ce93-409b-9c40-86a72c8384d1}</SharePointProjectItemId>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
-    </Content>
-    <Content Include="WingtipSitePages\Elements.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="WingtipSitePages\VisualStudioPage.aspx" />
+    <Folder Include="Features\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

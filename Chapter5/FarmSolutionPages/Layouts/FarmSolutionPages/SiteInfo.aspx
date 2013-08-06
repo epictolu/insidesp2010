@@ -28,3 +28,7 @@ Wingtip Site Info
 <asp:Content ID="PageTitleInTitleArea" ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server" >
 Wingtip Site Info
 </asp:Content>
+
+<asp:Content ID="TitleBreadCrumb" runat="server" ContentPlaceHolderID="PlaceHolderTitleBreadcrumb">
+    <SharePoint:ListSiteMapPath ID="ListSiteMapPath1" runat="server" SiteMapProviders="SPSiteMapProvider, SPXmlContentMapProvider" RenderCurrentNodeAsLink="false" PathSeparator="" CssClass="s4-breadcrumb" NodeStyle-CssClass="s4-breadcrumbNode" CurrentNodeStyle-CssClass="s4-breadcrumbCurrentNode" RootNodeStyle-CssClass="s4-breadcrumbRootNode" HideInteriorRootNodes="true" SkipLinkText="" />
+</asp:Content>

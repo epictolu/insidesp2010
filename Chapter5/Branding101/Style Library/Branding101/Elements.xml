@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Style Library">
+  <File Path="Style Library\styles.css" Url="Style Library/styles.css" />
+<File Path="Style Library\Branding101\images\Background - Copy.jpg" Url="Style Library/Branding101/images/Background - Copy.jpg" />
+<File Path="Style Library\Branding101\images\Background.jpg" Url="Style Library/Branding101/images/Background.jpg" />
+<File Path="Style Library\Branding101\images\Logo.gif" Url="Style Library/Branding101/images/Logo.gif" />
+<File Path="Style Library\Branding101\images\Logo.vsd" Url="Style Library/Branding101/images/Logo.vsd" />
+</Module>
+</Elements>

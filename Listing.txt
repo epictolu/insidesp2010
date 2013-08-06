@@ -16,3 +16,7 @@ SitePage : Linking to a master page
 SitePageTemplate : Creating a new site page template
 Walkthrough 4 : Using the Module SharePoint Project Item
 SandboxedSolutionPages : A sample project using sandboxed solutions
+FarmSolutionPages : A sample project using farm solutions
+
+Chapter 6
+WingtipControls : SharePoint controls

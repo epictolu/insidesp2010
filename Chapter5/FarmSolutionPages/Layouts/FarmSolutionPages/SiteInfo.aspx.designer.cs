@@ -29,5 +29,14 @@ namespace FarmSolutionPages.Layouts.FarmSolutionPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button cmdReturn;
+        
+        /// <summary>
+        /// ListSiteMapPath1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Microsoft.SharePoint.WebControls.ListSiteMapPath ListSiteMapPath1;
     }
 }

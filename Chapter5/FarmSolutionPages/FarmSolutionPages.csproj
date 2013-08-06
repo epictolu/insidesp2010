@@ -50,6 +50,9 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\FarmSolutionPages\FarmSolutionPages.EventReceiver.cs">
+      <DependentUpon>FarmSolutionPages.feature</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\FarmSolutionPages\SiteInfo.aspx.cs">
       <DependentUpon>SiteInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -60,6 +63,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Elements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7df716b6-4ed1-4ef3-93e3-df679a287b62}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\FarmSolutionPages\FarmSolutionPages.feature">
+      <FeatureId>{a6aa7155-d7c6-4ffb-807e-7b27741bd2cf}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5a77d081-346c-447e-9b55-73698d69098f}</SharePointProjectItemId>
+    </None>
     <None Include="key.snk" />
     <None Include="Layouts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{9587bc2a-cde7-4cd9-98b0-58f2d611abe1}</SharePointProjectItemId>
@@ -71,11 +83,17 @@
       <DependentUpon>Package.package</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Features\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Elements\Elements.xml" />
+    <Content Include="Images\FarmSolutionPages\WingtipSectionIcon.gif" />
+    <Content Include="Features\FarmSolutionPages\FarmSolutionPages.Template.xml">
+      <DependentUpon>FarmSolutionPages.feature</DependentUpon>
+    </Content>
     <Content Include="Layouts\FarmSolutionPages\SiteInfo.aspx" />
+    <Content Include="Layouts\layouts.sitemap.FarmSolutionPages.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Branding101\Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Branding101\Elements.xml" Target="Style Library\Branding101\" Type="ElementManifest" />
+    <ProjectItemFile Source="..\Style Library\styles.css" Target="Style Library\" Type="ElementFile" />
+    <ProjectItemFile Source="Branding101\images\Background - Copy.jpg" Target="Style Library\Branding101\images\" Type="ElementFile" />
+    <ProjectItemFile Source="Branding101\images\Background.jpg" Target="Style Library\Branding101\images\" Type="ElementFile" />
+    <ProjectItemFile Source="Branding101\images\Logo.gif" Target="Style Library\Branding101\images\" Type="ElementFile" />
+    <ProjectItemFile Source="Branding101\images\Logo.vsd" Target="Style Library\Branding101\images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54C79FF6-F28B-4A40-B267-F03F6A60CBCA}</ProjectGuid>
+    <ProjectGuid>{4AD050E5-8288-46C2-9F24-9EC04898C1E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Walkthrough4</RootNamespace>
-    <AssemblyName>Walkthrough4</AssemblyName>
+    <RootNamespace>Branding101</RootNamespace>
+    <AssemblyName>Branding101</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -47,31 +47,46 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChildSiteInit\ChildSiteInit.cs" />
+    <Compile Include="Features\Main\Main.EventReceiver.cs">
+      <DependentUpon>Main.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{0c6809e3-3c83-4199-86a4-f6ad0556eca0}</FeatureId>
+    <None Include="ChildSiteInit\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cd75f82b-183c-4935-b17a-d8118859888a}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Main\Main.feature">
+      <FeatureId>{1d5d45a9-130d-4d19-91fb-28c56a3ca499}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="MasterPageGallery\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{85cd04a5-8c27-4ef7-b40c-82e78524736e}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPageGallery\Branding101.master" />
     <None Include="Package\Package.package">
-      <PackageId>{3d86cc4c-c5a4-4118-8754-dc3ca8ac86c9}</PackageId>
+      <PackageId>{1a243bf7-45cc-4e3d-bc5d-644f9daaab71}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="WingtipSitePages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{be6bc5c4-ce93-409b-9c40-86a72c8384d1}</SharePointProjectItemId>
+    <None Include="Style Library\Branding101\images\Logo.vsd" />
+    <None Include="Style Library\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef060c6a-1138-4407-8a10-255b2d828ae3}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <Content Include="ChildSiteInit\Elements.xml" />
+    <Content Include="Features\Main\Main.Template.xml">
+      <DependentUpon>Main.feature</DependentUpon>
     </Content>
-    <Content Include="WingtipSitePages\Elements.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="WingtipSitePages\VisualStudioPage.aspx" />
+    <Content Include="MasterPageGallery\Elements.xml" />
+    <Content Include="Style Library\Branding101\images\Background - Copy.jpg" />
+    <Content Include="Style Library\Branding101\images\Background.jpg" />
+    <Content Include="Style Library\Branding101\images\Logo.gif" />
+    <Content Include="Style Library\styles.css" />
+    <Content Include="Style Library\Branding101\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -1,0 +1,3 @@
+﻿<siteMap enableLocalization="true">
+  <siteMapNode title="Wingtip Site Info" parentUrl="/_layouts/settings.aspx" url="/_layouts/FarmSolutionPages/SiteInfo.aspx" />
+</siteMap>
