@@ -43,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +55,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WingtipWebParts\WebPart1.cs" />
+    <Compile Include="WingtipWebParts\WebPart2\WebPart2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\MainSite\MainSite.feature">
@@ -70,6 +72,10 @@
       <SharePointProjectItemId>{772799e0-b788-4311-8661-3dd53c9254d5}</SharePointProjectItemId>
     </None>
     <None Include="WingtipWebParts\WebPart1.webpart" />
+    <None Include="WingtipWebParts\WebPart2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffd9cbf0-1ec6-4df5-9709-fc62b7ad034a}</SharePointProjectItemId>
+    </None>
+    <None Include="WingtipWebParts\WebPart2\WebPart2.webpart" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -77,6 +83,7 @@
       <DependentUpon>MainSite.feature</DependentUpon>
     </Content>
     <Content Include="WingtipWebParts\Elements.xml" />
+    <Content Include="WingtipWebParts\WebPart2\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
