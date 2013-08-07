@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipControls", "WingtipControls\WingtipControls.csproj", "{7488BAEB-DF8B-41F0-A177-7EA9112565AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipWebParts", "WingtipWebParts\WingtipWebParts.csproj", "{B1727A5D-6BC2-41CD-A9E3-63355E7D8D3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{7488BAEB-DF8B-41F0-A177-7EA9112565AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7488BAEB-DF8B-41F0-A177-7EA9112565AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7488BAEB-DF8B-41F0-A177-7EA9112565AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B1727A5D-6BC2-41CD-A9E3-63355E7D8D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1727A5D-6BC2-41CD-A9E3-63355E7D8D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1727A5D-6BC2-41CD-A9E3-63355E7D8D3A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B1727A5D-6BC2-41CD-A9E3-63355E7D8D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1727A5D-6BC2-41CD-A9E3-63355E7D8D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1727A5D-6BC2-41CD-A9E3-63355E7D8D3A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
