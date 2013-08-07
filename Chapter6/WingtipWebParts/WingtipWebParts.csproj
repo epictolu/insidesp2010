@@ -54,8 +54,9 @@
       <DependentUpon>MainSite.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WingtipWebParts\WebPart1.cs" />
-    <Compile Include="WingtipWebParts\WebPart2\WebPart2.cs" />
+    <Compile Include="WebPart1\WebPart1.cs" />
+    <Compile Include="WebPart2\WebPart2.cs" />
+    <Compile Include="WebPart3\WebPart3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\MainSite\MainSite.feature">
@@ -68,22 +69,27 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="WingtipWebParts\SharePointProjectItem.spdata">
+    <None Include="WebPart1\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{772799e0-b788-4311-8661-3dd53c9254d5}</SharePointProjectItemId>
     </None>
-    <None Include="WingtipWebParts\WebPart1.webpart" />
-    <None Include="WingtipWebParts\WebPart2\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{ffd9cbf0-1ec6-4df5-9709-fc62b7ad034a}</SharePointProjectItemId>
+    <None Include="WebPart1\WebPart1.webpart" />
+    <None Include="WebPart2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{db921977-1204-4023-b677-d9e7a828545b}</SharePointProjectItemId>
     </None>
-    <None Include="WingtipWebParts\WebPart2\WebPart2.webpart" />
+    <None Include="WebPart2\WebPart2.webpart" />
+    <None Include="WebPart3\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c87de5ae-afb8-4199-8e22-dc37d47081fa}</SharePointProjectItemId>
+    </None>
+    <None Include="WebPart3\WebPart3.webpart" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Content Include="Features\MainSite\MainSite.Template.xml">
       <DependentUpon>MainSite.feature</DependentUpon>
     </Content>
-    <Content Include="WingtipWebParts\Elements.xml" />
-    <Content Include="WingtipWebParts\WebPart2\Elements.xml" />
+    <Content Include="WebPart1\Elements.xml" />
+    <Content Include="WebPart2\Elements.xml" />
+    <Content Include="WebPart3\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

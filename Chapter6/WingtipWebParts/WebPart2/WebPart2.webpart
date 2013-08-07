@@ -2,12 +2,12 @@
 <webParts>
   <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
     <metaData>
-      <type name="WingtipWebParts.WingtipWebParts.WebPart2.WebPart2, $SharePoint.Project.AssemblyFullName$" />
+      <type name="WingtipWebParts.WebPart2.WebPart2, $SharePoint.Project.AssemblyFullName$" />
       <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
     </metaData>
     <data>
       <properties>
-        <property name="Title" type="string">WingtipWebParts - WebPart2</property>
+        <property name="Title" type="string">Web Part 2</property>
         <property name="Description" type="string">Web Part 2</property>
       </properties>
     </data>

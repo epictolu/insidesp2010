@@ -12,6 +12,7 @@ namespace WingtipWebParts.Features.MainSite
     [Guid("006bfae0-e42d-42d3-b7ec-5c748418ccdb")]
     public class MainSiteEventReceiver : SPFeatureReceiver
     {
+/*
         public override void FeatureActivated(SPFeatureReceiverProperties properties)
         {
             var siteCollection = properties.Feature.Parent as SPSite;
@@ -27,7 +28,7 @@ namespace WingtipWebParts.Features.MainSite
             webPart.ImageLink = "_layouts/images/IPVW.GIF";
             wpm.AddWebPart(webPart, "Right", 0);
         }
-
+*/
         public override void FeatureDeactivating(SPFeatureReceiverProperties properties)
         {
             var siteCollection = properties.Feature.Parent as SPSite;
