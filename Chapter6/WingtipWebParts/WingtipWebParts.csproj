@@ -54,9 +54,23 @@
       <DependentUpon>MainSite.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="WebPart1\WebPart1.cs" />
     <Compile Include="WebPart2\WebPart2.cs" />
     <Compile Include="WebPart3\WebPart3.cs" />
+    <Compile Include="WebPart4\WebPart4.ascx.cs">
+      <DependentUpon>WebPart4.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPart4\WebPart4.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebPart4.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPart5\WebPart5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\MainSite\MainSite.feature">
@@ -81,6 +95,14 @@
       <SharePointProjectItemId>{c87de5ae-afb8-4199-8e22-dc37d47081fa}</SharePointProjectItemId>
     </None>
     <None Include="WebPart3\WebPart3.webpart" />
+    <None Include="WebPart4\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{93e617c1-301d-4a33-a691-4779a32c6a87}</SharePointProjectItemId>
+    </None>
+    <None Include="WebPart4\WebPart4.webpart" />
+    <None Include="WebPart5\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9baf702e-e9e7-4b18-93b6-136c666499ad}</SharePointProjectItemId>
+    </None>
+    <None Include="WebPart5\WebPart5.webpart" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -90,6 +112,17 @@
     <Content Include="WebPart1\Elements.xml" />
     <Content Include="WebPart2\Elements.xml" />
     <Content Include="WebPart3\Elements.xml" />
+    <Content Include="WebPart4\Elements.xml" />
+    <Content Include="WebPart4\WebPart4.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>WebPart4.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebPart5\Elements.xml" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebPart5\RssFeedToHtml.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
