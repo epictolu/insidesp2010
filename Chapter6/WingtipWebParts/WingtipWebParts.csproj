@@ -50,6 +50,8 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomProperties1\CustomProperties1.cs" />
+    <Compile Include="CustomProperties2\CustomProperties2.cs" />
     <Compile Include="Features\MainSite\MainSite.EventReceiver.cs">
       <DependentUpon>MainSite.feature</DependentUpon>
     </Compile>
@@ -73,6 +75,14 @@
     <Compile Include="WebPart5\WebPart5.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CustomProperties1\CustomProperties1.webpart" />
+    <None Include="CustomProperties1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{50687c91-8302-4084-b80d-bef99dd4b09e}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomProperties2\CustomProperties2.webpart" />
+    <None Include="CustomProperties2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{226d36b4-9b3c-40cb-9711-01bb58c9ad4c}</SharePointProjectItemId>
+    </None>
     <None Include="Features\MainSite\MainSite.feature">
       <FeatureId>{62a387a2-d5d8-47eb-9e8b-5bfb2a4067a2}</FeatureId>
     </None>
@@ -106,6 +116,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="CustomProperties1\Elements.xml" />
+    <Content Include="CustomProperties2\Elements.xml" />
     <Content Include="Features\MainSite\MainSite.Template.xml">
       <DependentUpon>MainSite.feature</DependentUpon>
     </Content>
