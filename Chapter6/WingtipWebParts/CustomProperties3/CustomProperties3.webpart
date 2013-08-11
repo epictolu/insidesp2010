@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WingtipWebParts.CustomProperties3.CustomProperties3, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Custom Properties 3</property>
+        <property name="Description" type="string">My Web Part</property>
+        <property name="UserGreeting" type="string">This is the default user greeting</property>
+        <property name="FontSize" type="int">18</property>
+        <property name="FontColor" type="string">Purple</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

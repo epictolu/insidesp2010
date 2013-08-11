@@ -6,3 +6,5 @@ setup*
 pkg
 pkgobj
 *.user
+*Upgrade*
+Backup

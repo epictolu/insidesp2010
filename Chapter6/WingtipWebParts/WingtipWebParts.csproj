@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="CustomProperties1\CustomProperties1.cs" />
     <Compile Include="CustomProperties2\CustomProperties2.cs" />
+    <Compile Include="CustomProperties3\CustomProperties3.cs" />
     <Compile Include="Features\MainSite\MainSite.EventReceiver.cs">
       <DependentUpon>MainSite.feature</DependentUpon>
     </Compile>
@@ -73,6 +74,7 @@
       <DependentUpon>WebPart4.ascx</DependentUpon>
     </Compile>
     <Compile Include="WebPart5\WebPart5.cs" />
+    <Compile Include="WebPartVerbsFontDemo\WebPartVerbsFontDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="CustomProperties1\CustomProperties1.webpart" />
@@ -82,6 +84,10 @@
     <None Include="CustomProperties2\CustomProperties2.webpart" />
     <None Include="CustomProperties2\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{226d36b4-9b3c-40cb-9711-01bb58c9ad4c}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomProperties3\CustomProperties3.webpart" />
+    <None Include="CustomProperties3\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c2866a27-f2f3-445a-ac8c-323f6b3eef85}</SharePointProjectItemId>
     </None>
     <None Include="Features\MainSite\MainSite.feature">
       <FeatureId>{62a387a2-d5d8-47eb-9e8b-5bfb2a4067a2}</FeatureId>
@@ -113,11 +119,16 @@
       <SharePointProjectItemId>{9baf702e-e9e7-4b18-93b6-136c666499ad}</SharePointProjectItemId>
     </None>
     <None Include="WebPart5\WebPart5.webpart" />
+    <None Include="WebPartVerbsFontDemo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{61d779a6-077a-4d22-b9f6-f8a592779998}</SharePointProjectItemId>
+    </None>
+    <None Include="WebPartVerbsFontDemo\WebPartVerbsFontDemo.webpart" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Content Include="CustomProperties1\Elements.xml" />
     <Content Include="CustomProperties2\Elements.xml" />
+    <Content Include="CustomProperties3\Elements.xml" />
     <Content Include="Features\MainSite\MainSite.Template.xml">
       <DependentUpon>MainSite.feature</DependentUpon>
     </Content>
@@ -130,6 +141,7 @@
       <LastGenOutput>WebPart4.ascx.g.cs</LastGenOutput>
     </Content>
     <Content Include="WebPart5\Elements.xml" />
+    <Content Include="WebPartVerbsFontDemo\Elements.xml" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

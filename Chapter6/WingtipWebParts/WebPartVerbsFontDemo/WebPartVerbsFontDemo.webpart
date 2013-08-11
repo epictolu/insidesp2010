@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WingtipWebParts.WebPartVerbsFontDemo.WebPartVerbsFontDemo, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Web Part Verbs</property>
+        <property name="Description" type="string">My Web Part</property>
+        <property name="FontSize" type="int">14</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
