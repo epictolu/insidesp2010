@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="WingtipWebParts.FontConnectionProvider.cs.FontConnectionProvider, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Font Connection Provider</property>
+        <property name="Description" type="string">My Web Part</property>
+        <property name="TextFontSize" type="int">14</property>
+        <property name="TextFontColor" type="string">Purple</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -56,6 +56,12 @@
     <Compile Include="Features\MainSite\MainSite.EventReceiver.cs">
       <DependentUpon>MainSite.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\WebPartsPreconnected\WebPartsPreconnected.EventReceiver.cs">
+      <DependentUpon>WebPartsPreconnected.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FontConnectionConsumer\FontConnectionConsumer.cs" />
+    <Compile Include="FontConnectionProvider\FontConnectionProvider.cs" />
+    <Compile Include="FontConnectionProvider\IFontProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -89,8 +95,19 @@
     <None Include="CustomProperties3\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c2866a27-f2f3-445a-ac8c-323f6b3eef85}</SharePointProjectItemId>
     </None>
+    <None Include="Features\WebPartsPreconnected\WebPartsPreconnected.feature">
+      <FeatureId>{47d280cb-af8a-4f8f-b3ed-a218d4f6e6a7}</FeatureId>
+    </None>
     <None Include="Features\MainSite\MainSite.feature">
       <FeatureId>{62a387a2-d5d8-47eb-9e8b-5bfb2a4067a2}</FeatureId>
+    </None>
+    <None Include="FontConnectionConsumer\FontConnectionConsumer.webpart" />
+    <None Include="FontConnectionConsumer\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d156539a-80ae-4342-8717-f8b5cb2fb83c}</SharePointProjectItemId>
+    </None>
+    <None Include="FontConnectionProvider\FontConnectionProvider.webpart" />
+    <None Include="FontConnectionProvider\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{abac48df-98be-40c4-9c21-446c7c25d977}</SharePointProjectItemId>
     </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
@@ -119,6 +136,9 @@
       <SharePointProjectItemId>{9baf702e-e9e7-4b18-93b6-136c666499ad}</SharePointProjectItemId>
     </None>
     <None Include="WebPart5\WebPart5.webpart" />
+    <None Include="WebPartsPreconnected\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f92b9a62-a0c2-433e-ad2a-dc28c8dbcc54}</SharePointProjectItemId>
+    </None>
     <None Include="WebPartVerbsFontDemo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{61d779a6-077a-4d22-b9f6-f8a592779998}</SharePointProjectItemId>
     </None>
@@ -129,9 +149,14 @@
     <Content Include="CustomProperties1\Elements.xml" />
     <Content Include="CustomProperties2\Elements.xml" />
     <Content Include="CustomProperties3\Elements.xml" />
+    <Content Include="Features\WebPartsPreconnected\WebPartsPreconnected.Template.xml">
+      <DependentUpon>WebPartsPreconnected.feature</DependentUpon>
+    </Content>
     <Content Include="Features\MainSite\MainSite.Template.xml">
       <DependentUpon>MainSite.feature</DependentUpon>
     </Content>
+    <Content Include="FontConnectionConsumer\Elements.xml" />
+    <Content Include="FontConnectionProvider\Elements.xml" />
     <Content Include="WebPart1\Elements.xml" />
     <Content Include="WebPart2\Elements.xml" />
     <Content Include="WebPart3\Elements.xml" />
@@ -141,6 +166,8 @@
       <LastGenOutput>WebPart4.ascx.g.cs</LastGenOutput>
     </Content>
     <Content Include="WebPart5\Elements.xml" />
+    <Content Include="WebPartsPreconnected\WebPartsPreconnected.aspx" />
+    <Content Include="WebPartsPreconnected\Elements.xml" />
     <Content Include="WebPartVerbsFontDemo\Elements.xml" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
