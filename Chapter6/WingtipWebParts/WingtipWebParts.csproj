@@ -50,6 +50,7 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncRssReader\AsyncRssReader.cs" />
     <Compile Include="CustomProperties1\CustomProperties1.cs" />
     <Compile Include="CustomProperties2\CustomProperties2.cs" />
     <Compile Include="CustomProperties3\CustomProperties3.cs" />
@@ -83,6 +84,10 @@
     <Compile Include="WebPartVerbsFontDemo\WebPartVerbsFontDemo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AsyncRssReader\AsyncRssReader.webpart" />
+    <None Include="AsyncRssReader\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6a56524e-04d0-4408-a0d8-00036f3cb1b0}</SharePointProjectItemId>
+    </None>
     <None Include="CustomProperties1\CustomProperties1.webpart" />
     <None Include="CustomProperties1\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{50687c91-8302-4084-b80d-bef99dd4b09e}</SharePointProjectItemId>
@@ -146,6 +151,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="AsyncRssReader\Elements.xml" />
     <Content Include="CustomProperties1\Elements.xml" />
     <Content Include="CustomProperties2\Elements.xml" />
     <Content Include="CustomProperties3\Elements.xml" />
