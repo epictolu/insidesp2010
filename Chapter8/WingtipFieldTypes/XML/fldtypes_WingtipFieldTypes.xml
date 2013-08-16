@@ -9,4 +9,17 @@
     <Field Name="UserCreatable">TRUE</Field>
     <Field Name="FieldTypeClass">WingtipFieldTypes.EmployeeStartDate, $SharePoint.Project.AssemblyFullName$</Field>
   </FieldType>
+
+  <FieldType>
+    <Field Name="TypeName">SocialSecurityNumber</Field>
+    <Field Name="ParentType">Text</Field>
+    <Field Name="TypeDisplayName">Social Security Number</Field>
+    <Field Name="TypeShortDescription">Social Security Number</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowInListCreate">TRUE</Field>
+    <Field Name="ShowInDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowInSurveyCreate">TRUE</Field>
+    <Field Name="ShowInColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">WingtipFieldTypes.SocialSecurityNumber, $SharePoint.Project.AssemblyFullName$</Field>
+  </FieldType>
 </FieldTypes>
