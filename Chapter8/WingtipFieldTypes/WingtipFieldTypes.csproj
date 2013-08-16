@@ -49,6 +49,15 @@
     <Reference Include="Microsoft.SharePoint" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CanadianAddress.cs" />
+    <Compile Include="CanadianAddressFieldControl.cs" />
+    <Compile Include="ControlTemplates\CanadianAddress.ascx.cs">
+      <DependentUpon>CanadianAddress.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\CanadianAddress.ascx.designer.cs">
+      <DependentUpon>CanadianAddress.ascx.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlTemplates\SocialSecurityNumber.ascx.cs">
       <DependentUpon>SocialSecurityNumber.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -80,6 +89,7 @@
     <Folder Include="Features\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ControlTemplates\CanadianAddress.ascx" />
     <Content Include="ControlTemplates\SocialSecurityNumber.ascx" />
     <Content Include="XML\fldtypes_WingtipFieldTypes.xml" />
   </ItemGroup>

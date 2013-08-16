@@ -22,4 +22,13 @@
     <Field Name="ShowInColumnTemplateCreate">TRUE</Field>
     <Field Name="FieldTypeClass">WingtipFieldTypes.SocialSecurityNumber, $SharePoint.Project.AssemblyFullName$</Field>
   </FieldType>
+
+  <FieldType>
+    <Field Name="TypeName">CanadianAddress</Field>
+    <Field Name="ParentType">MultiColumn</Field>
+    <Field Name="TypeDisplayName">Canadian Address</Field>
+    <Field Name="TypeShortDescription">Canadian Address</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="FieldTypeClass">WingtipFieldTypes.CanadianAddress, $SharePoint.Project.AssemblyFullName$</Field>
+  </FieldType>
 </FieldTypes>
