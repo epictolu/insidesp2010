@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- In order for this to work I had to manually perform an iisreset after visual studio deployment -->
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">EmployeeStartDate</Field>
+    <Field Name="ParentType">DateTime</Field>
+    <Field Name="TypeDisplayName">Employee Start Date</Field>
+    <Field Name="TypeShortDescription">Employee Start Date</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="FieldTypeClass">WingtipFieldTypes.EmployeeStartDate, $SharePoint.Project.AssemblyFullName$</Field>
+  </FieldType>
+</FieldTypes>

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipFieldTypes", "WingtipFieldTypes\WingtipFieldTypes.csproj", "{DE4D5E87-6857-4135-BF31-D8B96E898647}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipFieldTypesInUse", "..\WingtipFieldTypesInUse\WingtipFieldTypesInUse.csproj", "{91BEFEB9-1CAD-4E52-87FA-BE036A83E97A}"
