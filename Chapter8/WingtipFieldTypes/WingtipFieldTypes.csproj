@@ -58,6 +58,13 @@
     <Compile Include="ControlTemplates\CanadianAddress.ascx.designer.cs">
       <DependentUpon>CanadianAddress.ascx.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlTemplates\EmployeeStatus.ascx.cs">
+      <DependentUpon>EmployeeStatus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\EmployeeStatus.ascx.designer.cs">
+      <DependentUpon>EmployeeStatus.ascx.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlTemplates\SocialSecurityNumber.ascx.cs">
       <DependentUpon>SocialSecurityNumber.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -66,6 +73,8 @@
       <DependentUpon>SocialSecurityNumber.ascx.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeStartDate.cs" />
+    <Compile Include="EmployeeStatus.cs" />
+    <Compile Include="EmployeeStatusFieldControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SocialSecurityNumber.cs" />
     <Compile Include="SocialSecurityNumberFieldControl.cs" />
@@ -90,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ControlTemplates\CanadianAddress.ascx" />
+    <Content Include="ControlTemplates\EmployeeStatus.ascx" />
     <Content Include="ControlTemplates\SocialSecurityNumber.ascx" />
     <Content Include="XML\fldtypes_WingtipFieldTypes.xml" />
   </ItemGroup>

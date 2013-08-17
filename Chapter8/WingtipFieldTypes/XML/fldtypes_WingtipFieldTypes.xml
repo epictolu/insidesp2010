@@ -31,4 +31,29 @@
     <Field Name="UserCreatable">TRUE</Field>
     <Field Name="FieldTypeClass">WingtipFieldTypes.CanadianAddress, $SharePoint.Project.AssemblyFullName$</Field>
   </FieldType>
+
+  <FieldType>
+    <Field Name="TypeName">EmployeeStatus</Field>
+    <Field Name="ParentType">Text</Field>
+    <Field Name="TypeDisplayName">Employee Status</Field>
+    <Field Name="TypeShortDescription">Employee Status</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="FieldTypeClass">WingtipFieldTypes.EmployeeStatus, $SharePoint.Project.AssemblyFullName$</Field>
+
+    <PropertySchema>
+      <Fields>
+        <Field Name="AllowContractors"
+               DisplayName="Allow for Contractors"
+               Type="Boolean">
+          <Default>0</Default>
+        </Field>
+
+        <Field Name="AllowInterns"
+               DisplayName="Allow for Interns"
+               Type="Boolean">
+          <Default>0</Default>
+        </Field>
+      </Fields>
+    </PropertySchema>
+  </FieldType>
 </FieldTypes>
