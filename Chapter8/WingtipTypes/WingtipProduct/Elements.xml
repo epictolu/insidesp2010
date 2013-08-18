@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100EFEF7ECB218D4F55B306B725FB175608"
+               Name="Wingtip Product"
+               Group="Wingtip Content Types"
+               Description="A Wingtip Product"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{FA564E0F-0C70-4AB9-B863-0177E6DDD247}" Name="Title" DisplayName="Product Name"/>
+      <FieldRef ID="{E2CDD717-1FDE-4B50-B4BD-ADAD6010C85C}" Name="ProductCode"/>
+      <FieldRef ID="{923E011D-D82A-485E-8FAD-10237EDB5BD8}" Name="ProductDescription"/>
+      <FieldRef ID="{627AD3B9-797A-4155-BE69-078ED7BED771}" Name="ProductListPrice"/>
+      <FieldRef ID="{F6BB11A0-C6D4-4B0A-910F-86E8EDA4E40F}" Name="ProductCategory"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>
