@@ -8,7 +8,7 @@
                Inherits="TRUE"
                Version="0">
     <FieldRefs>
-      <FieldRef ID="{FA564E0F-0C70-4AB9-B863-0177E6DDD247}" Name="Title" DisplayName="Product Name"/>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Product Name"/>
       <FieldRef ID="{E2CDD717-1FDE-4B50-B4BD-ADAD6010C85C}" Name="ProductCode"/>
       <FieldRef ID="{923E011D-D82A-485E-8FAD-10237EDB5BD8}" Name="ProductDescription"/>
       <FieldRef ID="{627AD3B9-797A-4155-BE69-078ED7BED771}" Name="ProductListPrice"/>
