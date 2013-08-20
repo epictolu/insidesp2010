@@ -1,0 +1,10 @@
+<Feature 
+  Description="Use feature stapling to create a new contacts list whenever a blank site or team site is created"
+  Id="0a4c0e0d-f2b3-479b-ad77-0c862fa59be7"
+  Scope="Site"
+  Title="Practicing feature stapling"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml" />
+  </ElementManifests>
+</Feature>

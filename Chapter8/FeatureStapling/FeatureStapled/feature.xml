@@ -1,0 +1,9 @@
+<Feature Description="Feature being stapled to every blank site and team site created"
+  Id="861a41b4-76ed-45d9-8b33-c536ac77beec"
+  Scope="Web"
+  Title="Create Contacts List"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,8 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <FeatureSiteTemplateAssociation
+    TemplateName="STS#0"
+    Id="861a41b4-76ed-45d9-8b33-c536ac77beec" />
+  <FeatureSiteTemplateAssociation
+    TemplateName="STS#1"
+    Id="861a41b4-76ed-45d9-8b33-c536ac77beec" />
+</Elements>

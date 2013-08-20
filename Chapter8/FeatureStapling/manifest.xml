@@ -1,0 +1,10 @@
+<Solution Description="Solution manifest file for a deployment"
+  DeploymentServerType="WebFrontEnd"
+  SolutionId="f27c1c6f-45b0-4dce-9dc3-a4b9959fce61"
+  Title="Feature Stapling Demo"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <FeatureManifests>
+    <FeatureManifest Location="FeatureStapler\feature.xml" />
+    <FeatureManifest Location="FeatureStapled\feature.xml" />
+  </FeatureManifests>
+</Solution>

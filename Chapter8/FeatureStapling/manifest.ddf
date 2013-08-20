@@ -1,0 +1,16 @@
+.OPTION EXPLICIT
+.Set CabinetNameTemplate=FeatureStapling.wsp
+.Set DiskDirectory1=build
+
+;*** Add files to root folder of solution package
+manifest.xml
+
+;*** Add files to Walkthrough1 in solution package
+.Set DestinationDir=FeatureStapled
+FeatureStapled\feature.xml
+FeatureStapled\elements.xml
+
+;*** Add files to Walkthrough1 in solution package
+.Set DestinationDir=FeatureStapler
+FeatureStapler\feature.xml
+FeatureStapler\elements.xml

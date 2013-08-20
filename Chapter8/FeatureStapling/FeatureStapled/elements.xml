@@ -1,0 +1,8 @@
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Description="List created via FeatureStapled feature"
+    FeatureId="00BFEA71-7E6D-4186-9BA8-C047AC750105"
+    OnQuickLaunch="TRUE"
+    TemplateType="105"
+    Title="FeatureStapled List"
+    Url="Lists/FeatureStapled" />
+</Elements>
