@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Templates>
+  <Template Name="WingtipSiteTemplates" ID="11001">
+    <Configuration ID="0"
+                   Title="Wingtip Standard Team Site"
+                   Hidden="FALSE"
+                   ImageUrl="/_layouts/images/litware/LITWARE_PREV.PNG"
+                   Description="Use this site template to create a Wingtip team site"
+                   DisplayCategory="Wingtip"
+                   ProvisionAssembly="$SharePoint.Project.AssemblyFullName$"
+                   ProvisionClass="WingtipProvisioningProvider.WingtipProvisioningProvider"
+                   ProvisionData="StandardTeamSite" />
+    <Configuration ID="1"
+                   Title="Wingtip Sales Site"
+                   Hidden="FALSE"
+                   ImageUrl="/_layouts/images/litware/LITWARE_PREV.PNG"
+                   Description="Use this site template to create a Wingtip team site"
+                   DisplayCategory="Wingtip"
+                   ProvisionAssembly="$SharePoint.Project.AssemblyFullName$"
+                   ProvisionClass="WingtipProvisioningProvider.WingtipProvisioningProvider"
+                   ProvisionData="SalesSite" />
+  </Template>
+</Templates>

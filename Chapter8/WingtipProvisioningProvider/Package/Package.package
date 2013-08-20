@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="75291def-5460-4016-b093-db5a08ae1a03" solutionId="75291def-5460-4016-b093-db5a08ae1a03" resetWebServer="false" name="WingtipProvisioningProvider" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="237a92e8-d8fb-4b6d-a3db-9666478f42fb" />
+  </projectItems>
+</package>
