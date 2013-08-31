@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="22262565-8770-4b8e-ac54-b0596160f911" solutionId="22262565-8770-4b8e-ac54-b0596160f911" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="HelloWorldSilverlight">
+    <features>
+        <featureReference itemId="91b6a042-3cd4-4aff-96ba-01694fe8b48f" />
+    </features>
+</package>
